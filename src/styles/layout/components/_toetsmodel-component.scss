@@ -1,117 +1,117 @@
 .toetsmodel-component {
-  position: relative;
+	position: relative;
 
-  &__hover {
-    -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    padding: 1rem;
-    width: 320px;
-    background-color: white;
-    -webkit-box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
-    -moz-box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
-    box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
-    border: 3px solid black;
-  }
+	&__hover {
+		-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		padding: 1rem;
+		width: 320px;
+		background-color: white;
+		-webkit-box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
+		-moz-box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
+		box-shadow: 10px 10px 23px -15px rgba(0, 0, 0, 0.43);
+		border: 3px solid black;
+	}
 
-  &__center {
-    -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    background: white 0 0 no-repeat padding-box;
-    width: 900px;
-    padding: 1rem;
-    border: 1px solid black;
-    position: fixed;
-    top: 20%;
-    z-index: 2;
-    left: calc(50% - 451px - 1rem);
-    display: flex;
-    column-gap: 1rem;
+	&__center {
+		-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		background: white 0 0 no-repeat padding-box;
+		width: 900px;
+		padding: 1rem;
+		border: 1px solid black;
+		position: fixed;
+		top: 20%;
+		z-index: 2;
+		left: calc(50% - 451px - 1rem);
+		display: flex;
+		column-gap: 1rem;
 
-    ul {
-      padding-left: 1.5rem;
-    }
+		ul {
+			padding-left: 1.5rem;
+		}
 
-    img {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
+		img {
+			width: 1.5rem;
+			height: 1.5rem;
+		}
 
-    &--read-more {
-      color: blue;
-      cursor: pointer;
+		&--read-more {
+			color: blue;
+			cursor: pointer;
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 
-  &__popup {
-    pointer-events: none;
+	&__popup {
+		pointer-events: none;
 
-    -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 3px solid black;
-    background: white;
-  }
+		-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		padding: 2rem;
+		border-radius: 1rem;
+		border: 3px solid black;
+		background: white;
+	}
 
-  &__one-hover {
-    pointer-events: none;
+	&__one-hover {
+		pointer-events: none;
 
-    -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    background: white 0 0 no-repeat padding-box;
-    width: 30rem;
-    padding: 1rem;
-    border: 3px solid black;
-  }
+		-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		background: white 0 0 no-repeat padding-box;
+		width: 30rem;
+		padding: 1rem;
+		border: 3px solid black;
+	}
 
-  &__element-hover {
-    pointer-events: none;
+	&__element-hover {
+		pointer-events: none;
 
-    -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
-    width: 40rem;
-    padding: 1rem;
-    color: $color-white;
+		-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+		width: 40rem;
+		padding: 1rem;
+		color: $color-white;
 
-    h4 {
-      font-weight: normal;
-    }
+		h4 {
+			font-weight: normal;
+		}
 
-    p {
-      font-weight: 300;
-    }
-  }
+		p {
+			font-weight: 300;
+		}
+	}
 }
 
 @keyframes anvil {
-  0% {
-    transform: scale(1) translateY(0px);
-    opacity: 0;
-    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
-  }
-  1% {
-    transform: scale(0.96) translateY(10px);
-    opacity: 0;
-    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
-  }
-  100% {
-    transform: scale(1) translateY(0px);
-    opacity: 1;
-    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
-  }
+	0% {
+		transform: scale(1) translateY(0px);
+		opacity: 0;
+		box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+	}
+	1% {
+		transform: scale(0.96) translateY(10px);
+		opacity: 0;
+		box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+	}
+	100% {
+		transform: scale(1) translateY(0px);
+		opacity: 1;
+		box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+	}
 }
 
 .popup-content {
-  pointer-events: none;
+	pointer-events: none;
 
-  width: 0;
-  height: 0;
-  padding: 0;
-  border: 0;
+	width: 0;
+	height: 0;
+	padding: 0;
+	border: 0;
 }
 
 .number__hover {
-  pointer-events: none;
-  
-  padding: 1rem;
+	pointer-events: none;
+
+	padding: 1rem;
 }

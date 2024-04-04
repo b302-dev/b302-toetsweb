@@ -1,232 +1,244 @@
-import {Localization} from "../../utils/Localization";
+import { Localization } from '../../utils/Localization'
 
 export const nl: Localization = {
-    "nav.title": "Toetsweb",
-    "nav.home": "Het Toetsweb",
-    "nav.scan": "Toetsweb-Scan",
-    "nav.result": "Resultaat",
-    "home.heroTitle": "AAN DE SLAG MET HET TOETSWEB: WERKEN AAN KWALITEIT VAN TOETSING",
-    "home.heroSubtitle": "Op deze website kun je met je opleidingsteam, de toets- of curriculumcommissie van je team of een andere relevante vertegenwoordiging van de opleiding de Toetsweb-Scan invullen. De Toetsweb-Scan is gebaseerd op de methodiek van de Toetsing Getoetst en is bedoeld om de kwaliteit van toetsing te analyseren, verbeteren en borgen. Het toetsweb vormt het theoretisch fundament onder de Toetsing Getoetst.",
-    "home.assessmentQualityTitle": "Gezamenlijk toetskwaliteit bepalen",
-    "home.assessmentQualityText": "Met behulp van de Toetsweb-Scan kun je als team samen vaststellen hoe de (duurzame) kwaliteit van toetsing er op dit moment uitziet in jullie opleiding (positiebepaling). Ook kun je met behulp van deze scan samen keuzes maken over jullie ontwikkeling richting (duurzame) toetskwaliteit (ambitiebepaling). Daarnaast maak je behulp van de scan met je team een onderbouwd actieplan om te komen tot jullie ambitie.",
-    "home.assessmentExplainedTitle": "Het toetsweb uitgelegd",
-    "home.assessmentExplainedText": "Het toetsweb bestaat uit vijf toetsentiteiten; toets(tak)en, toetsprogramma, toetsbeleid, toetsorganisatie en toetsbekwaamheid. Deze vijf entiteiten zijn verbonden met elkaar én met de kern van het web. De vorm van het web symboliseert de verwevenheid van de verschillende toetsentiteiten, maakt visueel zichtbaar dat deze allemaal met elkaar verbonden zijn en laat vier verschillende ontwikkelingsfasen zien.",
-    "home.modelExplained": "Door met de muis op een van de onderdelen van het toetsweb te gaan staan, wordt de toelichting op dit onderdeel zichtbaar.",
+	'nav.title': 'Toetsweb',
+	'nav.home': 'Het Toetsweb',
+	'nav.scan': 'Toetsweb-Scan',
+	'nav.result': 'Resultaat',
+	'home.heroTitle':
+		'AAN DE SLAG MET HET TOETSWEB: WERKEN AAN KWALITEIT VAN TOETSING',
+	'home.heroSubtitle':
+		'Op deze website kun je met je opleidingsteam, de toets- of curriculumcommissie van je team of een andere relevante vertegenwoordiging van de opleiding de Toetsweb-Scan invullen. De Toetsweb-Scan is gebaseerd op de methodiek van de Toetsing Getoetst en is bedoeld om de kwaliteit van toetsing te analyseren, verbeteren en borgen. Het toetsweb vormt het theoretisch fundament onder de Toetsing Getoetst.',
+	'home.assessmentQualityTitle': 'Gezamenlijk toetskwaliteit bepalen',
+	'home.assessmentQualityText':
+		'Met behulp van de Toetsweb-Scan kun je als team samen vaststellen hoe de (duurzame) kwaliteit van toetsing er op dit moment uitziet in jullie opleiding (positiebepaling). Ook kun je met behulp van deze scan samen keuzes maken over jullie ontwikkeling richting (duurzame) toetskwaliteit (ambitiebepaling). Daarnaast maak je behulp van de scan met je team een onderbouwd actieplan om te komen tot jullie ambitie.',
+	'home.assessmentExplainedTitle': 'Het toetsweb uitgelegd',
+	'home.assessmentExplainedText':
+		'Het toetsweb bestaat uit vijf toetsentiteiten; toets(tak)en, toetsprogramma, toetsbeleid, toetsorganisatie en toetsbekwaamheid. Deze vijf entiteiten zijn verbonden met elkaar én met de kern van het web. De vorm van het web symboliseert de verwevenheid van de verschillende toetsentiteiten, maakt visueel zichtbaar dat deze allemaal met elkaar verbonden zijn en laat vier verschillende ontwikkelingsfasen zien.',
+	'home.modelExplained':
+		'Door met de muis op een van de onderdelen van het toetsweb te gaan staan, wordt de toelichting op dit onderdeel zichtbaar.',
 
-    "home.entities.title": "Entiteiten, elementen en ontwikkelingsfasen",
-    "home.entities.text.part1": "Binnen iedere toetsentiteit kunnen drie elementen worden onderscheiden. Dit zijn de elementen kwaliteitscriteria, ontwerp en borging. Het eerste element, kwaliteitscriteria, gaat over de vraag welke informatie wordt gebruikt om de kwaliteit van de toetsentiteiten te realiseren en vast te stellen. Het tweede element, ontwerp, is gericht op de vraag hoe de ontwikkeling en inzet van de vijf toetsentiteiten tot stand komt. Het derde element, borging, richt zich op de wijze waarop de kwaliteitsborging van de toetsentiteiten wordt ingericht. Structurele aandacht voor deze drie elementen borgt dat er gewerkt wordt vanuit de PDCA-cyclus.",
-    "home.entities.text.part2": "Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.",
-    "home.entities.text.part3": "Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.",
+	'home.entities.title': 'Entiteiten, elementen en ontwikkelingsfasen',
+	'home.entities.text.part1':
+		'Binnen iedere toetsentiteit kunnen drie elementen worden onderscheiden. Dit zijn de elementen kwaliteitscriteria, ontwerp en borging. Het eerste element, kwaliteitscriteria, gaat over de vraag welke informatie wordt gebruikt om de kwaliteit van de toetsentiteiten te realiseren en vast te stellen. Het tweede element, ontwerp, is gericht op de vraag hoe de ontwikkeling en inzet van de vijf toetsentiteiten tot stand komt. Het derde element, borging, richt zich op de wijze waarop de kwaliteitsborging van de toetsentiteiten wordt ingericht. Structurele aandacht voor deze drie elementen borgt dat er gewerkt wordt vanuit de PDCA-cyclus.',
+	'home.entities.text.part2':
+		'Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.',
+	'home.entities.text.part3':
+		'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
 
-    "home.startscan.title": "Start de Scan",
-    "home.startscan.text": "Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, start de scan. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.",
-    "home.startscan.button": "Start de Toetsweb-Scan",
+	'home.startscan.title': 'Start de Scan',
+	'home.startscan.text':
+		'Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, start de scan. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.',
+	'home.startscan.button': 'Start de Toetsweb-Scan',
 
-    "developers.title": "Ontwikkelaars",
-    "developers.text": "Het Toetsweb is ontwikkeld door het Lectoraat Eigentijds Beoordelen en Beslissen. Het lectoraat is onderdeel van het Onderzoeksteam Kwaliteiten van Leraren van de Academie Educatie van de HAN University of Applied Sciences. Deze Toetsweb-Scan is tot stand gekomen in samenwerking met B302 en met behulp van subsidie uit het Versnellingsplan Onderwijsinnovatie met ICT.",
+	'developers.title': 'Ontwikkelaars',
+	'developers.text':
+		'Het Toetsweb is ontwikkeld door het Lectoraat Eigentijds Beoordelen en Beslissen. Het lectoraat is onderdeel van het Onderzoeksteam Kwaliteiten van Leraren van de Academie Educatie van de HAN University of Applied Sciences. Deze Toetsweb-Scan is tot stand gekomen in samenwerking met B302 en met behulp van subsidie uit het Versnellingsplan Onderwijsinnovatie met ICT.',
 
-    "colofon.title": "Meer informatie?",
-    "colofon.subtitle": "Neem dan contact met ons op!",
-    "colofon.tamara.role": "Lector",
-    "colofon.tamara.academy": "Academie Educatie",
-    "colofon.linda.role": "Onderzoeker",
-    "colofon.linda.academy": "Academie Educatie",
-    "colofon.marjoleine.role": "Onderzoeker",
-    "colofon.marjoleine.academy": "Academie Educatie",
-    "colofon.edwin.role": "Onderzoeker",
-    "colofon.edwin.academy": "Academie Educatie",
-    "colofon.marion.role": "Opleider/Trainer/Adviseur",
-    "colofon.marion.academy": "Academie Educatie",
+	'colofon.title': 'Meer informatie?',
+	'colofon.subtitle': 'Neem dan contact met ons op!',
+	'colofon.tamara.role': 'Lector',
+	'colofon.tamara.academy': 'Academie Educatie',
+	'colofon.linda.role': 'Onderzoeker',
+	'colofon.linda.academy': 'Academie Educatie',
+	'colofon.marjoleine.role': 'Onderzoeker',
+	'colofon.marjoleine.academy': 'Academie Educatie',
+	'colofon.edwin.role': 'Onderzoeker',
+	'colofon.edwin.academy': 'Academie Educatie',
+	'colofon.marion.role': 'Opleider/Trainer/Adviseur',
+	'colofon.marion.academy': 'Academie Educatie',
 
-    "position": "Positie",
-    "position.description": "In welke beschrijving herken je jouw opleiding nu het meest?",
-    "ambition": "Ambitie",
-    "ambition.description": "Welke beschrijving past over 2 jaar het beste bij jouw opleiding?",
-    "positionambitionempty": "Kies minimaal 1 optie voor positie en ambitie",
-    "explanation": "Toelichting",
-    "scan.explain": "Licht je antwoord toe",
-    "scan.next": "Volgende vraag",
-    "scan.previous": "Vorige vraag",
-    "scan.toresults": "Naar resultaten",
-    "results.notfilledin": "Niet ingevuld",
-    "results.positionexplanation": "Positie toelichting",
-    "results.ambitionexplanation": "Ambitie toelichting",
-    "results.downloadresults": "Download resultaten",
-    "results.downloadadvice": "Download advies",
-    "results.functionnotavailable": "Deze functie is op dit moment nog niet beschikbaar ",
-    "results.resetscan": "Reset scan",
+	position: 'Positie',
+	'position.description':
+		'In welke beschrijving herken je jouw opleiding nu het meest?',
+	ambition: 'Ambitie',
+	'ambition.description':
+		'Welke beschrijving past over 2 jaar het beste bij jouw opleiding?',
+	positionambitionempty: 'Kies minimaal 1 optie voor positie en ambitie',
+	explanation: 'Toelichting',
+	'scan.explain': 'Licht je antwoord toe',
+	'scan.next': 'Volgende vraag',
+	'scan.previous': 'Vorige vraag',
+	'scan.toresults': 'Naar resultaten',
+	'results.notfilledin': 'Niet ingevuld',
+	'results.positionexplanation': 'Positie toelichting',
+	'results.ambitionexplanation': 'Ambitie toelichting',
+	'results.downloadresults': 'Download resultaten',
+	'results.downloadadvice': 'Download advies',
+	'results.functionnotavailable':
+		'Deze functie is op dit moment nog niet beschikbaar ',
+	'results.resetscan': 'Reset scan',
 
-    "notfound.title": "404 Pagina niet gevonden",
-    "notfound.buttonText": "Terug naar home",
+	'notfound.title': '404 Pagina niet gevonden',
+	'notfound.buttonText': 'Terug naar home',
 
-    "phase.activityoriented.description": "Individuele medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren ad hoc op onderdelen toetsactiviteiten uit waarbij geen aandacht is voor de onderlinge samenhang tussen deze activiteiten.",
-    "phase.processoriented.description": "Relevante medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren vanuit een korte termijn perspectief procesmatig toetsactiviteiten uit die onderling samenhangen.",
-    "phase.systemoriented.description": "Alle relevante medewerkers en partners in de opleiding (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren gezamenlijk vanuit een middellange termijn perspectief volgens de PDCA-cyclus toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding.",
-    "phase.chainoriented.description": "Alle relevante medewerkers en partners binnen de opleiding en in de keten (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers, werkveld en externe deskundigen) voeren gezamenlijk vanuit een lange termijn perspectief volgens de PDCA-cyclus gezamenlijk toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding en de keten.",
+	'phase.activityoriented.description':
+		'Individuele medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren ad hoc op onderdelen toetsactiviteiten uit waarbij geen aandacht is voor de onderlinge samenhang tussen deze activiteiten.',
+	'phase.processoriented.description':
+		'Relevante medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren vanuit een korte termijn perspectief procesmatig toetsactiviteiten uit die onderling samenhangen.',
+	'phase.systemoriented.description':
+		'Alle relevante medewerkers en partners in de opleiding (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren gezamenlijk vanuit een middellange termijn perspectief volgens de PDCA-cyclus toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding.',
+	'phase.chainoriented.description':
+		'Alle relevante medewerkers en partners binnen de opleiding en in de keten (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers, werkveld en externe deskundigen) voeren gezamenlijk vanuit een lange termijn perspectief volgens de PDCA-cyclus gezamenlijk toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding en de keten.',
 }
 
 export const nlEntities: string[] = [
-    "Toets(tak)en",
-    "Toetsprogramma",
-    "Toetsbeleid",
-    "Toetsorganisatie",
-    "Toetsbekwaamheid"
-];
+	'Toets(tak)en',
+	'Toetsprogramma',
+	'Toetsbeleid',
+	'Toetsorganisatie',
+	'Toetsbekwaamheid',
+]
 
-export const nlElements: string[] = [
-    "Kwaliteitscriteria",
-    "Ontwerp",
-    "Borging"
-];
+export const nlElements: string[] = ['Kwaliteitscriteria', 'Ontwerp', 'Borging']
 
 export const nlPhases: string[] = [
-    "Activiteiten-georiënteerde fase",
-    "Proces-georiënteerde fase",
-    "Systeem-georiënteerde fase",
-    "Keten-georiënteerde fase"
-];
+	'Activiteiten-georiënteerde fase',
+	'Proces-georiënteerde fase',
+	'Systeem-georiënteerde fase',
+	'Keten-georiënteerde fase',
+]
 
 export const nlEntityElementPhaseDescriptions: string[][][] = [
-    [
-        [
-            "Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken daarvoor eigen kwaliteitscriteria.",
-            "Docenten maken bij het ontwerpen van toetsen gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars.",
-            "De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.",
-            "De kwaliteitscriteria die gebruikt worden bij het ontwerpen van zowel de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld."
-        ],
-        [
-            "Docenten ontwerpen de toets vaak alleen en kort voor de afname.",
-            "Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces.  De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s.",
-            "De toetsen worden voorafgaand aan het onderwijs ontwikkeld, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs binnen de opleiding.",
-            "De toetsen worden voorafgaand aan het onderwijs ontwikkeld. Deze toetsen sluiten niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek."
-        ],
-        [
-            "De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-            "De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.",
-            "De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-            "Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-        ]
-    ],
-    [
-        [
-            "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen.",
-            "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma.",
-            "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.",
-            "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden afgestemd met het werkveld en worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
-        ],
-        [
-            "Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.",
-            "De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma.",
-            "Bij de ontwikkeling van het toetsprogramma wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen.",
-            "De opbouw van het toetsprogramma wordt besproken en vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn."
-        ],
-        [
-            "De kwaliteit van het toetsprogramma wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-            "Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.",
-            "De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-            "Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-        ]
-    ],
-    [
-        [
-            "Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen.",
-            "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan.",
-            "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.",
-            "De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders."
-        ],
-        [
-            "Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs.",
-            "De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden.",
-            "Bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan.",
-            "De opgenomen processen en interventies die opgenomen zijn in het beleidsplan richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is."
-        ],
-        [
-            "De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-            "Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.",
-            "Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-            "Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-        ]
-    ],
-    [
-        [
-            "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen.",
-            "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie.",
-            "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.",
-            "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden vastgesteld met het werkveld."
-        ],
-        [
-            "De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen.",
-            "Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan.",
-            "De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd.",
-            "De inrichting van de toetsorganisatie wordt afgestemd met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek."
-        ],
-        [
-            "De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-            "Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.",
-            "De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-            "De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-        ]
-    ],
-    [
-        [
-            "Binnen de opleiding zijn geen (concrete) afspraken gemaakt over toetsbekwaamheid die van docenten wordt verwacht.",
-            "De eisen die binnen de opleiding gesteld worden aan de toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars.",
-            "De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele inzichten.",
-            "De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders."
-        ],
-        [
-            "De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten.",
-            "Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd.",
-            "De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams.",
-            "Niet alleen voor de partners binnen de opleiding, maar ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken."
-        ],
-        [
-            "Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.",
-            "Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.",
-            "De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.",
-            "De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-        ]
-    ]
-
+	[
+		[
+			'Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken daarvoor eigen kwaliteitscriteria.',
+			'Docenten maken bij het ontwerpen van toetsen gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars.',
+			'De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+			'De kwaliteitscriteria die gebruikt worden bij het ontwerpen van zowel de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld.',
+		],
+		[
+			'Docenten ontwerpen de toets vaak alleen en kort voor de afname.',
+			'Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces.  De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s.',
+			'De toetsen worden voorafgaand aan het onderwijs ontwikkeld, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs binnen de opleiding.',
+			'De toetsen worden voorafgaand aan het onderwijs ontwikkeld. Deze toetsen sluiten niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek.',
+		],
+		[
+			'De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+			'De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.',
+			'De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+			'Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		],
+	],
+	[
+		[
+			'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen.',
+			'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma.',
+			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden afgestemd met het werkveld en worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+		],
+		[
+			'Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.',
+			'De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma.',
+			'Bij de ontwikkeling van het toetsprogramma wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen.',
+			'De opbouw van het toetsprogramma wordt besproken en vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn.',
+		],
+		[
+			'De kwaliteit van het toetsprogramma wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+			'Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.',
+			'De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+			'Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		],
+	],
+	[
+		[
+			'Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen.',
+			'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan.',
+			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+			'De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders.',
+		],
+		[
+			'Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs.',
+			'De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden.',
+			'Bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan.',
+			'De opgenomen processen en interventies die opgenomen zijn in het beleidsplan richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is.',
+		],
+		[
+			'De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+			'Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.',
+			'Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+			'Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		],
+	],
+	[
+		[
+			'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen.',
+			'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie.',
+			'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+			'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden vastgesteld met het werkveld.',
+		],
+		[
+			'De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen.',
+			'Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan.',
+			'De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd.',
+			'De inrichting van de toetsorganisatie wordt afgestemd met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek.',
+		],
+		[
+			'De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+			'Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.',
+			'De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+			'De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		],
+	],
+	[
+		[
+			'Binnen de opleiding zijn geen (concrete) afspraken gemaakt over toetsbekwaamheid die van docenten wordt verwacht.',
+			'De eisen die binnen de opleiding gesteld worden aan de toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars.',
+			'De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele inzichten.',
+			'De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders.',
+		],
+		[
+			'De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten.',
+			'Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd.',
+			'De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams.',
+			'Niet alleen voor de partners binnen de opleiding, maar ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken.',
+		],
+		[
+			'Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.',
+			'Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.',
+			'De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.',
+			'De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		],
+	],
 ]
 
 export const nlGenericEntityPhaseDescriptions: string[][] = [
-    [
-        "Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken eigen kwaliteitscriteria, ontwerpen de toets vaak alleen en kort voor de afname. De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-        "Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces en maken daarbij gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s. De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.",
-        "De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen van toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De toetsen, die ontwikkeld worden voorafgaand aan het onderwijs, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs. De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-        "Zowel kwaliteitscriteria voor de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld. De toetsen sluiten hierdoor niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek. Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-    ],
-    [
-        "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen. Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.",
-        "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma. De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma. Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.",
-        "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Bij de ontwikkeling wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen. De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-        "Zowel de kwaliteitscriteria als de opbouw van het toetsprogramma worden vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn. Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-    ],
-    [
-        "Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen. Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs. De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-        "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan. De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden. Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.",
-        "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Ook bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-        "De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders. De opgenomen processen en interventies richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-    ],
-    [
-        "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen. De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen. De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.",
-        "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie. Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan. Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.",
-        "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.",
-        "Zowel de kwaliteitscriteria als de inrichting van de toetsorganisatie worden vastgesteld met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-    ],
-    [
-        "Binnen de opleiding zijn geen (concrete) afspraken gemaakt over de toetsbekwaamheid die van docenten wordt verwacht. De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten. Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.",
-        "De eisen die binnen de opleiding gesteld worden aan toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd. Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.",
-        "De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele (wetenschappelijke) inzichten. De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams. De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.",
-        "De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders Ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de de eisen die aan toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld."
-    ]
-];
+	[
+		'Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken eigen kwaliteitscriteria, ontwerpen de toets vaak alleen en kort voor de afname. De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+		'Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces en maken daarbij gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s. De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.',
+		'De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen van toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De toetsen, die ontwikkeld worden voorafgaand aan het onderwijs, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs. De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+		'Zowel kwaliteitscriteria voor de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld. De toetsen sluiten hierdoor niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek. Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+	],
+	[
+		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen. Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.',
+		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma. De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma. Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.',
+		'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Bij de ontwikkeling wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen. De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+		'Zowel de kwaliteitscriteria als de opbouw van het toetsprogramma worden vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn. Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+	],
+	[
+		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen. Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs. De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan. De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden. Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.',
+		'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Ook bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+		'De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders. De opgenomen processen en interventies richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+	],
+	[
+		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen. De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen. De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
+		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie. Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan. Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.',
+		'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
+		'Zowel de kwaliteitscriteria als de inrichting van de toetsorganisatie worden vastgesteld met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+	],
+	[
+		'Binnen de opleiding zijn geen (concrete) afspraken gemaakt over de toetsbekwaamheid die van docenten wordt verwacht. De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten. Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.',
+		'De eisen die binnen de opleiding gesteld worden aan toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd. Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.',
+		'De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele (wetenschappelijke) inzichten. De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams. De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.',
+		'De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders Ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de de eisen die aan toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+	],
+]
 
 // entity index: phase index = description
 export const nlEntityPhaseAdvice: string[][] = [
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsen/toetstaken overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsen en toetstaken. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsen/toetstaken overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsen en toetstaken. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van toetsen/toetstaken en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor toetsen en toetstaken kan gedacht worden aan criteria als validiteit, betrouwbaarheid, objectiviteit, discriminerend vermogen, realiseerbaarheid, efficiëntie en acceptatie (Joosten-ten Brinke & Draaijer, 2014 en Draaijer & Joosten-ten Brinke, 2014). 
@@ -247,8 +259,8 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Maak binnen het onderwijsteam afspraken over de stappen die doorlopen worden bij het ontwikkelen van toetsen. Hierdoor weten docenten welke stappen doorlopen moeten worden bij het maken van een toets en toetstaken. Als deze stappen ook daadwerkelijk door iedereen gezet worden, leidt dit tot eenduidigheid tussen toetsen en kan een basiskwaliteit van toetsen worden gerealiseerd.
         -	Maak binnen het onderwijsteam afspraken over planning bij het ontwikkelen van toetsen. Ontwikkel toetsmatrijzen voorafgaand aan het onderwijs, en ontwikkel concrete toetsvragen zodra dit mogelijk is. Hierdoor ontstaat er een logische samenhang tussen de toetsdoelen, het onderwijs en de toetsvragen, is er voldoende tijd om indien nodig invulling te geven aan het vier-ogenprincipe én zijn de toetsen tijdig beschikbaar voor de afname.
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van toetsen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van toetsen op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
-        
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk om met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat toetsen die volledig volgens de kwaliteitscriteria zijn ontwikkeld niet passend zijn bij de opleidingscontext of niet in lijn zijn met organisatorische en praktische afspraken en procedures binnen de opleiding.
@@ -268,7 +280,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Ontwikkel de toetsen altijd samen met collega’s tijdens of voorafgaand aan de uitvoering van het onderwijs. Zorg dat de toetsen op tijd beschikbaar zijn. Zorg ook dat er in de toetsontwikkeling tijd is om gezamenlijk toetsen te ontwikkelen (4-ogenprincipe) en om de toetsen tijdig aan te leveren bij het toetsbureau.
         -	Maak afspraken over de regelmaat waarop de kwaliteit van toetsen worden geëvalueerd door de docenten die de toetsen ontwikkelen en/of de toetscommissie. De toetsontwikkelaars hebben daardoor enig zicht op de kwaliteit van de toetsen en kunnen de toetsen aanpassen op basis van de evaluatieresultaten.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan toetsen worden geconstrueerd zijn mogelijkerwijs verouderd. En het is mogelijk dat in deze fase het oordeel van studenten over de kwaliteit van toetsen niet wordt meegenomen bij afspraken over het realiseren van kwaliteit.
@@ -288,7 +300,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Ontwikkel de toetsen voorafgaand aan het onderwijs op basis de leeruitkomsten. Zorg dat er in de toetsontwikkeling ruimschoots tijd is om gezamenlijk toetsen én onderwijs te ontwikkelen, zodat er goed invulling gegeven kan worden aan de aansluiting tussen de leeruitkomsten (onderwijs) en toetsdoelen (toetsing) (constructive alignment).
         -	Evalueer de toetsen als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van de toetsevaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Dan is er voortdurend zicht op de kwaliteit van de toetsen binnen de opleiding: het is bekend welke toetsen van goede kwaliteit zijn, maar er is ook bekend waar de verbeterpunten zich bevinden. Zorg dat de toetscommissie en/of docenten die de toetsevaluatie uitvoeren weten aan welke criteria toetsen moeten voldoen, en evalueer de toetsen structureel. Bevraag studenten met regelmaat op de kwaliteit van toetsen (bijvoorbeeld na afname van de toets). De informatie die hieruit naar voren komt, kan dan worden gebruikt om de toetsen kwalitatief te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -300,11 +312,11 @@ export const nlEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van het toetsprogramma en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor het toetsprogramma kan gedacht worden aan criteria als eerlijkheid, authenticiteit, vergelijkbaarheid, haalbaarheid, transparantie, geschiktheid voor onderwijsdoelen en tijd & kosten (Baartman & Van der Vleuten, 2014).
@@ -326,7 +338,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Bespreek het toetsprogramma, en meer expliciet de samenhang tussen de toetsen en de dekking van de beoogde leerresultaten, binnen het onderwijsteam. Het benoemen van de relaties tussen de toetsen en de relaties van afzonderlijke toetsen met de beoogde leerresultaten zorgt ervoor dat toetsen worden gezien als onderdeel van een groter geheel. 
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van het toetsprogramma. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van het toetsprogramma op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat de toetsen in de opleiding niet logisch samenhangen, dat toetsvormen niet passend zijn bij de opleidingscontext of de beoogde leerresultaten of dat de beoogde leerresultaten niet worden gedekt.
@@ -346,7 +358,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Bekijk gezamenlijk in het opleidingsteam tijdens of na afronding van de ontwikkeling van het toetsprogramma of het programma uitvoerbaar is. Neem daarbij zowel de uitvoerbaarheid voor de studenten in ogenschouw (zodat bijvoorbeeld voorkomen kan worden dat studenten in één onderwijsperiode 6 portfolio’s moeten maken), als de uitvoerbaarheid voor de docenten en betrokkenen in het toetsproces (zodat bijvoorbeeld niet in 8 weken tijd 4 deeltoetsen afgenomen en nagekeken hoeven te worden).
         -	Maak afspraken over de regelmaat waarop de kwaliteit van toetsprogramma’s worden geëvalueerd door de actoren binnen die opleiding die verantwoordelijk zijn voor de dekking van de beoogde leerresultaten (bijvoorbeeld examencommissie, curriculumcommissie of toetscommissie). Er komt daardoor enig zicht op de kwaliteit van het toetsprogramma. Op basis van de resultaten van de evaluaties kunnen adviezen worden gegeven aan bijvoorbeeld toets- en onderwijsontwikkelaars om de samenhang tussen de toetsen of de wijze waarop de toetsen toeleiden naar de beoogde leerresultaten te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan toetsen worden geconstrueerd zijn mogelijkerwijs verouderd. En het is mogelijk dat in deze fase het oordeel van studenten over het toetsprogramma niet wordt meegenomen bij afspraken over het realiseren van kwaliteit
@@ -366,7 +378,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Zorg bij het ontwerp van het toetsprogramma dat er afstemming plaats vindt over de meest geschikte toetsvormen en de functies van deze toetsen. Behalve over haalbaarheid van het programma, spreek je met elkaar ook over afstemming tussen onderwijs en toetsing. Denk gezamenlijk na over welke toetsvormen het meest geschikt zijn gezien de aan te tonen beroepsbekwaamheid en over de leerfunctie van toetsen (balans tussen de inzet van toetsen met een summatieve functie en het gebruik van formatieve evaluatie).
         -	Evalueer het horizontale en verticale toetsprogramma als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van deze evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Dan is er voortdurend zicht op de samenhang tussen de toetsen, de opbouw van het toetsprogramma en de dekking van de beoogde leerresultaten, zowel binnen onderwijseenheden (horizontaal) als voor de gehele opleiding (verticaal). Het is dan ook bekend waar eventuele verbeterpunten zich bevinden. Zorg dat de actoren die de evaluatie uitvoeren weten aan welke criteria een toetsprogramma moet voldoen, en evalueer het programma structureel. Bevraag studenten met regelmaat op de kwaliteit van en de samenhang tussen toetsen en onderwijs (bijvoorbeeld na afname van de toets), de informatie die hieruit naar voren komt, kan dan worden gebruikt om het toetsprogramma te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -378,11 +390,11 @@ export const nlEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van het toetsbeleid en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor het toetsbeleid kan gedacht worden aan criteria als transparantie, actualiteit, ondersteuning, facilitering, aansluiting en haalbaarheid (Bruijns & Kok, 2014). 
@@ -406,7 +418,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Bespreek binnen het onderwijsteam ‘de stip op de horizon’: welke doelen wil je als opleiding stellen om de kwaliteit van toetsing te handhaven en/of te optimaliseren. Neem de interventies om deze doelen te realiseren op in het toetsbeleidsplan. 
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van het toetsbeleid. Kijk hierbij zowel naar de kwaliteit van het toetsbeleidsplan als naar de realisatie van de gestelde doelen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van het toetsbeleid op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk om met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat de toetsprocessen die in het beleid beschreven staan niet bekend zijn bij de medewerkers, niet actueel zijn of niet uitvoerbaar zijn.
@@ -426,7 +438,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Toets de interventies en processen uit het toetsbeleid met regelmaat op uitvoerbaarheid en bruikbaarheid.  Laat deze analyses niet alleen plaatsvinden na incidenten, voer ze juist met regelmaat uit. Hierdoor is er ten minste enig zicht op de kwaliteit van de uitvoering van de verschillende interventies en processen die in het toetsbeleid beschreven staan.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van het toetsbeleid bekeken wordt door de actoren binnen de opleiding die (mede-)verantwoordelijk zijn voor de uitvoering van het beleid (bijvoorbeeld management, curriculumcommissie of toetscommissie). Plan niet alleen een evaluatie van het toetsbeleid wanneer de termijn van het beleidsplan verstreken is. Hierdoor komt meer zicht op de kwaliteit van het toetsbeleid. Op basis van de resultaten van de evaluaties kan het toetsbeleid worden bijgesteld. Het met regelmaat evalueren van het toetsbeleid verkleint de mogelijkheid dat medewerkers in de praktijk afwijken van de beschreven en afgesproken procedures en dat kan een positief effect hebben op de kwaliteit van toetsing.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan het toetsbeleid wordt opgesteld zijn mogelijkerwijs verouderd. Het is ook mogelijk dat het oordeel van gebruikers van het toetsbeleid (medewerkers die de processen moeten uitvoeren) en studenten (die onderdeel zijn van de processen) niet wordt meegenomen bij afspraken over het realiseren van kwaliteit.
@@ -446,7 +458,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Gebruik nieuwe (wetenschappelijke) inzichten bij het uitwerken van de praktische consequenties van de interventies en processen. Als de praktische consequenties van de interventies evidence-informed zijn, wordt hierdoor gebruik gemaakt van nieuwe inzichten, die vervolgens worden vertaald naar/passend gemaakt worden voor de eigen opleidingscontext.
         -	Evalueer het toetsbeleid als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van deze evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Er is dan voortdurend zicht op de kwaliteit van het toetsbeleid en het is bekend waar eventuele verbeterpunten zich bevinden (bijvoorbeeld procedures die niet volgens afspraak uitgevoerd worden of onbekend zijn bij medewerkers). Zorgt dat de actoren die de evaluatie uitvoeren weten aan welke criteria een toetsbeleid moet voldoen, en evalueer het programma structureel. Doordat bekend is waar de knelpunten zitten in de uitvoering van het beleid, is ook bekend waar zich mogelijke risico’s voordoen voor de kwaliteit van de toetsing.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -458,11 +470,11 @@ export const nlEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van de toetsorganisatie en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor de toetsorganisatie kan gedacht worden aan criteria als doelgerichtheid, afstemming, kwaliteitsnormen en afdekken van risico’s (Van Deursen & Van Zijl, 2015).
@@ -484,7 +496,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Maak binnen het onderwijsteam concrete afspraken over de wijze waarop verschillende toetsprocessen (bijvoorbeeld ontwerp van toetsprogramma en ontwerp toetsbeleid) worden ingericht en uitgevoerd. Hierdoor kan een basiskwaliteit van de afzonderlijke processen worden bereikt.
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van de toetsorganisatie. Kijk hierbij zowel naar de kwaliteit van de toetsorganisatie als geheel als naar de uitvoering van de toetsprocessen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van de toetsorganisatie op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de  vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding. Dit kan ertoe leiden dat er kwaliteitscriteria zijn geformuleerd die niet uitvoerbaar zijn of die niet passend zijn binnen de context van de opleiding.
@@ -504,7 +516,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Breng de wijze waarop de verschillende toetsprocessen binnen de opleiding op elkaar aansluiten (bijvoorbeeld ontwerp van toetsen in relatie tot het toetsprogramma) in kaart. Zorg er hiermee voor dat voor alle actoren binnen de opleiding duidelijk is hoe de verschillende toetsprocessen zich tot elkaar verhouden. Hierdoor zijn de activiteiten die binnen en tussen deze processen worden uitgevoerd in lijn met elkaar. Er is hiermee niet alleen sprake van een basiskwaliteit van afzonderlijke processen, maar van de gehele processtructuur.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van de toetsorganisatie geëvalueerd door het management, beleidsmedewerkers of andere relevante actoren. Dan is er in de opleiding enig zicht op de mate waarin alle actoren binnen de toetsingsprocessen zich bewust zijn van hun eigen en elkaars rollen, taken en verantwoordelijkheden. Als uit de evaluatie blijkt dat iemand de rollen, taken en/of verantwoordelijkheden niet goed oppakt, kan deze collega hierover aangesproken worden door zijn leidinggevende. Doordat iedereen weet ‘wie waarvan is’ weet men elkaar ook te vinden met vragen over specifieke toetsingsprocessen.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan de toetsorganisatie wordt ingericht zijn mogelijkerwijs verouderd. Het is mogelijk dat de ervaringen van medewerkers en van studenten over de kwaliteit van toetsorganisatie niet wordt meegenomen bij afspraken over het realiseren van voldoende kwaliteit.
@@ -524,7 +536,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Bespreek de wijze waarop de verschillende toetsprocessen binnen de opleiding op elkaar aansluiten (bijvoorbeeld ontwerp van toetsbekwaamheid in relatie tot toetsvormen in het toetsprogramma) op team- of opleidingsniveau. Bespreek de activiteiten binnen en tussen de toetsprocessen met elkaar en stem waar nodig op elkaar af. Het is hierdoor voor alle betrokken precies duidelijk welke processen mogelijkerwijs een invloed hebben op elkaar. Bijvoorbeeld: als een docent een toetsvorm wil wijzigen, weet hij wie verantwoordelijk is voor de totstandkoming van het toetsprogramma, voor het toetsbeleid, en voor de toetsbekwaamheid, en checkt hij of de alternatieve toetsvorm passend is binnen de visie op toetsen (beleid) en de vertaling hiervan in het toetsprogramma, en of de benodigde toetsbekwaamheid om invulling te kunnen geven aan deze toetsvorm aanwezig is.
         -	Evalueer de toetsorganisatie als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten hiervan met collega’s, studenten of andere relevante partners binnen de opleiding. Er is dan voortdurend zicht op de kwaliteit van de toetsorganisatie en meer specifiek op de mate waarin alle actoren van zichzelf en anderen weten waar hun taken, rollen en verantwoordelijkheden binnen de opleiding liggen ten aanzien van de toetsprocessen. Bevraag zowel medewerkers als studenten met regelmaat, waardoor er eveneens zicht is op de effectiviteit en efficiëntie van de verschillende toetsprocessen. Het is dan bekend wat er goed loopt, maar ook  waar de verbeterpunten zich bevinden. Zorg dat de medewerkers die de evaluatie uitvoeren weten aan welke criteria de toetsorganisatie moet voldoen, en evalueer deze structureel. Het is goed als collega’s elkaar, op grond van evaluaties, maar ook in de dagelijkse processen, aan spreken op de wijze waarop zij invulling geven aan hun taken, rollen en verantwoordelijkheden.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -536,11 +548,11 @@ export const nlEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van de toetsbekwaamheid en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor toetsbekwaamheid kan gedacht worden aan criteria als transparantie (is duidelijk wie welke bekwaamheid moet hebben, wordt dit voor de hele opleiding vastgesteld en wordt professionalisering hierop afgestemd), actualiteit (bijvoorbeeld aansluiting bij landelijke ontwikkelingen en hogeschoolbrede kaders), ondersteuning, facilitering en haalbaarheid (o.a. Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015)
@@ -562,7 +574,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Zorg er voor dat actoren met hun leidinggevende afspraken kunnen maken over professionalisering op het gebied van toetsing. 
         -	Maak binnen het opleidingsteam afspraken over de evaluatie van de toetsbekwaamheid. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van de toetsbekwaamheid op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria  aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan er toe leiden dat de toetsbekwaamheid van docenten wel voldoet aan de gestelde kwaliteitscriteria maar dat zij toch niet beschikken over bepaalde bekwaamheden die zij nodig hebben om hun taak in toetsing binnen de visie van de opleiding uit te voeren.
@@ -582,7 +594,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Zorg dat de leidinggevende, in samenspraak met actoren, professionaliseringsdoelen met betrekking tot toetsing, minimal voor de korte termijn, formuleert. Als actoren doelen hebben geformuleerd die zij door inzet van professionaliseringsactiviteiten op korte termijn kunnen behalen, dan kunnen bepaalde toetsactiviteiten (afhankelijk van het gestelde doel) beter worden uitgevoerd.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van de toetsbekwaamheid geëvalueerd en besproken wordt met verschillende actoren die betrokken zijn bij toetsing. Dan heeft de opleiding enig zicht op de kwaliteit van de toetsbekwaamheid en kan op basis van deze evaluaties acties in worden gezet om de toetsbekwaamheid van actoren te verbeteren. De toetsbekwaamheid wordt bijvoorbeeld één keer per jaar besproken in het functioneringsgesprek- of bij beoordelingsgesprekken. De uitkomst van deze gesprekken kan dan worden gebruikt om individuele professionaliseringsactiviteiten te plannen.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De professionalisering die docenten/examinatoren volgen over toetsing is mogelijkerwijs verouderd en sluit onvoldoende aan bij de huidige situatie. Het is niet bekend welke examinatoren wel of niet de bekwaamheidseisen beheersen. Het oordeel van studenten maar ook van docenten zelf wordt niet altijd meegenomen als het gaat om het verbeteren van de toetsbekwaamheid van de examinatoren.
@@ -602,7 +614,7 @@ export const nlEntityPhaseAdvice: string[][] = [
         -	Formuleer bij de actoren passende middellange termijndoelen voor professionalisering die een logisch gevolg zijn van de resultaten van de kwaliteitscyclus. Er wordt dan doelgericht gewerkt aan middellange termijndoelen betreffende het verbeteren van de toetsbekwaamheid van actoren. De professionaliseringsactiviteiten dragen dan ook bij aan het verbeteren van de punten die tijdens het doorlopen van de PDCA-cyclus naar voren zijn gekomen.
         -	Evalueer toetsbekwaamheid als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van de evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Laat de toetskwaliteit jaarlijks op collectief niveau vaststellen door onafhankelijke toetsdeskundigen, waarbij het resultaat een nauwkeurig overzicht is van de mate waarin toetsbekwaamheid op organisatieniveau is geborgd. Laat individuele actoren de toetsbekwaamheid vaststellen door 360-graden feedback uit te zetten, de uitkomst te bespreken en op basis hiervan persoonlijke leerdoelen te formuleren. Maak een meerjaren scholings- en professionaliseringsplan.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -614,23 +626,23 @@ export const nlEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ]
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 ]
 
 export const nlGenericPhaseDescriptions: string[] = [
-    "Individuele medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren ad hoc op onderdelen toetsactiviteiten uit waarbij geen aandacht is voor de onderlinge samenhang tussen deze activiteiten.",
-    "Relevante medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren vanuit een korte termijn perspectief procesmatig toetsactiviteiten uit die onderling samenhangen.",
-    "Alle relevante medewerkers en partners in de opleiding (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren gezamenlijk vanuit een middellange termijn perspectief volgens de PDCA-cyclus toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding.",
-    "Alle relevante medewerkers en partners binnen de opleiding en in de keten (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers, werkveld en externe deskundigen) voeren gezamenlijk vanuit een lange termijn perspectief volgens de PDCA-cyclus gezamenlijk toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding en de keten."
-];
+	'Individuele medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren ad hoc op onderdelen toetsactiviteiten uit waarbij geen aandacht is voor de onderlinge samenhang tussen deze activiteiten.',
+	'Relevante medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren vanuit een korte termijn perspectief procesmatig toetsactiviteiten uit die onderling samenhangen.',
+	'Alle relevante medewerkers en partners in de opleiding (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren gezamenlijk vanuit een middellange termijn perspectief volgens de PDCA-cyclus toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding.',
+	'Alle relevante medewerkers en partners binnen de opleiding en in de keten (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers, werkveld en externe deskundigen) voeren gezamenlijk vanuit een lange termijn perspectief volgens de PDCA-cyclus gezamenlijk toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding en de keten.',
+]
 
 export const nlGenericEntityDescriptions: string[] = [
-    "Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015.",
-    "Het toetsprogramma is een bewuste en beargumenteerde combinatie van toets(vorm)en, passend bij de doelen en opbouw van een opleiding (het onderwijsprogramma) (Baartman & Van der Vleuten, 2015). Het gaat om de heldere samenhang tussen toetsen en de borging van de verschillende functies van toetsing.",
-    "Met het toetsbeleid wordt het geheel aan vastgestelde afspraken, zowel inhoudelijk als procedureel, over toetsen en beoordelen bedoeld (Bruijns & Kok, 2015). Binnen het integraal toetsbeleid zijn meerdere niveaus te onderscheiden, waaronder het beleid op instellingsniveau en het beleid op opleidingsniveau.",
-    "Met toetsbekwaamheid wordt in het toetsweb verwezen naar de deskundigheid die bij actoren binnen de opleiding aanwezig moet zijn om kwaliteit te realiseren op alle toetsentiteiten (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifiek voor de entiteit toetsen geldt dat de toetsbekwaamheid van docenten, examencommissies en andere betrokkenen van essentieel belang is: elke docent moet in staat zijn om toetsinformatie te interpreteren en te gebruiken om vast te stellen waar studenten staan en hoe deze informatie verder kan bijdragen aan het leren van de student (Straetmans, 2006).",
-    "Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015."
-];
+	'Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015.',
+	'Het toetsprogramma is een bewuste en beargumenteerde combinatie van toets(vorm)en, passend bij de doelen en opbouw van een opleiding (het onderwijsprogramma) (Baartman & Van der Vleuten, 2015). Het gaat om de heldere samenhang tussen toetsen en de borging van de verschillende functies van toetsing.',
+	'Met het toetsbeleid wordt het geheel aan vastgestelde afspraken, zowel inhoudelijk als procedureel, over toetsen en beoordelen bedoeld (Bruijns & Kok, 2015). Binnen het integraal toetsbeleid zijn meerdere niveaus te onderscheiden, waaronder het beleid op instellingsniveau en het beleid op opleidingsniveau.',
+	'Met toetsbekwaamheid wordt in het toetsweb verwezen naar de deskundigheid die bij actoren binnen de opleiding aanwezig moet zijn om kwaliteit te realiseren op alle toetsentiteiten (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifiek voor de entiteit toetsen geldt dat de toetsbekwaamheid van docenten, examencommissies en andere betrokkenen van essentieel belang is: elke docent moet in staat zijn om toetsinformatie te interpreteren en te gebruiken om vast te stellen waar studenten staan en hoe deze informatie verder kan bijdragen aan het leren van de student (Straetmans, 2006).',
+	'Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015.',
+]
 
-export default nl;
+export default nl

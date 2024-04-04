@@ -1,74 +1,73 @@
 .scancard {
-  box-shadow: 0 3px 6px #00000029;
-  padding: 2rem 4rem;
+	box-shadow: 0 3px 6px #00000029;
+	padding: 2rem 4rem;
 
-  &__titles {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+	&__titles {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 
-    span {
-      display: flex;
-      flex-direction: row;
-      column-gap: 0.5rem;
-    }
+		span {
+			display: flex;
+			flex-direction: row;
+			column-gap: 0.5rem;
+		}
 
-    &__container {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.4rem;
+		&__container {
+			display: flex;
+			align-items: center;
+			gap: 0.4rem;
+			padding: 0.4rem;
 
-      h3 {
-        font-size: 1.5em;
-        margin: 0;
-      }
+			h3 {
+				font-size: 1.5em;
+				margin: 0;
+			}
 
-      &__subtitle {
-        font-size: 1em;
-      }
-    }
-  }
+			&__subtitle {
+				font-size: 1em;
+			}
+		}
+	}
 
-  &__grid {
+	&__grid {
+		@media (min-width: 768px) {
+			display: grid;
+			grid-template-columns: 60% 40%;
+		}
 
-    @media (min-width: 768px) {
-      display: grid;
-      grid-template-columns: 60% 40%;
-    }
+		&__illustration {
+			display: flex;
+			margin: auto;
+			width: 90%;
 
-    &__illustration {
-      display: flex;
-      margin: auto;
-      width: 90%;
+			@media (max-width: 768px) {
+				display: none;
+			}
+		}
 
-      @media (max-width: 768px) {
-        display: none;
-      }
-    }
+		&__form {
+			display: flex;
+			margin: 1rem 0;
+			flex-direction: column;
+			row-gap: 1rem;
 
-    &__form {
-      display: flex;
-      margin: 1rem 0;
-      flex-direction: column;
-      row-gap: 1rem;
+			&__checkbox {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+			}
+		}
+	}
 
-      &__checkbox {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    }
-  }
+	&__textarea-container {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
 
-  &__textarea-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  &__progress {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-  }
+	&__progress {
+		margin-top: 1rem;
+		display: flex;
+		justify-content: space-between;
+	}
 }

@@ -31,13 +31,16 @@
     "@types/pdfkit": "^0.13.4",
     "@types/react-beautiful-dnd": "^13.1.2",
     "@types/react-dom": "^18.0.8",
-    "eslint-plugin-react": "^7.31.10"
+    "eslint-plugin-react": "^7.31.10",
+    "prettier": "^3.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier ./src && echo '\nuse: npm run format:fix to fix formatting\n'",
+    "format:fix": "prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [

@@ -1,39 +1,44 @@
 body {
-  font-size: $base-font-size;
-  font-family: $base-font-family;
-  color: $text-color;
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	color: $text-color;
 }
 
 .font-lato {
-  font-family: 'Lato', 'sans-serif';
+	font-family: 'Lato', 'sans-serif';
 }
 
 .font-opensans {
-  font-family: 'OpenSans', 'sans-serif';
+	font-family: 'OpenSans', 'sans-serif';
 }
 
 h1 {
-  font-size: 3em;
-  font-weight: 900;
-  font-family: SourceSansPro, sans-serif;
-
+	font-size: 3em;
+	font-weight: 900;
+	font-family: SourceSansPro, sans-serif;
 }
 
 h3 {
-  font-size: 2.2em;
-  font-family: SourceSansPro, sans-serif;
+	font-size: 2.2em;
+	font-family: SourceSansPro, sans-serif;
 }
 
 h4 {
-  font-size: 1.6em;
-  font-family: SourceSansPro, sans-serif;
+	font-size: 1.6em;
+	font-family: SourceSansPro, sans-serif;
 }
 
 p {
-  font-size: 1.1em;
-  font-family: SourceSansPro, sans-serif;
+	font-size: 1.1em;
+	font-family: SourceSansPro, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, a {
-  margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	margin: 0;
 }

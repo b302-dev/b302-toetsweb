@@ -1,226 +1,238 @@
-import {Localization} from "../../utils/Localization";
+import { Localization } from '../../utils/Localization'
 
 const en: Localization = {
-    "nav.title": "Assessment Web",
-    "nav.home": "The Assessment Web",
-    "nav.scan": "Assessment Web Scan",
-    "nav.result": "Results",
-    "home.heroTitle": "GETTING STARTED WITH THE ASSESSMENT WEB: WORKING ON THE QUALITY OF ASSESSMENT",
-    "home.heroSubtitle": "On this website you can complete the Assessment Web Scan with your degree course team, the assessment or curriculum committee of your team or another relevant representation of the degree course. The Assessment Web Scan is based on the methodology of the 'Asssement Assessed' and is intended to analyze, improve and guarantee the quality of the assessment. The Assessment Web forms the theoretical foundation of the 'Assessment Assessed'.",
-    "home.assessmentQualityTitle": "Jointly determine assessment quality",
-    "home.assessmentQualityText": "With the help of the Assessment Web you can determine together as a team what the (sustainable) quality of assessment currently looks like in your degree course (position determination). With the help of this scan, you can also make choices together about your development towards (sustainable) assessment quality (ambition determination). In addition, you use the scan with your team to make a substantiated action plan to achieve your ambition.",
-    "home.assessmentExplainedTitle": "The Assessment Web explained",
-    "home.assessmentExplainedText": "The Assessment Web consists of five assessment entities; assessment (tasks), assessment programme, assessment policy, assessment organisation and assessment literacy. These five entities are connected with one another and also with the centre of the web. The shape of the web symbolizes the interconnectedness of the different assessment entities, makes it visually visible that they are all connected to each other and shows four different development phases.",
-    "home.modelExplained": "By hovering the mouse over one of the parts of the Assessment Web, the explanation of this part becomes visible.",
+	'nav.title': 'Assessment Web',
+	'nav.home': 'The Assessment Web',
+	'nav.scan': 'Assessment Web Scan',
+	'nav.result': 'Results',
+	'home.heroTitle':
+		'GETTING STARTED WITH THE ASSESSMENT WEB: WORKING ON THE QUALITY OF ASSESSMENT',
+	'home.heroSubtitle':
+		"On this website you can complete the Assessment Web Scan with your degree course team, the assessment or curriculum committee of your team or another relevant representation of the degree course. The Assessment Web Scan is based on the methodology of the 'Asssement Assessed' and is intended to analyze, improve and guarantee the quality of the assessment. The Assessment Web forms the theoretical foundation of the 'Assessment Assessed'.",
+	'home.assessmentQualityTitle': 'Jointly determine assessment quality',
+	'home.assessmentQualityText':
+		'With the help of the Assessment Web you can determine together as a team what the (sustainable) quality of assessment currently looks like in your degree course (position determination). With the help of this scan, you can also make choices together about your development towards (sustainable) assessment quality (ambition determination). In addition, you use the scan with your team to make a substantiated action plan to achieve your ambition.',
+	'home.assessmentExplainedTitle': 'The Assessment Web explained',
+	'home.assessmentExplainedText':
+		'The Assessment Web consists of five assessment entities; assessment (tasks), assessment programme, assessment policy, assessment organisation and assessment literacy. These five entities are connected with one another and also with the centre of the web. The shape of the web symbolizes the interconnectedness of the different assessment entities, makes it visually visible that they are all connected to each other and shows four different development phases.',
+	'home.modelExplained':
+		'By hovering the mouse over one of the parts of the Assessment Web, the explanation of this part becomes visible.',
 
-    "home.entities.title": "Entities, elements and development phases",
-    "home.entities.text.part1": "Three elements can be distinguished within each assessment entity. These are the elements quality criteria, design and quality assurance. The first element, quality criteria, concerns the question of what information is used to achieve and establish the quality of the assessment entities. The second element, design, focuses on the question of how the development and deployment of the five assessment entities are achieved. The third element, quality assurance, focuses on the way in which the quality assurance of the assessment entities is organised. Structural attention to these three elements ensures that work is done from the PDCA cycle.",
-    "home.entities.text.part2": "A team of a degree course can develop the quality of assessment. Four development phases are distinguished. In the web, these phases of development are symbolized as boxes.",
-    "home.entities.text.part3": "For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.",
+	'home.entities.title': 'Entities, elements and development phases',
+	'home.entities.text.part1':
+		'Three elements can be distinguished within each assessment entity. These are the elements quality criteria, design and quality assurance. The first element, quality criteria, concerns the question of what information is used to achieve and establish the quality of the assessment entities. The second element, design, focuses on the question of how the development and deployment of the five assessment entities are achieved. The third element, quality assurance, focuses on the way in which the quality assurance of the assessment entities is organised. Structural attention to these three elements ensures that work is done from the PDCA cycle.',
+	'home.entities.text.part2':
+		'A team of a degree course can develop the quality of assessment. Four development phases are distinguished. In the web, these phases of development are symbolized as boxes.',
+	'home.entities.text.part3':
+		'For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.',
 
-    "home.startscan.title": "Start the Scan",
-    "home.startscan.text": "If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', the scan will start. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
-    "home.startscan.button": "Start the Assessment Web Scan",
+	'home.startscan.title': 'Start the Scan',
+	'home.startscan.text':
+		"If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', the scan will start. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
+	'home.startscan.button': 'Start the Assessment Web Scan',
 
-    "developers.title": "Developers",
-    "developers.text": "The Assessment Web was developed by the research centre Contemporary Assessment and Decision Making. The research centre is part of the research team Teacher Qualities of the School of  Education of the HAN University of Applied Sciences. This Assessment-Web Scan was created in collaboration with B302 and with the help of a subsidy from the Dutch ‘Versnellingsplan Onderwijsinnovatie met ICT'.",
+	'developers.title': 'Developers',
+	'developers.text':
+		"The Assessment Web was developed by the research centre Contemporary Assessment and Decision Making. The research centre is part of the research team Teacher Qualities of the School of  Education of the HAN University of Applied Sciences. This Assessment-Web Scan was created in collaboration with B302 and with the help of a subsidy from the Dutch ‘Versnellingsplan Onderwijsinnovatie met ICT'.",
 
-    "colofon.title": "More information?",
-    "colofon.subtitle": "Then contact us!",
-    "colofon.tamara.role": "Lecturer",
-    "colofon.tamara.academy": "Academy of Education",
-    "colofon.linda.role": "Researcher",
-    "colofon.linda.academy": "Academy of Education",
-    "colofon.marjoleine.role": "Researcher",
-    "colofon.marjoleine.academy": "Academy of Education",
-    "colofon.edwin.role": "Researcher",
-    "colofon.edwin.academy": "Academy of Education",
-    "colofon.marion.role": "Educator/Trainer/Advisor",
-    "colofon.marion.academy": "Academy of Education",
+	'colofon.title': 'More information?',
+	'colofon.subtitle': 'Then contact us!',
+	'colofon.tamara.role': 'Lecturer',
+	'colofon.tamara.academy': 'Academy of Education',
+	'colofon.linda.role': 'Researcher',
+	'colofon.linda.academy': 'Academy of Education',
+	'colofon.marjoleine.role': 'Researcher',
+	'colofon.marjoleine.academy': 'Academy of Education',
+	'colofon.edwin.role': 'Researcher',
+	'colofon.edwin.academy': 'Academy of Education',
+	'colofon.marion.role': 'Educator/Trainer/Advisor',
+	'colofon.marion.academy': 'Academy of Education',
 
-    "position": "Position",
-    "position.description": "In which description do you recognize your degree course the most?",
-    "ambition": "Ambition",
-    "ambition.description": "Which description best suits your degree course in 2 years?",
-    "positionambitionempty": "Choose at least 1 option for position and ambition",
-    "explanation": "Explanation",
-    "scan.explain": "Explain your answer",
-    "scan.next": "Next question",
-    "scan.previous": "Previous question",
-    "scan.toresults": "To results",
-    "results.notfilledin": "Not filled in",
-    "results.positionexplanation": "Position explanation",
-    "results.ambitionexplanation": "Ambition explanation",
-    "results.downloadresults": "Download results",
-    "results.downloadadvice": "Download advice",
-    "results.functionnotavailable": "This feature is not available at this time",
-    "results.resetscan": "Reset scan",
+	position: 'Position',
+	'position.description':
+		'In which description do you recognize your degree course the most?',
+	ambition: 'Ambition',
+	'ambition.description':
+		'Which description best suits your degree course in 2 years?',
+	positionambitionempty: 'Choose at least 1 option for position and ambition',
+	explanation: 'Explanation',
+	'scan.explain': 'Explain your answer',
+	'scan.next': 'Next question',
+	'scan.previous': 'Previous question',
+	'scan.toresults': 'To results',
+	'results.notfilledin': 'Not filled in',
+	'results.positionexplanation': 'Position explanation',
+	'results.ambitionexplanation': 'Ambition explanation',
+	'results.downloadresults': 'Download results',
+	'results.downloadadvice': 'Download advice',
+	'results.functionnotavailable': 'This feature is not available at this time',
+	'results.resetscan': 'Reset scan',
 
-    "notfound.title": "404 Page not found",
-    "notfound.buttonText": "Back to home",
+	'notfound.title': '404 Page not found',
+	'notfound.buttonText': 'Back to home',
 }
 
 export const enEntities: string[] = [
-    "Assessment (tasks)",
-    "Assessment programme",
-    "Assessment policy",
-    "Assessment organisation",
-    "Assessment literacy",
-];
+	'Assessment (tasks)',
+	'Assessment programme',
+	'Assessment policy',
+	'Assessment organisation',
+	'Assessment literacy',
+]
 
 export const enElements: string[] = [
-    "Quality criteria",
-    "Design",
-    "Quality assurance",
-];
+	'Quality criteria',
+	'Design',
+	'Quality assurance',
+]
 
 export const enPhases: string[] = [
-    "Activity-oriented phase",
-    "Process-oriented phase",
-    "System-oriented phase",
-    "Chain-oriented phase"
-];
+	'Activity-oriented phase',
+	'Process-oriented phase',
+	'System-oriented phase',
+	'Chain-oriented phase',
+]
 
 export const enEntityElementPhaseDescriptions: string[][][] = [
-    [
-        [
-            "Teachers develop assessments as they see fit: they use their own quality criteria.",
-            "When designing assessments, teachers use quality criteria that are based on the experiences of experienced assessment developers.",
-            "Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights.",
-            "The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with the professional field."
-        ],
-        [
-            "Teachers often design the assessments on their own and shortly before administering the assessment.",
-            "Teachers develop assessments using an assessments cycle or design process. The assessments, which are developed during the teaching period, are made together with colleagues.",
-            "The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education.",
-            "The assessments are developed prior to the teaching period. These assessments match not only the study programme that the student follows within the degree  course, but also what is learned in the workplace."
-        ],
-        [
-            "The quality of the assessments is evaluated only when there is reason to do so.",
-            "The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments.",
-            "The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-            "Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field."
-        ]
-    ],
-    [
-        [
-            "Within the degree course, it has not been determined which quality criteria the assessment programme should meet.",
-            "In the degree course quality criteria have been established for the assessment programme.",
-            "The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights.",
-            "The quality criteria used in the design of the assessment programme are discussed with the professional field and are regularly adjusted based on current (scientific) insights."
-        ],
-        [
-            "Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes.",
-            "The intended learning outcomes form the basis for designing the assessment programme.",
-            "During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments.",
-            "The structure of the assessment programme is discussed and determined with the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate."
-        ],
-        [
-            "The quality of the assessment programme is evaluated only when there is reason to do so.",
-            "With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme.",
-            "The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-            "The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field."
-        ]
-    ],
-    [
-        [
-            "Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet.",
-            "Within the degree course, quality criteria have been established for the assessment (policy) plan.",
-            "The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights.",
-            "The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks."
-        ],
-        [
-            "The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education.",
-            "The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved.",
-            "Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly.",
-            "The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible."
-        ],
-        [
-            "The quality of the policy plan is only evaluated if there is reason to do so.",
-            "The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan.",
-            "The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree  course.",
-            "The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and the professional field."
-        ]
-    ],
-    [
-        [
-            "Within the degree course, it has not been determined which quality criteria the assessment organisation should meet.",
-            "Quality criteria have been established for the assessment organisation within the degree course.",
-            "The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights.",
-            "The quality criteria that are used when setting up the assessment organisation are discussed with the professional field."
-        ],
-        [
-            "The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet.",
-            "All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other.",
-            "The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other.",
-            "The design of the assessment organization is discussed with the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace."
-        ],
-        [
-            "The quality of the assessment organisation is only evaluated when there is reason to do so.",
-            "The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes.",
-            "The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-            "The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and the professional field."
-        ]
-    ],
-    [
-        [
-            "Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers.",
-            "The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers.",
-            "The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights.",
-            "The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks."
-        ],
-        [
-            "The responsibility for the development of assessment literacy lies with individual teachers.",
-            "For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated.",
-            "The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams.",
-            "Not only for the partners within the degree course, but also for the partners from the professional field, it has been determined which Assessment literacy they must have."
-        ],
-        [
-            "Teachers' assessment literacy is only evaluated when there is reason to do so.",
-            "Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy.",
-            "The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans.",
-            "The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and the professional field."
-        ]
-    ]
-];
+	[
+		[
+			'Teachers develop assessments as they see fit: they use their own quality criteria.',
+			'When designing assessments, teachers use quality criteria that are based on the experiences of experienced assessment developers.',
+			"Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights.",
+			'The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with the professional field.',
+		],
+		[
+			'Teachers often design the assessments on their own and shortly before administering the assessment.',
+			'Teachers develop assessments using an assessments cycle or design process. The assessments, which are developed during the teaching period, are made together with colleagues.',
+			'The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education.',
+			'The assessments are developed prior to the teaching period. These assessments match not only the study programme that the student follows within the degree  course, but also what is learned in the workplace.',
+		],
+		[
+			'The quality of the assessments is evaluated only when there is reason to do so.',
+			'The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments.',
+			'The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+			'Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field.',
+		],
+	],
+	[
+		[
+			'Within the degree course, it has not been determined which quality criteria the assessment programme should meet.',
+			'In the degree course quality criteria have been established for the assessment programme.',
+			'The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights.',
+			'The quality criteria used in the design of the assessment programme are discussed with the professional field and are regularly adjusted based on current (scientific) insights.',
+		],
+		[
+			'Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes.',
+			'The intended learning outcomes form the basis for designing the assessment programme.',
+			'During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments.',
+			'The structure of the assessment programme is discussed and determined with the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate.',
+		],
+		[
+			'The quality of the assessment programme is evaluated only when there is reason to do so.',
+			"With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme.",
+			'The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+			'The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field.',
+		],
+	],
+	[
+		[
+			'Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet.',
+			'Within the degree course, quality criteria have been established for the assessment (policy) plan.',
+			'The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights.',
+			'The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks.',
+		],
+		[
+			'The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education.',
+			'The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved.',
+			'Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly.',
+			'The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible.',
+		],
+		[
+			'The quality of the policy plan is only evaluated if there is reason to do so.',
+			'The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan.',
+			'The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree  course.',
+			'The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and the professional field.',
+		],
+	],
+	[
+		[
+			'Within the degree course, it has not been determined which quality criteria the assessment organisation should meet.',
+			'Quality criteria have been established for the assessment organisation within the degree course.',
+			'The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights.',
+			'The quality criteria that are used when setting up the assessment organisation are discussed with the professional field.',
+		],
+		[
+			"The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet.",
+			'All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other.',
+			'The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other.',
+			'The design of the assessment organization is discussed with the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace.',
+		],
+		[
+			'The quality of the assessment organisation is only evaluated when there is reason to do so.',
+			'The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes.',
+			'The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+			'The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and the professional field.',
+		],
+	],
+	[
+		[
+			'Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers.',
+			'The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers.',
+			'The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights.',
+			'The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks.',
+		],
+		[
+			'The responsibility for the development of assessment literacy lies with individual teachers.',
+			'For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated.',
+			'The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams.',
+			'Not only for the partners within the degree course, but also for the partners from the professional field, it has been determined which Assessment literacy they must have.',
+		],
+		[
+			"Teachers' assessment literacy is only evaluated when there is reason to do so.",
+			'Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy.',
+			'The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans.',
+			'The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and the professional field.',
+		],
+	],
+]
 
 export const enGenericEntityPhaseDescriptions: string[][] = [
-    [
-        "Teachers develop assessments as they see fit: they use their own quality criteria, often design the assessments on their own and shortly before administering the assessment. The quality of the assessments is evaluated only when there is reason to do so.",
-        "Teachers develop assessments using an assessments cycle or design process and use quality criteria that are based on the experiences of experienced assessment developers. The assessments, which are developed during the teaching period, are made together with colleagues. The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments.",
-        "Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights. The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education. The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-        "The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with the professional field. These assessments match not only the study programma that the student follows within the degree  course, but also what is learned in the workplace. Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field."
-    ],
-    [
-        "Within the degree course, it has not been determined which quality criteria the assessment programme should meet. Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes.",
-        "In the degree course quality criteria have been established for the assessment programme. The intended learning outcomes form the basis for designing the assessment programme. With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme.",
-        "The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights. During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments. The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-        "The quality criteria and the structure of the assessment programme are discussed with the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate. The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field."
-    ],
-    [
-        "Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet. The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education. The quality of the policy plan is only evaluated if there is reason to do so.",
-        "Within the degree course, quality criteria have been established for the assessment (policy) plan. The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved. The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan.",
-        "The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights. Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly. The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-        "The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks. The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible. The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and the professional field"
-    ],
-    [
-        "Within the degree course, it has not been determined which quality criteria the assessment organisation should meet. The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet. The quality of the assessment organisation is only evaluated when there is reason to do so.",
-        "Quality criteria have been established for the assessment organisation within the degree course. All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other. The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes.",
-        "The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights. The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other. The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
-        "The quality criteria and the assessment organisation's structure are discussed with the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace. The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and the professional field."
-    ],
-    [
-        "Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers. The responsibility for the development of assessment literacy lies with individual teachers. Teachers' assessment literacy is only evaluated when there is reason to do so.",
-        "The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers. For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated. Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy.",
-        "The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights. The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams. The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans.",
-        "The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks. Also for the partners from the professional field, it has been determined which Assessment literacy they must have. The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and the professional field."
-    ]
-];
+	[
+		'Teachers develop assessments as they see fit: they use their own quality criteria, often design the assessments on their own and shortly before administering the assessment. The quality of the assessments is evaluated only when there is reason to do so.',
+		'Teachers develop assessments using an assessments cycle or design process and use quality criteria that are based on the experiences of experienced assessment developers. The assessments, which are developed during the teaching period, are made together with colleagues. The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments.',
+		"Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights. The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education. The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.",
+		'The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with the professional field. These assessments match not only the study programma that the student follows within the degree  course, but also what is learned in the workplace. Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field.',
+	],
+	[
+		'Within the degree course, it has not been determined which quality criteria the assessment programme should meet. Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes.',
+		"In the degree course quality criteria have been established for the assessment programme. The intended learning outcomes form the basis for designing the assessment programme. With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme.",
+		'The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights. During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments. The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+		'The quality criteria and the structure of the assessment programme are discussed with the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate. The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and the professional field.',
+	],
+	[
+		'Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet. The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education. The quality of the policy plan is only evaluated if there is reason to do so.',
+		'Within the degree course, quality criteria have been established for the assessment (policy) plan. The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved. The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan.',
+		'The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights. Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly. The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+		'The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks. The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible. The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and the professional field',
+	],
+	[
+		"Within the degree course, it has not been determined which quality criteria the assessment organisation should meet. The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet. The quality of the assessment organisation is only evaluated when there is reason to do so.",
+		'Quality criteria have been established for the assessment organisation within the degree course. All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other. The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes.',
+		'The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights. The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other. The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course.',
+		"The quality criteria and the assessment organisation's structure are discussed with the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace. The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and the professional field.",
+	],
+	[
+		"Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers. The responsibility for the development of assessment literacy lies with individual teachers. Teachers' assessment literacy is only evaluated when there is reason to do so.",
+		'The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers. For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated. Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy.',
+		'The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights. The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams. The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans.',
+		'The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks. Also for the partners from the professional field, it has been determined which Assessment literacy they must have. The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and the professional field.',
+	],
+]
 
 // entity index: phase index = advice
 export const enEntityPhaseAdvice: string[][] = [
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsen/toetstaken overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsen en toetstaken. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsen/toetstaken overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsen en toetstaken. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van toetsen/toetstaken en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor toetsen en toetstaken kan gedacht worden aan criteria als validiteit, betrouwbaarheid, objectiviteit, discriminerend vermogen, realiseerbaarheid, efficiëntie en acceptatie (Joosten-ten Brinke & Draaijer, 2014 en Draaijer & Joosten-ten Brinke, 2014). 
@@ -241,8 +253,8 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Maak binnen het onderwijsteam afspraken over de stappen die doorlopen worden bij het ontwikkelen van toetsen. Hierdoor weten docenten welke stappen doorlopen moeten worden bij het maken van een toets en toetstaken. Als deze stappen ook daadwerkelijk door iedereen gezet worden, leidt dit tot eenduidigheid tussen toetsen en kan een basiskwaliteit van toetsen worden gerealiseerd.
         -	Maak binnen het onderwijsteam afspraken over planning bij het ontwikkelen van toetsen. Ontwikkel toetsmatrijzen voorafgaand aan het onderwijs, en ontwikkel concrete toetsvragen zodra dit mogelijk is. Hierdoor ontstaat er een logische samenhang tussen de toetsdoelen, het onderwijs en de toetsvragen, is er voldoende tijd om indien nodig invulling te geven aan het vier-ogenprincipe én zijn de toetsen tijdig beschikbaar voor de afname.
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van toetsen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van toetsen op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
-        
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk om met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat toetsen die volledig volgens de kwaliteitscriteria zijn ontwikkeld niet passend zijn bij de opleidingscontext of niet in lijn zijn met organisatorische en praktische afspraken en procedures binnen de opleiding.
@@ -262,7 +274,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Ontwikkel de toetsen altijd samen met collega’s tijdens of voorafgaand aan de uitvoering van het onderwijs. Zorg dat de toetsen op tijd beschikbaar zijn. Zorg ook dat er in de toetsontwikkeling tijd is om gezamenlijk toetsen te ontwikkelen (4-ogenprincipe) en om de toetsen tijdig aan te leveren bij het toetsbureau.
         -	Maak afspraken over de regelmaat waarop de kwaliteit van toetsen worden geëvalueerd door de docenten die de toetsen ontwikkelen en/of de toetscommissie. De toetsontwikkelaars hebben daardoor enig zicht op de kwaliteit van de toetsen en kunnen de toetsen aanpassen op basis van de evaluatieresultaten.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toets(tak)en. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan toetsen worden geconstrueerd zijn mogelijkerwijs verouderd. En het is mogelijk dat in deze fase het oordeel van studenten over de kwaliteit van toetsen niet wordt meegenomen bij afspraken over het realiseren van kwaliteit.
@@ -282,7 +294,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Ontwikkel de toetsen voorafgaand aan het onderwijs op basis de leeruitkomsten. Zorg dat er in de toetsontwikkeling ruimschoots tijd is om gezamenlijk toetsen én onderwijs te ontwikkelen, zodat er goed invulling gegeven kan worden aan de aansluiting tussen de leeruitkomsten (onderwijs) en toetsdoelen (toetsing) (constructive alignment).
         -	Evalueer de toetsen als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van de toetsevaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Dan is er voortdurend zicht op de kwaliteit van de toetsen binnen de opleiding: het is bekend welke toetsen van goede kwaliteit zijn, maar er is ook bekend waar de verbeterpunten zich bevinden. Zorg dat de toetscommissie en/of docenten die de toetsevaluatie uitvoeren weten aan welke criteria toetsen moeten voldoen, en evalueer de toetsen structureel. Bevraag studenten met regelmaat op de kwaliteit van toetsen (bijvoorbeeld na afname van de toets). De informatie die hieruit naar voren komt, kan dan worden gebruikt om de toetsen kwalitatief te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toets(tak)en overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -294,11 +306,11 @@ export const enEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van het toetsprogramma en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor het toetsprogramma kan gedacht worden aan criteria als eerlijkheid, authenticiteit, vergelijkbaarheid, haalbaarheid, transparantie, geschiktheid voor onderwijsdoelen en tijd & kosten (Baartman & Van der Vleuten, 2014).
@@ -320,7 +332,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Bespreek het toetsprogramma, en meer expliciet de samenhang tussen de toetsen en de dekking van de beoogde leerresultaten, binnen het onderwijsteam. Het benoemen van de relaties tussen de toetsen en de relaties van afzonderlijke toetsen met de beoogde leerresultaten zorgt ervoor dat toetsen worden gezien als onderdeel van een groter geheel. 
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van het toetsprogramma. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van het toetsprogramma op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat de toetsen in de opleiding niet logisch samenhangen, dat toetsvormen niet passend zijn bij de opleidingscontext of de beoogde leerresultaten of dat de beoogde leerresultaten niet worden gedekt.
@@ -340,7 +352,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Bekijk gezamenlijk in het opleidingsteam tijdens of na afronding van de ontwikkeling van het toetsprogramma of het programma uitvoerbaar is. Neem daarbij zowel de uitvoerbaarheid voor de studenten in ogenschouw (zodat bijvoorbeeld voorkomen kan worden dat studenten in één onderwijsperiode 6 portfolio’s moeten maken), als de uitvoerbaarheid voor de docenten en betrokkenen in het toetsproces (zodat bijvoorbeeld niet in 8 weken tijd 4 deeltoetsen afgenomen en nagekeken hoeven te worden).
         -	Maak afspraken over de regelmaat waarop de kwaliteit van toetsprogramma’s worden geëvalueerd door de actoren binnen die opleiding die verantwoordelijk zijn voor de dekking van de beoogde leerresultaten (bijvoorbeeld examencommissie, curriculumcommissie of toetscommissie). Er komt daardoor enig zicht op de kwaliteit van het toetsprogramma. Op basis van de resultaten van de evaluaties kunnen adviezen worden gegeven aan bijvoorbeeld toets- en onderwijsontwikkelaars om de samenhang tussen de toetsen of de wijze waarop de toetsen toeleiden naar de beoogde leerresultaten te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsprogramma. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan toetsen worden geconstrueerd zijn mogelijkerwijs verouderd. En het is mogelijk dat in deze fase het oordeel van studenten over het toetsprogramma niet wordt meegenomen bij afspraken over het realiseren van kwaliteit
@@ -360,7 +372,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Zorg bij het ontwerp van het toetsprogramma dat er afstemming plaats vindt over de meest geschikte toetsvormen en de functies van deze toetsen. Behalve over haalbaarheid van het programma, spreek je met elkaar ook over afstemming tussen onderwijs en toetsing. Denk gezamenlijk na over welke toetsvormen het meest geschikt zijn gezien de aan te tonen beroepsbekwaamheid en over de leerfunctie van toetsen (balans tussen de inzet van toetsen met een summatieve functie en het gebruik van formatieve evaluatie).
         -	Evalueer het horizontale en verticale toetsprogramma als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van deze evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Dan is er voortdurend zicht op de samenhang tussen de toetsen, de opbouw van het toetsprogramma en de dekking van de beoogde leerresultaten, zowel binnen onderwijseenheden (horizontaal) als voor de gehele opleiding (verticaal). Het is dan ook bekend waar eventuele verbeterpunten zich bevinden. Zorg dat de actoren die de evaluatie uitvoeren weten aan welke criteria een toetsprogramma moet voldoen, en evalueer het programma structureel. Bevraag studenten met regelmaat op de kwaliteit van en de samenhang tussen toetsen en onderwijs (bijvoorbeeld na afname van de toets), de informatie die hieruit naar voren komt, kan dan worden gebruikt om het toetsprogramma te verbeteren.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsprogramma overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -372,11 +384,11 @@ export const enEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteit-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van het toetsbeleid en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor het toetsbeleid kan gedacht worden aan criteria als transparantie, actualiteit, ondersteuning, facilitering, aansluiting en haalbaarheid (Bruijns & Kok, 2014). 
@@ -400,7 +412,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Bespreek binnen het onderwijsteam ‘de stip op de horizon’: welke doelen wil je als opleiding stellen om de kwaliteit van toetsing te handhaven en/of te optimaliseren. Neem de interventies om deze doelen te realiseren op in het toetsbeleidsplan. 
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van het toetsbeleid. Kijk hierbij zowel naar de kwaliteit van het toetsbeleidsplan als naar de realisatie van de gestelde doelen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van het toetsbeleid op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van het toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk om met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan ertoe leiden dat de toetsprocessen die in het beleid beschreven staan niet bekend zijn bij de medewerkers, niet actueel zijn of niet uitvoerbaar zijn.
@@ -420,7 +432,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Toets de interventies en processen uit het toetsbeleid met regelmaat op uitvoerbaarheid en bruikbaarheid.  Laat deze analyses niet alleen plaatsvinden na incidenten, voer ze juist met regelmaat uit. Hierdoor is er ten minste enig zicht op de kwaliteit van de uitvoering van de verschillende interventies en processen die in het toetsbeleid beschreven staan.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van het toetsbeleid bekeken wordt door de actoren binnen de opleiding die (mede-)verantwoordelijk zijn voor de uitvoering van het beleid (bijvoorbeeld management, curriculumcommissie of toetscommissie). Plan niet alleen een evaluatie van het toetsbeleid wanneer de termijn van het beleidsplan verstreken is. Hierdoor komt meer zicht op de kwaliteit van het toetsbeleid. Op basis van de resultaten van de evaluaties kan het toetsbeleid worden bijgesteld. Het met regelmaat evalueren van het toetsbeleid verkleint de mogelijkheid dat medewerkers in de praktijk afwijken van de beschreven en afgesproken procedures en dat kan een positief effect hebben op de kwaliteit van toetsing.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbeleid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan het toetsbeleid wordt opgesteld zijn mogelijkerwijs verouderd. Het is ook mogelijk dat het oordeel van gebruikers van het toetsbeleid (medewerkers die de processen moeten uitvoeren) en studenten (die onderdeel zijn van de processen) niet wordt meegenomen bij afspraken over het realiseren van kwaliteit.
@@ -440,7 +452,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Gebruik nieuwe (wetenschappelijke) inzichten bij het uitwerken van de praktische consequenties van de interventies en processen. Als de praktische consequenties van de interventies evidence-informed zijn, wordt hierdoor gebruik gemaakt van nieuwe inzichten, die vervolgens worden vertaald naar/passend gemaakt worden voor de eigen opleidingscontext.
         -	Evalueer het toetsbeleid als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van deze evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Er is dan voortdurend zicht op de kwaliteit van het toetsbeleid en het is bekend waar eventuele verbeterpunten zich bevinden (bijvoorbeeld procedures die niet volgens afspraak uitgevoerd worden of onbekend zijn bij medewerkers). Zorgt dat de actoren die de evaluatie uitvoeren weten aan welke criteria een toetsbeleid moet voldoen, en evalueer het programma structureel. Doordat bekend is waar de knelpunten zitten in de uitvoering van het beleid, is ook bekend waar zich mogelijke risico’s voordoen voor de kwaliteit van de toetsing.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbeleid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -452,11 +464,11 @@ export const enEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van de toetsorganisatie en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor de toetsorganisatie kan gedacht worden aan criteria als doelgerichtheid, afstemming, kwaliteitsnormen en afdekken van risico’s (Van Deursen & Van Zijl, 2015).
@@ -478,7 +490,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Maak binnen het onderwijsteam concrete afspraken over de wijze waarop verschillende toetsprocessen (bijvoorbeeld ontwerp van toetsprogramma en ontwerp toetsbeleid) worden ingericht en uitgevoerd. Hierdoor kan een basiskwaliteit van de afzonderlijke processen worden bereikt.
         -	Maak binnen het onderwijsteam afspraken over de evaluatie van de toetsorganisatie. Kijk hierbij zowel naar de kwaliteit van de toetsorganisatie als geheel als naar de uitvoering van de toetsprocessen. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van de toetsorganisatie op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de  vastgestelde kwaliteitscriteria aansluiten bij de visie op toetsing van de opleiding. Dit kan ertoe leiden dat er kwaliteitscriteria zijn geformuleerd die niet uitvoerbaar zijn of die niet passend zijn binnen de context van de opleiding.
@@ -498,7 +510,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Breng de wijze waarop de verschillende toetsprocessen binnen de opleiding op elkaar aansluiten (bijvoorbeeld ontwerp van toetsen in relatie tot het toetsprogramma) in kaart. Zorg er hiermee voor dat voor alle actoren binnen de opleiding duidelijk is hoe de verschillende toetsprocessen zich tot elkaar verhouden. Hierdoor zijn de activiteiten die binnen en tussen deze processen worden uitgevoerd in lijn met elkaar. Er is hiermee niet alleen sprake van een basiskwaliteit van afzonderlijke processen, maar van de gehele processtructuur.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van de toetsorganisatie geëvalueerd door het management, beleidsmedewerkers of andere relevante actoren. Dan is er in de opleiding enig zicht op de mate waarin alle actoren binnen de toetsingsprocessen zich bewust zijn van hun eigen en elkaars rollen, taken en verantwoordelijkheden. Als uit de evaluatie blijkt dat iemand de rollen, taken en/of verantwoordelijkheden niet goed oppakt, kan deze collega hierover aangesproken worden door zijn leidinggevende. Doordat iedereen weet ‘wie waarvan is’ weet men elkaar ook te vinden met vragen over specifieke toetsingsprocessen.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsorganisatie. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De kwaliteitscriteria aan de hand waarvan de toetsorganisatie wordt ingericht zijn mogelijkerwijs verouderd. Het is mogelijk dat de ervaringen van medewerkers en van studenten over de kwaliteit van toetsorganisatie niet wordt meegenomen bij afspraken over het realiseren van voldoende kwaliteit.
@@ -518,7 +530,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Bespreek de wijze waarop de verschillende toetsprocessen binnen de opleiding op elkaar aansluiten (bijvoorbeeld ontwerp van toetsbekwaamheid in relatie tot toetsvormen in het toetsprogramma) op team- of opleidingsniveau. Bespreek de activiteiten binnen en tussen de toetsprocessen met elkaar en stem waar nodig op elkaar af. Het is hierdoor voor alle betrokken precies duidelijk welke processen mogelijkerwijs een invloed hebben op elkaar. Bijvoorbeeld: als een docent een toetsvorm wil wijzigen, weet hij wie verantwoordelijk is voor de totstandkoming van het toetsprogramma, voor het toetsbeleid, en voor de toetsbekwaamheid, en checkt hij of de alternatieve toetsvorm passend is binnen de visie op toetsen (beleid) en de vertaling hiervan in het toetsprogramma, en of de benodigde toetsbekwaamheid om invulling te kunnen geven aan deze toetsvorm aanwezig is.
         -	Evalueer de toetsorganisatie als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten hiervan met collega’s, studenten of andere relevante partners binnen de opleiding. Er is dan voortdurend zicht op de kwaliteit van de toetsorganisatie en meer specifiek op de mate waarin alle actoren van zichzelf en anderen weten waar hun taken, rollen en verantwoordelijkheden binnen de opleiding liggen ten aanzien van de toetsprocessen. Bevraag zowel medewerkers als studenten met regelmaat, waardoor er eveneens zicht is op de effectiviteit en efficiëntie van de verschillende toetsprocessen. Het is dan bekend wat er goed loopt, maar ook  waar de verbeterpunten zich bevinden. Zorg dat de medewerkers die de evaluatie uitvoeren weten aan welke criteria de toetsorganisatie moet voldoen, en evalueer deze structureel. Het is goed als collega’s elkaar, op grond van evaluaties, maar ook in de dagelijkse processen, aan spreken op de wijze waarop zij invulling geven aan hun taken, rollen en verantwoordelijkheden.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsorganisatie overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -530,11 +542,11 @@ export const enEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ],
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 
-    [
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
+	[
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de activiteiten-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de activiteiten-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de proces-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat er nog geen kwaliteitscriteria zijn geformuleerd. Of dat hierover verschillende beelden ontstaan bij de collega’s in de opleiding. Deze kwaliteitscriteria – en met name een gedeelde visie hierop – zijn echter essentieel omdat ze de basis zijn voor het ontwerpen van de toetsbekwaamheid en het evalueren van de kwaliteit hiervan. Bij kwaliteitscriteria voor toetsbekwaamheid kan gedacht worden aan criteria als transparantie (is duidelijk wie welke bekwaamheid moet hebben, wordt dit voor de hele opleiding vastgesteld en wordt professionalisering hierop afgestemd), actualiteit (bijvoorbeeld aansluiting bij landelijke ontwikkelingen en hogeschoolbrede kaders), ondersteuning, facilitering en haalbaarheid (o.a. Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015)
@@ -556,7 +568,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Zorg er voor dat actoren met hun leidinggevende afspraken kunnen maken over professionalisering op het gebied van toetsing. 
         -	Maak binnen het opleidingsteam afspraken over de evaluatie van de toetsbekwaamheid. Gebruik de kwaliteitscriteria die zijn vastgesteld als basis om de evaluatie uit te voeren. Zet de evaluatie van de toetsbekwaamheid op de agenda van de docentoverleggen, zodat met regelmaat de bevindingen uit de evaluaties gedeeld worden binnen het team.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de proces-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de proces-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de systeem-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor deze criteria is veelal gebaseerd op ervaringen van relevante actoren in de opleiding. Het is echter niet mogelijk met zekerheid te zeggen dat de vastgestelde kwaliteitscriteria  aansluiten bij de visie op toetsing van de opleiding of op organisatorische randvoorwaarden binnen de opleiding. Dit kan er toe leiden dat de toetsbekwaamheid van docenten wel voldoet aan de gestelde kwaliteitscriteria maar dat zij toch niet beschikken over bepaalde bekwaamheden die zij nodig hebben om hun taak in toetsing binnen de visie van de opleiding uit te voeren.
@@ -576,7 +588,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Zorg dat de leidinggevende, in samenspraak met actoren, professionaliseringsdoelen met betrekking tot toetsing, minimal voor de korte termijn, formuleert. Als actoren doelen hebben geformuleerd die zij door inzet van professionaliseringsactiviteiten op korte termijn kunnen behalen, dan kunnen bepaalde toetsactiviteiten (afhankelijk van het gestelde doel) beter worden uitgevoerd.
         -	Maak afspraken over de regelmaat waarin de kwaliteit van de toetsbekwaamheid geëvalueerd en besproken wordt met verschillende actoren die betrokken zijn bij toetsing. Dan heeft de opleiding enig zicht op de kwaliteit van de toetsbekwaamheid en kan op basis van deze evaluaties acties in worden gezet om de toetsbekwaamheid van actoren te verbeteren. De toetsbekwaamheid wordt bijvoorbeeld één keer per jaar besproken in het functioneringsgesprek- of bij beoordelingsgesprekken. De uitkomst van deze gesprekken kan dan worden gebruikt om individuele professionaliseringsactiviteiten te plannen.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de systeem-georiënteerde fase. Dat betekent concreet dat ten minste één van onderstaande elementen, maar mogelijk alle 3 deze elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de systeem-georiënteerde fase en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de toetsbekwaamheid. Afsluitend worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de keten-georiënteerde fase.
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik gemaakt wordt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding. De professionalisering die docenten/examinatoren volgen over toetsing is mogelijkerwijs verouderd en sluit onvoldoende aan bij de huidige situatie. Het is niet bekend welke examinatoren wel of niet de bekwaamheidseisen beheersen. Het oordeel van studenten maar ook van docenten zelf wordt niet altijd meegenomen als het gaat om het verbeteren van de toetsbekwaamheid van de examinatoren.
@@ -596,7 +608,7 @@ export const enEntityPhaseAdvice: string[][] = [
         -	Formuleer bij de actoren passende middellange termijndoelen voor professionalisering die een logisch gevolg zijn van de resultaten van de kwaliteitscyclus. Er wordt dan doelgericht gewerkt aan middellange termijndoelen betreffende het verbeteren van de toetsbekwaamheid van actoren. De professionaliseringsactiviteiten dragen dan ook bij aan het verbeteren van de punten die tijdens het doorlopen van de PDCA-cyclus naar voren zijn gekomen.
         -	Evalueer toetsbekwaamheid als onderdeel van een kwaliteitscyclus (PDCA) structureel en bespreek de opbrengsten van de evaluaties met collega’s, studenten of andere relevante partners binnen de opleiding. Laat de toetskwaliteit jaarlijks op collectief niveau vaststellen door onafhankelijke toetsdeskundigen, waarbij het resultaat een nauwkeurig overzicht is van de mate waarin toetsbekwaamheid op organisatieniveau is geborgd. Laat individuele actoren de toetsbekwaamheid vaststellen door 360-graden feedback uit te zetten, de uitkomst te bespreken en op basis hiervan persoonlijke leerdoelen te formuleren. Maak een meerjaren scholings- en professionaliseringsplan.`,
 
-        `Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
+		`Jullie opleiding bevindt zich voor de toetsentiteit toetsbekwaamheid overall in de keten-georiënteerde fase. Dat betekent concreet dat alle onderstaande elementen zich qua ontwikkeling in deze fase bevinden. Hieronder wordt per element kort geschetst wat kenmerkend is voor dit element in de keten-georiënteerde fase. 
 
         Kwaliteitscriteria
         Kenmerkend voor deze ontwikkelingsfase is dat gebruik wordt gemaakt van kwaliteitscriteria die op opleidingsniveau zijn vastgesteld. De keuze voor de criteria is gebaseerd op (wetenschappelijke) literatuur. De keuze is eveneens getoetst aan ervaringen van relevante actoren in de opleiding, ketenpartners, collega-instellingen en/of externe deskundigen. Ketenpartners en/of externe deskundigen worden hierbij betrokken.
@@ -608,23 +620,23 @@ export const enEntityPhaseAdvice: string[][] = [
         In de keten-georiënteerde fase vindt de evaluatie structureel en systematisch plaats als onderdeel van de kwaliteitscyclus van toetsing. Het resultaat van de evaluatie wordt besproken met alle relevante actoren in de opleiding en met ketenpartners en/of externe deskundigen, en aanpassingen worden doorgevoerd.
         
         Ontwikkeling
-        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`
-    ]
+        Jullie opleiding bevindt zich op dit moment voor deze entiteit in de keten-georiënteerde fase. Het is uiteraard van belang om aandacht te blijven besteden aan de kwaliteit van toetsing. Wellicht bevindt deze entiteit zich namelijk al in de keten- georiënteerde fase, maar geldt dat (nog) niet voor een of meerdere andere toetsentiteiten. Jullie kunnen er dan voor kiezen om daar nu meer prioriteit aan te geven. Blijf je er samen van bewust dat toetsentiteiten met elkaar samenhangen, zoals het toetsweb laat zien. Keuzes in een ander toetsentiteit kunnen dus ook van invloed zijn op deze toetsentiteit.`,
+	],
 ]
 
 export const enGenericPhaseDescriptions: string[] = [
-    "Individual employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out parts of assessment activities on an ad hoc basis, whereby there is no attention to the interrelationship between these activities.",
-    "Relevant employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out interrelated process-oriented assessment activities based on short-term policy.",
-    "All relevant staff and partners in the degree course (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) jointly carry out assessment activities from a medium-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course.",
-    "All relevant employees and partners within the degree course and in the chain (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff, professional field and external experts) jointly carry out assessment activities from a long-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course and the chain."
-];
+	'Individual employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out parts of assessment activities on an ad hoc basis, whereby there is no attention to the interrelationship between these activities.',
+	'Relevant employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out interrelated process-oriented assessment activities based on short-term policy.',
+	'All relevant staff and partners in the degree course (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) jointly carry out assessment activities from a medium-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course.',
+	'All relevant employees and partners within the degree course and in the chain (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff, professional field and external experts) jointly carry out assessment activities from a long-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course and the chain.',
+]
 
 export const enGenericEntityDescriptions: string[] = [
-    "Assessments are (learning) activities/measurement instruments used to establish whether the intended learning outcomes have been achieved (Joosten-ten Brinke & Draaier, 2015). The quality of the assessment as a whole also includes the design of the assessment models and instructions for students and assessors. The assessment tasks are the items, questions or assignments within an assessment whereby students are challenged to demonstrate their knowledge and skills (Draaier & Joosten-ten Brinke, 2015).",
-    "The assessment programme is an intentional and substantiated combination of assessment types that match the objectives and structure of a degree course (study programme) (Baartman & Van der Vleuten, 2015). It is about the apparent relationship between assessment and the assurance of the different functions of assessment.",
-    "Assessment policy refers to the entire range of substantive and procedural agreements concerning assessment (Bruijns & Kok, 2015). Several levels can be distinguished within the integral assessment policy, including the policy at the institutional level and the degree course level.",
-    "The quality of the whole assessment organisation is key to assuring the quality of assessment. The assessment organization refers to how teachers, boards of examiners, assessment committees, management, and support staff work together purposefully to achieve the desired assessment quality for all assessment entities (Van Deursen & Van Zijl, 2015). It also concerns establishing the roles, tasks and responsibilities of the actors/parties involved in assessment, cooperation based on defined roles and the logistical organisation of assessment.",
-    "In the assessment web, ‘assessment literacy’ refers to the expertise actors within the study programme should have to achieve quality across all assessment entities (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifically for the entity ’assessment’, the assessment literacy of teachers, boards of examiners and other involved parties is of utmost importance. Every teacher must be able to interpret assessment information and use it to establish how a student is doing and how this information can further contribute to the student’s learning (Straetmans, 2006)."
-];
+	'Assessments are (learning) activities/measurement instruments used to establish whether the intended learning outcomes have been achieved (Joosten-ten Brinke & Draaier, 2015). The quality of the assessment as a whole also includes the design of the assessment models and instructions for students and assessors. The assessment tasks are the items, questions or assignments within an assessment whereby students are challenged to demonstrate their knowledge and skills (Draaier & Joosten-ten Brinke, 2015).',
+	'The assessment programme is an intentional and substantiated combination of assessment types that match the objectives and structure of a degree course (study programme) (Baartman & Van der Vleuten, 2015). It is about the apparent relationship between assessment and the assurance of the different functions of assessment.',
+	'Assessment policy refers to the entire range of substantive and procedural agreements concerning assessment (Bruijns & Kok, 2015). Several levels can be distinguished within the integral assessment policy, including the policy at the institutional level and the degree course level.',
+	'The quality of the whole assessment organisation is key to assuring the quality of assessment. The assessment organization refers to how teachers, boards of examiners, assessment committees, management, and support staff work together purposefully to achieve the desired assessment quality for all assessment entities (Van Deursen & Van Zijl, 2015). It also concerns establishing the roles, tasks and responsibilities of the actors/parties involved in assessment, cooperation based on defined roles and the logistical organisation of assessment.',
+	'In the assessment web, ‘assessment literacy’ refers to the expertise actors within the study programme should have to achieve quality across all assessment entities (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifically for the entity ’assessment’, the assessment literacy of teachers, boards of examiners and other involved parties is of utmost importance. Every teacher must be able to interpret assessment information and use it to establish how a student is doing and how this information can further contribute to the student’s learning (Straetmans, 2006).',
+]
 
-export default en;
+export default en

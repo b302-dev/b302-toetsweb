@@ -1,41 +1,40 @@
 .navbar {
-  font-size: 0.8rem;
+	font-size: 0.8rem;
 
-  background: $color-white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  -webkit-box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.16);
+	background: $color-white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	-webkit-box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.16);
 
-  &__content {
-    min-height: 4rem;
-    display: flex;
-    
-    align-items: center;
+	&__content {
+		min-height: 4rem;
+		display: flex;
 
-    margin-left: 1rem;
-    margin-right: 1rem;
-    justify-content: space-between;
+		align-items: center;
 
-    a {
-      display: flex;
-      flex-direction: column;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		justify-content: space-between;
 
-      justify-content: center;
-    }
+		a {
+			display: flex;
+			flex-direction: column;
 
-    @media (max-width: 768px) {
-      flex-direction: column;
-      min-height: 8rem;
-    }
+			justify-content: center;
+		}
 
-    &--right {
-      display: flex;
-      column-gap: 3rem;
-    }
-  }
+		@media (max-width: 768px) {
+			flex-direction: column;
+			min-height: 8rem;
+		}
+
+		&--right {
+			display: flex;
+			column-gap: 3rem;
+		}
+	}
 }
-  
