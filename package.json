@@ -31,6 +31,7 @@
     "@types/pdfkit": "^0.13.4",
     "@types/react-beautiful-dnd": "^13.1.2",
     "@types/react-dom": "^18.0.8",
+    "csscomb": "^4.3.0",
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^3.2.5"
   },
@@ -40,7 +41,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier ./src && echo '\nuse: npm run format:fix to fix formatting\n'",
-    "format:fix": "prettier --write ./src"
+    "format:fix": "csscomb src/styles/ && prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [
