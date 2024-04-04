@@ -58,7 +58,7 @@ const NavBar = () => {
                             language === Language.NL ?
                                 <img src={flagEnglish} alt={"EN"} height={33}/> :
                                 <img src={flagDutch} alt={"NL"} height={33}/>
-                        }`
+                        }
                     </button>
                 </div>
             </div>
