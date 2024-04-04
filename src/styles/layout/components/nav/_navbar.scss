@@ -13,10 +13,19 @@
   &__content {
     min-height: 4rem;
     display: flex;
+    
     align-items: center;
+
     margin-left: 1rem;
     margin-right: 1rem;
     justify-content: space-between;
+
+    a {
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+    }
 
     @media (max-width: 768px) {
       flex-direction: column;
