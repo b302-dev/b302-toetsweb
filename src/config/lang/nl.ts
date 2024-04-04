@@ -18,7 +18,7 @@ export const nl: Localization = {
     "home.entities.text.part2": "Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.",
     "home.entities.text.part3": "Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.",
 
-    "home.startscan.title": "Start the Scan",
+    "home.startscan.title": "Start de Scan",
     "home.startscan.text": "Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, start de scan. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.",
     "home.startscan.button": "Start de Toetsweb-Scan",
 
