@@ -52,11 +52,11 @@ const Result = () => {
     }
 
     const downloadAdviceBooklet = () => {
-        // fetch('advice-booklet.pdf').then(response => {
-        //     response.blob().then(blob => {
-        //         downloadFile(blob, 'advice-booklet.pdf');
-        //     });
-        // });
+        const resultData = getResultData(AnswerTypes.POSITION_RESULT, getResult);
+        
+        for(let i = 0; i < resultData.length; i++) {
+            console.log(entities[i].name, resultData[i]);
+        }
     }
 
     const resetScan = () => {
@@ -183,12 +183,9 @@ const Result = () => {
                 </div>
 
                 <div className='result__download-button'>
-                    <Button onClick={downloadAdviceBooklet} backgroundColor={entities[0].color} disabled>
+                    <Button onClick={downloadAdviceBooklet} backgroundColor={entities[0].color}>
                         <div data-tooltip-id={'downloadAdviceBooklet'}>
                             <span><p>{getTranslation("results.downloadadvice")}</p></span>
-                            <Tooltip id={"downloadAdviceBooklet"} place="top">
-                                <span>{getTranslation("results.functionnotavailable")}</span>
-                            </Tooltip>
                         </div>
                     </Button>
                 </div>

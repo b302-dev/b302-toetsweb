@@ -2,6 +2,7 @@ import nl, {
     nlElements,
     nlEntities,
     nlEntityElementPhaseDescriptions,
+    nlEntityPhaseAdvice,
     nlGenericEntityDescriptions,
     nlGenericEntityPhaseDescriptions,
     nlGenericPhaseDescriptions,
@@ -11,6 +12,7 @@ import en, {
     enElements,
     enEntities,
     enEntityElementPhaseDescriptions,
+    enEntityPhaseAdvice,
     enGenericEntityDescriptions,
     enGenericEntityPhaseDescriptions,
     enGenericPhaseDescriptions,
@@ -55,6 +57,10 @@ export const getPhases = (language: Language): string[] => {
 
 export const getEntityElementPhaseDescriptions = (language: Language): string[][][] => {
     return languageSwitch(language, enEntityElementPhaseDescriptions, nlEntityElementPhaseDescriptions);
+}
+
+export const getEntityPhaseAdvice = (language: Language): string[][] => {
+    return languageSwitch(language, enEntityPhaseAdvice, nlEntityPhaseAdvice);
 }
 
 export const getGenericEntityPhaseDescriptions = (language: Language): string[][] => {
