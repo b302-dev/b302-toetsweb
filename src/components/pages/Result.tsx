@@ -65,6 +65,8 @@ const Result = () => {
 
 		const resultData = getResultData(AnswerTypes.POSITION_RESULT, getResult)
 
+		let currentY = 30
+
 		for (let i = 0; i < resultData.length; i++) {
 			const entityIndex = i
 			const phaseIndex = resultData[i]
@@ -81,15 +83,21 @@ const Result = () => {
 			doc.setFontSize(10)
 			doc.setFont('helvetica', 'normal')
 
-			const cleanedText = advice
-				.split('\n')
-				.map((e) => e.trim())
-				.join('\n')
-			const textLines = doc.splitTextToSize(cleanedText, 170)
+			const cleanedText = advice.split('\n').map((e) => e.trim())
 
-			doc.text(textLines, 20, 30)
+			for (const line of cleanedText) {
+				const textLines = doc.splitTextToSize(line, 170)
+				doc.text(textLines, 20, currentY)
+				currentY = currentY + doc.getTextDimensions(textLines).h
+
+				if (currentY > doc.internal.pageSize.height - 50) {
+					currentY = 30
+					doc.addPage()
+				}
+			}
 
 			if (i < resultData.length - 1) {
+				currentY = 30
 				doc.addPage()
 			}
 		}
