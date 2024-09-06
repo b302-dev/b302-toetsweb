@@ -178,7 +178,7 @@ const Result = () => {
 				getResult(answerType, entityIndex, 2),
 			]
 
-			return getPhaseOfSelectId(subResults.join('')) + 1
+			return getPhaseOfSelectId(subResults.join(''))
 		})
 	}
 
