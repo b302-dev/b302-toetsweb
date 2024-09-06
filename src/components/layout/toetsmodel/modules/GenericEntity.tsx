@@ -14,7 +14,7 @@ const GenericEntity: FunctionComponent<PhaseBarProps> = ({
 	d,
 }) => {
 	const phaseIndex = phase.type.valueOf()
-	const isResult = phaseIndex === result - 1 || result === -1
+	const isResult = phaseIndex === result || result === -1
 
 	const style = () => {
 		const color = isResult ? phase.color : phase.fallbackColor

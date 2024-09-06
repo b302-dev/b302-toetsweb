@@ -15,11 +15,13 @@ const AssignmentModel: FunctionComponent<Props> = ({ results }) => {
 	const { SideText, CenterText } = AssignmentModelModules()
 	const { scanData: entities, genericPhases } = useContext(ScanDataContext)
 
-	const tasksResult = results ? results[0] : -1
-	const programmeResult = results ? results[1] : -1
-	const policyResult = results ? results[2] : -1
-	const organisationResult = results ? results[3] : -1
-	const literacyResult = results ? results[4] : -1
+	const getResult = (index: number) => results ? results[index] : -1
+
+	const tasksResult = getResult(0)
+	const programmeResult = getResult(1)
+	const policyResult = getResult(2)
+	const organisationResult = getResult(3)
+	const literacyResult = getResult(4)
 
 	return (
 		<div className={'toetsmodel-component'}>
