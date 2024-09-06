@@ -4,20 +4,15 @@
 	padding-top: 7.5rem;
 
 	&__tabs {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 		&-item {
 			font-size: 1.6rem;
 			font-weight: 600;
-
-			flex: 1;
-
 			padding: 1rem;
-
 			text-align: center;
-
 			border-radius: 0.5rem 0.5rem 0 0;
 		}
 	}
