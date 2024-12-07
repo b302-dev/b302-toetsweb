@@ -26,7 +26,7 @@ const en: Localization = {
 	'home.entities.text.part3':
 		'For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.',
 	'home.entities.text.readmore':
-		'Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ',
+		'Are you looking for more explanation about the Assessment Web, the assessment entities, elements and development phases? ',
 	'home.entities.text.link':
 		'Then visit this website.',
 

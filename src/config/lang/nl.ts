@@ -26,7 +26,7 @@ export const nl: Localization = {
 	'home.entities.text.part3':
 		'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
 	'home.entities.text.readmore':
-		'Are you looking for more explanation about the Assessment Web, the assessment entities, elements and development phases? ',
+		'Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ',
 	'home.entities.text.link':
 		'Bezoek dan deze website.',
 
