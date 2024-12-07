@@ -185,33 +185,11 @@ const Result = () => {
 	return (
 		<Page className="result">
 			<header className={'section'}>
-				<h1>Resultaten</h1>
-				<div>
-					<p>Op deze pagina zie je de resultaten van de door jullie ingevulde Toetsweb-Scan. Je ziet in de
-						linkerkolom de huidige positie van elke toetsentiteit en in de rechterkolom jullie ambitie per
-						toetsentiteit. De resultaten zijn zowel verbeeld in het toetsweb als beschreven in de tekst
-						daaronder. In de tekst voor de positie staat beschreven in welke fase de toetsentiteit zich in
-						de huidige situatie bevindt en in de tekst voor de ambitie waar jullie ambitie ligt. Verder vind
-						je daar jullie keuzes, dus de stellingen waar jullie voor gekozen hebben, en eventueel de
-						toelichting die jullie gegeven hebben.</p>
-					<p>Het resultaat geeft weer in welke fase jullie opleiding zich over het geheel genomen bevindt voor
-						de betreffende toetsentiteit. Dat betekent concreet dat ten minste één van de elementen
-						(kwaliteitscriteria, ontwerp of borging), maar mogelijk alle drie deze elementen zich qua
-						ontwikkeling in deze fase bevinden. Datzelfde geldt voor de ambitie. De fase geeft aan waar
-						jullie ambitie over het geheel genomen ligt voor de betreffende toetsentiteit. Concreet betekent
-						dat jullie ambitie voor een of meerdere elementen zich in die fase bevindt.</p>
-					<p>Onderaan de pagina heb je drie mogelijkheden. Je kunt de resultaten downloaden voor verder
-						gebruik. Deze download bevat dezelfde afbeeldingen en tekst als deze pagina. Je kunt ook een
-						advies downloaden. In het advies wordt per element kort geschetst wat kenmerkend is voor dit
-						element in de fase waarin jullie opleiding zich bevindt en welke risico’s dit potentieel met
-						zich meebrengt voor de kwaliteit van de betreffende toetsentiteit. Ook worden enkele concrete
-						acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de
-						volgende fase. De derde mogelijkheid is het resetten van de resultaten. De resultaten worden
-						namelijk onthouden op het apparaat waarop de scan is ingevuld. Wil je een nieuwe scan invullen,
-						reset dan eerst de resultaten. Zorg wel dat je, indien gewenst, eerst de resultaten en het
-						advies downloadt.</p>
-					<p>Veel succes én plezier met het werken aan de kwaliteit van toetsing! </p>
-				</div>
+				<h1>{getTranslation('nav.result')}</h1>
+				<p>{getTranslation('results.explanation.part1')}</p>
+				<p>{getTranslation('results.explanation.part2')}</p>
+				<p>{getTranslation('results.explanation.part3')}</p>
+				<p>{getTranslation('results.explanation.part4')}</p>
 			</header>
 
 			<main>
@@ -284,7 +262,7 @@ const Result = () => {
 								{entity.elements.map((element, elementIndex) => {
 									return (
 										<div key={element.name}>
-											<h2 style={{ color: color }}>{element.name}</h2>
+											<h2 style={{color: color}}>{element.name}</h2>
 											<p>
 												{
 													element.phases[

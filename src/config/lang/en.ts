@@ -64,6 +64,11 @@ const en: Localization = {
 	'scan.next': 'Next question',
 	'scan.previous': 'Previous question',
 	'scan.toresults': 'To results',
+
+	'results.explanation.part1': 'On this page you can see the results of the Assessment Web Scan you have completed. In the left column you can see the current position of each assessment entity and in the right column your ambition per assessment entity. The results are depicted both in the assessment web and described in the text below. The text for the position describes the phase in which the assessment entity is in the current situation and the text for the ambition where your ambition lies. You will also find your choices there, so the statements you have chosen, and possibly the explanation you have given.',
+	'results.explanation.part2': 'The result indicates the phase in which your degree programme is generally for the assessment entity in question. In concrete terms, this means that at least one of the elements (quality criteria, design or quality assurance), but possibly all three of these elements, are in this phase of development. The same applies to the ambition. The phase indicates where your ambition lies overall for the relevant assessment entity. In concrete terms, your ambition for one or more elements is in that phase.',
+	'results.explanation.part3': 'At the bottom of the page, you have three options. You can download the results for further use. This download contains the same images and text as this page. You can also download an advice. For each element, the advice briefly outlines what characterises this element in the phase in which your degree programme is and what risks this potentially entails for the quality of the assessment entity in question. It also identifies a number of concrete actions that may be helpful in taking a development step towards the next phase. The third option is to reset the results. The results are remembered on the device on which the scan is completed. If you want to complete a new scan, reset the results first. Make sure that, if desired, you first download the results and the advice.',
+	'results.explanation.part4': 'Good luck and have fun working on the quality of assessment!',
 	'results.notfilledin': 'Not filled in',
 	'results.positionexplanation': 'Position explanation',
 	'results.ambitionexplanation': 'Ambition explanation',
