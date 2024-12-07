@@ -25,6 +25,10 @@ const en: Localization = {
 		'A team of a degree course can develop the quality of assessment. Four development phases are distinguished. In the web, these phases of development are symbolized as boxes.',
 	'home.entities.text.part3':
 		'For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.',
+	'home.entities.text.readmore':
+		'Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ',
+	'home.entities.text.link':
+		'Then visit this website.',
 
 	'home.startscan.title': 'Start the Scan',
 	'home.startscan.text':
