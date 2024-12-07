@@ -184,7 +184,15 @@ const Result = () => {
 
 	return (
 		<Page className="result">
-			<div>
+			<header className={'section'}>
+				<h1>{getTranslation('nav.result')}</h1>
+				<p>{getTranslation('results.explanation.part1')}</p>
+				<p>{getTranslation('results.explanation.part2')}</p>
+				<p>{getTranslation('results.explanation.part3')}</p>
+				<p>{getTranslation('results.explanation.part4')}</p>
+			</header>
+
+			<main>
 				<div className={'result__container result__subtitle'}>
 					<h1 className={'result__container--item'}>
 						{getTranslation('position')}
@@ -218,11 +226,11 @@ const Result = () => {
 					return (
 						<div key={entity.name} className={'result__container'}>
 							<Card className={'result__container--item'}>
-								<h3 style={{ color: color }}>{entity.name}</h3>
+								<h3 style={{color: color}}>{entity.name}</h3>
 								{entity.elements.map((element, elementIndex) => {
 									return (
 										<div key={element.name}>
-											<h2 style={{ color: color }}>{element.name}</h2>
+											<h2 style={{color: color}}>{element.name}</h2>
 											<p>
 												{
 													element.phases[
@@ -231,7 +239,7 @@ const Result = () => {
 															entityIndex,
 															elementIndex,
 														)
-													].description
+														].description
 												}
 											</p>
 											<p>
@@ -244,17 +252,17 @@ const Result = () => {
 													) || getTranslation('results.notfilledin')}
 												</i>
 											</p>
-											<br />
+											<br/>
 										</div>
 									)
 								})}
 							</Card>
 							<Card className={'result__container--item'}>
-								<h3 style={{ color: color }}>{entity.name}</h3>
+								<h3 style={{color: color}}>{entity.name}</h3>
 								{entity.elements.map((element, elementIndex) => {
 									return (
 										<div key={element.name}>
-											<h2 style={{ color: color }}>{element.name}</h2>
+											<h2 style={{color: color}}>{element.name}</h2>
 											<p>
 												{
 													element.phases[
@@ -284,9 +292,9 @@ const Result = () => {
 						</div>
 					)
 				})}
-			</div>
+			</main>
 
-			<div className="result__download-container">
+			<footer className="result__download-container">
 				<div className="result__download-button">
 					<Button onClick={downloadResults} backgroundColor={entities[0].color}>
 						<span>
@@ -315,7 +323,7 @@ const Result = () => {
 						</span>
 					</Button>
 				</div>
-			</div>
+			</footer>
 		</Page>
 	)
 }
