@@ -25,6 +25,10 @@ export const nl: Localization = {
 		'Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.',
 	'home.entities.text.part3':
 		'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
+	'home.entities.text.readmore':
+		'Are you looking for more explanation about the Assessment Web, the assessment entities, elements and development phases? ',
+	'home.entities.text.link':
+		'Bezoek dan deze website.',
 
 	'home.startscan.title': 'Start de Scan',
 	'home.startscan.text':
