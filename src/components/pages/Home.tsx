@@ -1,11 +1,9 @@
 import React, {useContext} from 'react'
 
-import Card from '../layout/Card'
 import Toetstaken from '../../assets/images/IllustratieToetstaken.svg'
 import ArrowIcon from '../../assets/icons/arrow.svg'
 import {NavLink as ReactRouterNavLink} from 'react-router-dom'
 import Colofon from '../layout/footer/Colofon'
-import Developers from '../layout/footer/Developers'
 import {LanguageContext} from '../../utils/contexts/LanguageContext'
 import AssignmentModel from '../layout/toetsmodel/AssignmentModel'
 import {useTitle} from '../../utils/hooks/TitleHook'
@@ -37,32 +35,35 @@ const Home = () => {
                 <div className="home-page__blur"></div>
 
                 <div className="home-page__info-section">
-                    <Card className={'home-page__info-section__card'}>
+                    <section className={'section card'}>
                         <h3>{getTranslation('home.assessmentQualityTitle')}</h3>
                         <p>{getTranslation('home.assessmentQualityText')}</p>
-                    </Card>
+                    </section>
 
-                    <Card className={'home-page__info-section__card'}>
+                    <section className={'section card'}>
                         <h3>{getTranslation('home.assessmentExplainedTitle')}</h3>
                         <p>{getTranslation('home.assessmentExplainedText')}</p>
-                    </Card>
+                    </section>
                 </div>
 
                 <div className="home-page__extra-info">
                     <div className="home-page__extra-info__text">
-                        <div>
+                        <section className={'section'}>
                             <h3>{getTranslation('home.entities.title')}</h3>
-                            <p>{getTranslation('home.entities.text.part1')}</p>
-                            <p>{getTranslation('home.entities.text.part2')}</p>
-                            <p>{getTranslation('home.entities.text.part3')}</p>
+                            <div>
+                                <p>{getTranslation('home.entities.text.part1')}</p>
+                                <p>{getTranslation('home.entities.text.part2')}</p>
+                                <p>{getTranslation('home.entities.text.part3')}</p>
+                            </div>
                             <p className={'m-top-1'}>
-                                {getTranslation('home.entities.text.readmore')}<a className={'a'} href={'https://www.han.nl/artikelen/2021/03/het-toetsweb-duurzame-kwaliteit-van-toetsing/'}>
+                                {getTranslation('home.entities.text.readmore')}<a className={'a'}
+                                                                                  href={'https://www.han.nl/artikelen/2021/03/het-toetsweb-duurzame-kwaliteit-van-toetsing/'}>
                                 {getTranslation('home.entities.text.link')}
-							    </a>
-						    </p>
-                        </div>
+                            </a>
+                            </p>
+                        </section>
 
-                        <div>
+                        <section className={'section'}>
                             <h3>{getTranslation('home.startscan.title')}</h3>
                             <p>{getTranslation('home.startscan.text')}</p>
                             <ReactRouterNavLink to={'scan'}>
@@ -71,13 +72,18 @@ const Home = () => {
 									<img src={ArrowIcon} alt="pijl naar rechts"/>
 								</span>
                             </ReactRouterNavLink>
-                        </div>
+                        </section>
                     </div>
                     <div className="home-page__extra-info__image">
                         <img src={Toetstaken} alt="Illustratie Toets(tak)en"/>
                     </div>
                 </div>
-                <Developers/>
+                <section className={'section developers'}>
+                    <h3 className={'developers__title'}>
+                        {getTranslation('developers.title')}
+                    </h3>
+                    <p>{getTranslation('developers.text')}</p>
+                </section>
             </div>
             <Colofon/>
         </Page>
