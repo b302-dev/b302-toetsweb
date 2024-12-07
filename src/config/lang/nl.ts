@@ -25,6 +25,10 @@ export const nl: Localization = {
 		'Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.',
 	'home.entities.text.part3':
 		'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
+	'home.entities.text.readmore':
+		'Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ',
+	'home.entities.text.link':
+		'Bezoek dan deze website.',
 
 	'home.startscan.title': 'Start de Scan',
 	'home.startscan.text':
@@ -105,7 +109,7 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken daarvoor eigen kwaliteitscriteria.',
 			'Docenten maken bij het ontwerpen van toetsen gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars.',
 			'De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
-			'De kwaliteitscriteria die gebruikt worden bij het ontwerpen van zowel de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld.',
+			'De kwaliteitscriteria die gebruikt worden bij het ontwerpen van zowel de toetsen als de leer- en toetsdoelen zijn afgestemd met ketenpartners, bijvoorbeeld het werkveld.',
 		],
 		[
 			'Docenten ontwerpen de toets vaak alleen en kort voor de afname.',
@@ -117,7 +121,7 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 			'De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.',
 			'De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-			'Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+			'Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 		],
 	],
 	[
@@ -125,19 +129,19 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen.',
 			'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma.',
 			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
-			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden afgestemd met het werkveld en worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
+			'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden afgestemd met ketenpartners, bijvoorbeeld het werkveld en worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
 		],
 		[
 			'Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.',
 			'De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma.',
 			'Bij de ontwikkeling van het toetsprogramma wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen.',
-			'De opbouw van het toetsprogramma wordt besproken en vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn.',
+			'De opbouw van het toetsprogramma wordt besproken en vastgesteld met ketenpartners, bijvoorbeeld het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn.',
 		],
 		[
 			'De kwaliteit van het toetsprogramma wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 			'Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.',
 			'De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-			'Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+			'Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 		],
 	],
 	[
@@ -157,7 +161,7 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 			'Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.',
 			'Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-			'Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+			'Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 		],
 	],
 	[
@@ -165,19 +169,19 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen.',
 			'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie.',
 			'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten.',
-			'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden vastgesteld met het werkveld.',
+			'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld.',
 		],
 		[
 			'De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen.',
 			'Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan.',
 			'De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd.',
-			'De inrichting van de toetsorganisatie wordt afgestemd met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek.',
+			'De inrichting van de toetsorganisatie wordt afgestemd met ketenpartners, bijvoorbeeld het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek.',
 		],
 		[
 			'De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 			'Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.',
 			'De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-			'De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+			'De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 		],
 	],
 	[
@@ -197,7 +201,7 @@ export const nlEntityElementPhaseDescriptions: string[][][] = [
 			'Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.',
 			'Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.',
 			'De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.',
-			'De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+			'De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 		],
 	],
 ]
@@ -207,31 +211,31 @@ export const nlGenericEntityPhaseDescriptions: string[][] = [
 		'Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken eigen kwaliteitscriteria, ontwerpen de toets vaak alleen en kort voor de afname. De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 		'Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces en maken daarbij gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s. De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren.',
 		'De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen van toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De toetsen, die ontwikkeld worden voorafgaand aan het onderwijs, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs. De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-		'Zowel kwaliteitscriteria voor de toetsen als de leer- en toetsdoelen zijn afgestemd met het werkveld. De toetsen sluiten hierdoor niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek. Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		'Zowel kwaliteitscriteria voor de toetsen als de leer- en toetsdoelen zijn afgestemd met ketenpartners, bijvoorbeeld het werkveld. De toetsen sluiten hierdoor niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek. Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 	],
 	[
 		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen. Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken.',
 		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma. De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma. Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren.',
 		'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Bij de ontwikkeling wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen. De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-		'Zowel de kwaliteitscriteria als de opbouw van het toetsprogramma worden vastgesteld met het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn. Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		'Zowel de kwaliteitscriteria als de opbouw van het toetsprogramma worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn. Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 	],
 	[
 		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen. Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs. De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan. De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden. Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen.',
 		'De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Ook bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-		'De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders. De opgenomen processen en interventies richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		'De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders. De opgenomen processen en interventies richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 	],
 	[
 		'Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen. De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen. De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is.',
 		'Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie. Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan. Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren.',
 		'De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding.',
-		'Zowel de kwaliteitscriteria als de inrichting van de toetsorganisatie worden vastgesteld met het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		'Zowel de kwaliteitscriteria als de inrichting van de toetsorganisatie worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 	],
 	[
 		'Binnen de opleiding zijn geen (concrete) afspraken gemaakt over de toetsbekwaamheid die van docenten wordt verwacht. De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten. Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd.',
 		'De eisen die binnen de opleiding gesteld worden aan toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd. Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen.',
 		'De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele (wetenschappelijke) inzichten. De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams. De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen.',
-		'De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders Ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de de eisen die aan toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als het werkveld.',
+		'De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders. Ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de de eisen die aan toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld.',
 	],
 ]
 
