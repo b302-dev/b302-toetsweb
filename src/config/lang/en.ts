@@ -18,21 +18,31 @@ const en: Localization = {
 	'home.modelExplained':
 		'By hovering the mouse over one of the parts of the Assessment Web, the explanation of this part becomes visible.',
 
-	'home.entities.title': 'Entities, elements and development phases',
+	'home.entities.title': 'Assessment entities',
 	'home.entities.text.part1':
-		'Three elements can be distinguished within each assessment entity. These are the elements quality criteria, design and quality assurance. The first element, quality criteria, concerns the question of what information is used to achieve and establish the quality of the assessment entities. The second element, design, focuses on the question of how the development and deployment of the five assessment entities are achieved. The third element, quality assurance, focuses on the way in which the quality assurance of the assessment entities is organised. Structural attention to these three elements ensures that work is done from the PDCA cycle.',
+		'The assessment web consists of five assessment entities; assessment(tasks), assessment programme, assessment policy, assessment organisation and assessment literacy.  At the core of the assessment web is the vision on education. This is leading for all (design) choices made in the assessment entities.',
 	'home.entities.text.part2':
-		'A team of a degree course can develop the quality of assessment. Four development phases are distinguished. In the web, these phases of development are symbolized as boxes.',
+		'Assessments are all (learning) activities/measuring instruments that are used to determine whether the intended learning outcomes are or have been achieved. Assessment tasks are the items or assignments within an assessment that challenge students to demonstrate their knowledge and skills. The assessment programme focuses on the clear connection between all assessments and the intended learning outcomes. The assessment programme must consist of a deliberate and substantiated combination of assessment (forms) that fit the objectives and structure of a programme (the educational programme).',
 	'home.entities.text.part3':
-		'For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.',
-	'home.entities.text.readmore':
+		'All substantive and procedural agreements are laid down in the assessment policy. There is often an assessment policy at the institutional level and an assessment policy at the degree programme level. The assessment policy pays attention to the assessment organisation. In the assessment organisation, lecturers, board of examiners, assessment committee, management and support staff work together in a targeted and role-based manner to achieve the desired assessment quality on all assessment entities. The assessment entity assessment literacy considers the specific expertise that all these actors – within their own role – must have in order to achieve the quality of the assessment entities.',
+	'home.entities.text.part4':
+		'The design choices made within the entities are inextricably linked to the vision of education. The vision on assessment is part of this. By making the vision on assessment an integral part of the vision on education, it is ensured that assessment becomes part of the educational concept and that assessment literacy is experienced as part of teacher competence.',
+
+	'home.elements.title': 'Elements',
+	'home.elements.text': "Three elements can be distinguished within each assessment entity. These are the elements quality criteria, design and quality assurance. The first element, quality criteria, concerns the question of what information is used to achieve and establish the quality of the assessment entities. The second element, design, focuses on the question of how the development and deployment of the five assessment entities are achieved. The third element, quality assurance, focuses on the way in which the quality assurance of the assessment entities is organised. Structural attention to these three elements ensures that work is done from the PDCA cycle.",
+
+	'home.phases.title': 'Development phases',
+	'home.phases.text.part1': "A team of a degree programme can develop the quality of each assessment entity. Four development phases are distinguished: the activity-oriented phase, the process-oriented phase, the system-oriented phase and the chain-oriented phase. Characteristic aspects within these phases are a development in the way in which all those involved are deployed (from individual actions to actions involving all relevant partners), a development in long-term thinking (from ad hoc to a long-term strategy) and a development in the integration of processes and activities in the educational process (from stand-alone activities to activities that are consciously carried out in conjunction within ongoing processes). In the web, these phases of development are symbolized as boxes. The inner ring is the activity-oriented phase, the outer ring the chain-oriented phase. This allows a degree programme to climb outwards, as it were: the further the degree programme climbs, the more grip there is on working sustainably on quality from the vision of education.",
+	'home.phases.text.part2': 'For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web.',
+
+	'home.explanation.readmore':
 		'Are you looking for more explanation about the Assessment Web, the assessment entities, elements and development phases? ',
-	'home.entities.text.link':
+	'home.explanation.link':
 		'Then visit this website.',
 
 	'home.startscan.title': 'Start the Scan',
 	'home.startscan.text':
-		"If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', the scan will start. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
+		"If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', an introduction page will first open on which the preparation and execution of the scan are explained in more detail. Then you can start the scan. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
 	'home.startscan.button': 'Start the Assessment Web Scan',
 
 	'developers.title': 'Developers',

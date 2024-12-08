@@ -18,21 +18,31 @@ export const nl: Localization = {
 	'home.modelExplained':
 		'Door met de muis op een van de onderdelen van het toetsweb te gaan staan, wordt de toelichting op dit onderdeel zichtbaar.',
 
-	'home.entities.title': 'Entiteiten, elementen en ontwikkelingsfasen',
+	'home.entities.title': 'Toetsentiteiten',
 	'home.entities.text.part1':
-		'Binnen iedere toetsentiteit kunnen drie elementen worden onderscheiden. Dit zijn de elementen kwaliteitscriteria, ontwerp en borging. Het eerste element, kwaliteitscriteria, gaat over de vraag welke informatie wordt gebruikt om de kwaliteit van de toetsentiteiten te realiseren en vast te stellen. Het tweede element, ontwerp, is gericht op de vraag hoe de ontwikkeling en inzet van de vijf toetsentiteiten tot stand komt. Het derde element, borging, richt zich op de wijze waarop de kwaliteitsborging van de toetsentiteiten wordt ingericht. Structurele aandacht voor deze drie elementen borgt dat er gewerkt wordt vanuit de PDCA-cyclus.',
+		'Het toetsweb bestaat uit vijf toetsentiteiten; toets(tak)en, toetsprogramma, toetsbeleid, toetsorganisatie en toetsbekwaamheid.  In de kern van het toetsweb staat de visie op onderwijs. Deze is leidend voor alle (ontwerp)keuzes die in de toetsentiteiten worden gemaakt.',
 	'home.entities.text.part2':
-		'Opleidingen kunnen zich ontwikkelen op de kwaliteit van toetsing. Er worden vier ontwikkelingsfasen onderscheiden. In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes.',
+		'Toetsen zijn alle (leer)activiteiten/meet-instrumenten die worden gebruikt om na te gaan of de beoogde leerresultaten worden of zijn bereikt. Toetstaken zijn de items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen. Bij het toetsprogramma staat de heldere samenhang tussen alle toetsen en de beoogde leerresultaten centraal. Het toetsprogramma moet bestaan uit een bewuste en beargumenteerde combinatie van toets(vorm)en die passen bij de doelen en opbouw van een opleiding (het onderwijsprogramma).',
 	'home.entities.text.part3':
-		'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
-	'home.entities.text.readmore':
+		'In het toetsbeleid zijn alle inhoudelijke en procedurele afspraken vastgelegd. Vaak is er een toetsbeleid op instellingsniveau én een toetsbeleid op opleidingsniveau. In het toetsbeleid is er aandacht voor de toetsorganisatie. In de toetsorganisatie werken docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht en rolvast met elkaar samen om de gewenste toetskwaliteit op alle toetsentiteiten te realiseren. In de toetsentiteit toetsbekwaamheid wordt stilgestaan bij de specifieke deskundigheid die al deze actoren – binnen hun eigen rol – moeten hebben om de kwaliteit op de toetsentiteiten te realiseren.',
+	'home.entities.text.part4':
+		'De ontwerpkeuzes die gemaakt worden binnen de entiteiten zijn onlosmakelijk verbonden met de visie op onderwijs. De visie op toetsing maakt hier onderdeel van uit. Door de visie op toetsing integraal onderdeel te laten zijn van de visie op onderwijs wordt geborgd dat toetsing onderdeel wordt van het onderwijsconcept en dat toetsbekwaamheid wordt ervaren als onderdeel van docentbekwaamheid.',
+
+	'home.elements.title': 'Elementen',
+	'home.elements.text': "Binnen iedere toetsentiteit kunnen drie elementen worden onderscheiden. Dit zijn de elementen kwaliteitscriteria, ontwerp en borging. Het eerste element, kwaliteitscriteria, gaat over de vraag welke informatie wordt gebruikt om de kwaliteit van de toetsentiteiten te realiseren en vast te stellen. Het tweede element, ontwerp, is gericht op de vraag hoe de ontwikkeling en inzet van de vijf toetsentiteiten tot stand komt. Het derde element, borging, richt zich op de wijze waarop de kwaliteitsborging van de toetsentiteiten wordt ingericht. Structurele aandacht voor deze drie elementen borgt dat er gewerkt wordt vanuit de PDCA-cyclus.",
+
+	'home.phases.title': 'Ontwikkelingsfasen',
+	'home.phases.text.part1': "Opleidingen kunnen de kwaliteit van iedere toetsentiteit ontwikkelen. Er worden vier ontwikkelingsfasen onderscheiden: de activiteiten-georiënteerde fase, de proces-georiënteerde fase, de systeem-georiënteerde fase en de keten-georiënteerde fase. Kenmerkende aspecten binnen deze fasen zijn een ontwikkeling in de wijze waarop alle betrokkenen ingezet worden (van individuele acties naar acties waarbij alle relevante partners betrokken zijn), een ontwikkeling in het langetermijndenken (van ad hoc naar een langetermijnstrategie) en een ontwikkeling in de integratie van processen en activiteiten in het onderwijsproces (van losstaande activiteiten naar activiteiten die bewust in samenhang worden uitgevoerd binnen lopende processen). In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes. De binnenste ring is de activiteiten-georiënteerde fase, de buitenste ring de keten-georiënteerde fase. Hierdoor kan een opleiding als het ware naar buiten toe opklimmen: hoe verder de opleiding klimt, hoe meer grip er ontstaat op het duurzaam werken aan kwaliteit vanuit de visie op onderwijs.",
+	'home.phases.text.part2': 'Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb.',
+
+	'home.explanation.readmore':
 		'Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ',
-	'home.entities.text.link':
+	'home.explanation.link':
 		'Bezoek dan deze website.',
 
 	'home.startscan.title': 'Start de Scan',
 	'home.startscan.text':
-		'Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, start de scan. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.',
+		'Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, wordt er eerst een introductiepagina geopend waarop de voorbereiding en uitvoering van de scan uitgebreider worden toegelicht. Daarna kun je de scan starten. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.',
 	'home.startscan.button': 'Start de Toetsweb-Scan',
 
 	'developers.title': 'Ontwikkelaars',
