@@ -1,8 +1,8 @@
-import React, { FunctionComponent } from 'react'
+import {ChangeEvent, FunctionComponent} from 'react'
 
 interface Props {
 	value: string
-	setValue: (e: React.ChangeEvent<HTMLTextAreaElement>) => void
+	setValue: (e: ChangeEvent<HTMLTextAreaElement>) => void
 	name: string
 	titleTextArea: string
 	hintTextArea: string

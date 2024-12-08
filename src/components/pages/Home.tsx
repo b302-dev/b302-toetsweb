@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import {useContext} from 'react'
 
 import Toetstaken from '../../assets/images/IllustratieToetstaken.svg'
 import ArrowIcon from '../../assets/icons/arrow.svg'

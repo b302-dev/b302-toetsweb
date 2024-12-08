@@ -1,4 +1,4 @@
-import React from 'react'
+import {FunctionComponent} from 'react'
 
 interface Props {
 	color: string
@@ -6,7 +6,7 @@ interface Props {
 	totalSteps: number
 }
 
-const ProgressDots: React.FunctionComponent<Props> = ({
+const ProgressDots: FunctionComponent<Props> = ({
 	color,
 	currentStep,
 	totalSteps,

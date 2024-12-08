@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useContext, useEffect } from 'react'
+import {ChangeEvent, FunctionComponent, useContext, useEffect} from 'react'
 import TextArea from './TextArea'
 import HorizontalCheckbox from './HorizontalCheckbox'
 import Button from './Button'
@@ -61,7 +61,7 @@ const ScanCard: FunctionComponent<Props> = ({
 		})
 	}
 
-	const handleFeedback = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+	const handleFeedback = (e: ChangeEvent<HTMLTextAreaElement>) => {
 		setScanData({ ...scanData, [e.target.name]: e.target.value })
 	}
 
