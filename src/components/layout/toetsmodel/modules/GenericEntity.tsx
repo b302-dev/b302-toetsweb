@@ -1,40 +1,50 @@
-import { FunctionComponent } from 'react'
-import { Phase } from '../../../../models/Phase'
-import { Portal } from '../../Portal'
+import {FunctionComponent, useContext} from 'react'
+import {Phases} from '../../../../models/Phase'
+import {Portal} from '../../Portal'
+import {Entities} from "../../../../models/Entity";
+import {ScanDataContext} from "../../../../utils/contexts/ScanDataContext";
 
 interface PhaseBarProps {
-	phase: Phase
-	result: number
-	d: string
+    entity: Entities
+    phase: Phases
+    result: number
+    d: string
+    onPhaseClick?: (entity: Entities, phase: Phases) => void
 }
 
 const GenericEntity: FunctionComponent<PhaseBarProps> = ({
-	phase,
-	result,
-	d,
-}) => {
-	const phaseIndex = phase.type.valueOf()
-	const isResult = phaseIndex <= result || result === -1
+                                                             entity,
+                                                             phase,
+                                                             result,
+                                                             d,
+                                                             onPhaseClick
+                                                         }) => {
+    const {scanData: entities} = useContext(ScanDataContext);
 
-	const style = () => {
-		const color = isResult ? phase.color : phase.fallbackColor
-		return {
-			backgroundColor: color,
-			fill: color,
-		}
-	}
+    const thisPhase = entities[entity].elements[0].phases[phase];
+    const isResult = phase <= result;
 
-	return (
-		<Portal trigger={<path style={style()} d={d} />}>
-			<div
-				className={'toetsmodel-component__popup'}
-				style={{ backgroundColor: phase.color }}
-			>
-				<h4>{`${phaseIndex + 1}. ${phase.name.toUpperCase()}`}</h4>
-				<p>{phase.genericEntityDescription}</p>
-			</div>
-		</Portal>
-	)
+    const style = () => {
+        const color = isResult ? thisPhase.color : thisPhase.fallbackColor
+        return {
+            backgroundColor: color,
+            fill: color,
+        }
+    }
+
+    const onClick = () => onPhaseClick && onPhaseClick(entity, phase);
+
+    return (
+        <Portal trigger={<path style={style()} d={d}/>} onClick={onClick}>
+            <div
+                className={'toetsmodel-component__popup'}
+                style={{backgroundColor: thisPhase.color}}
+            >
+                <h4>{`${phase + 1}. ${thisPhase.name.toUpperCase()}`}</h4>
+                <p>{thisPhase.genericEntityDescription}</p>
+            </div>
+        </Portal>
+    )
 }
 
 export default GenericEntity
