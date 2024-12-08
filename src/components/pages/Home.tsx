@@ -15,11 +15,10 @@ const Home = () => {
 
     return (
         <Page>
-            <div className={'home-page'}>
+            <main className={'home-page'}>
                 <div className="home-page__hero-section">
                     <div>
                         <h1>{getTranslation('home.heroTitle')}</h1>
-                        <br/>
                         <p className={'home-page__hero-section__subtitle'}>
                             {getTranslation('home.heroSubtitle')}
                         </p>
@@ -74,9 +73,7 @@ const Home = () => {
                             </ReactRouterNavLink>
                         </section>
                     </div>
-                    <div className="home-page__extra-info__image">
-                        <img src={Toetstaken} alt="Illustratie Toets(tak)en"/>
-                    </div>
+                    <img src={Toetstaken} alt="Illustratie Toets(tak)en"/>
                 </div>
                 <section className={'section developers'}>
                     <h3 className={'developers__title'}>
@@ -84,7 +81,7 @@ const Home = () => {
                     </h3>
                     <p>{getTranslation('developers.text')}</p>
                 </section>
-            </div>
+            </main>
             <Colofon/>
         </Page>
     )

@@ -8,10 +8,13 @@ const App = () => {
 	return (
 		<LanguageProvider>
 			<ScanDataProvider>
-				<Router>
-					<NavBar />
-					<ToastContainer />
-				</Router>
+				<div className={'app'}>
+					<Router>
+						<NavBar/>
+					</Router>
+				</div>
+				<ToastContainer/>
+				<div id="modal-root"/>
 			</ScanDataProvider>
 		</LanguageProvider>
 	)
