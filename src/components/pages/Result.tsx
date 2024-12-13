@@ -1,4 +1,4 @@
-import { useContext, useMemo } from 'react'
+import {useContext, useEffect, useMemo, useState} from 'react'
 import Button from '../layout/Button'
 import downloadFile from '../../utils/FileDownloader'
 import JSZip from 'jszip'
@@ -11,6 +11,9 @@ import AssignmentModel from '../layout/toetsmodel/AssignmentModel'
 import { getPhaseOfSelectId } from '../../models/Phase'
 import { ScanDataContext } from '../../utils/contexts/ScanDataContext'
 import { getEntities, getEntityPhaseAdvice } from '../../utils/Localization'
+import {PDFDownloadLink, Document, Page as PDFPage, Text, View, Image} from "@react-pdf/renderer";
+// @ts-ignore
+import toImg from 'react-svg-to-image';
 
 const saveAs = require('save-svg-as-png')
 
@@ -24,8 +27,15 @@ enum AnswerTypes {
 const Result = () => {
 	const { language, getTranslation } = useContext(LanguageContext)
 	const { scanData: entities } = useContext(ScanDataContext)
+	const [thing, setThing] = useState('')
 
 	useTitle(`${getTranslation('nav.title')} - ${getTranslation('nav.result')}`)
+
+	useEffect(() => {
+		toImg('.toetsmodel-component', 'file.png', {scale: 3, download: false}).then((dataUrl: any) => {
+			setThing(dataUrl)
+		});
+	}, []);
 
 	useMemo(() => {
 		entities.forEach((entity, entityIndex) => {
@@ -140,27 +150,27 @@ const Result = () => {
 			fileData += '\n'
 		})
 
-		zip.file(`${getTranslation('nav.result')}.txt`, fileData)
-		Promise.all(
-			Array.from(document.querySelectorAll('.assignment-model')).map((svg) =>
-				saveAs.svgAsPngUri(svg),
-			),
-		).then(([position, ambition]) => {
-			zip.file(
-				`${getTranslation('position')}.png`,
-				position.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{ base64: true },
-			)
-			zip.file(
-				`${getTranslation('ambition')}.png`,
-				ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{ base64: true },
-			)
-
-			zip.generateAsync({ type: 'blob' }).then((content) => {
-				downloadFile(content, `${getTranslation('nav.result')}.zip`)
-			})
-		})
+		// zip.file(`${getTranslation('nav.result')}.txt`, fileData)
+		// Promise.all(
+		// 	Array.from(document.querySelectorAll('.toetsmodel-component')).map((svg) =>
+		// 		saveAs.svgAsPngUri(svg),
+		// 	),
+		// ).then(([position, ambition]) => {
+		// 	zip.file(
+		// 		`${getTranslation('position')}.png`,
+		// 		position.replace(/^data:image\/(png|jpg);base64,/, ''),
+		// 		{ base64: true },
+		// 	)
+		// 	zip.file(
+		// 		`${getTranslation('ambition')}.png`,
+		// 		ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
+		// 		{ base64: true },
+		// 	)
+		//
+		// 	zip.generateAsync({ type: 'blob' }).then((content) => {
+		// 		downloadFile(content, `${getTranslation('nav.result')}.zip`)
+		// 	})
+		// })
 	}
 
 	const getResultData = (
@@ -191,6 +201,12 @@ const Result = () => {
 				<p>{getTranslation('results.explanation.part3')}</p>
 				<p>{getTranslation('results.explanation.part4')}</p>
 			</header>
+			
+			<PDFDownloadLink document={<Document>
+				<PDFPage>
+					<Image src={thing} />
+				</PDFPage>
+			</Document>} fileName="somename.pdf">Download PDF</PDFDownloadLink>
 
 			<main>
 				<div className={'result__container result__subtitle'}>
