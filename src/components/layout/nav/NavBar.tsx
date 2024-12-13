@@ -6,8 +6,10 @@ import { Language } from '../../../utils/Localization'
 import flagDutch from '../../../assets/icons/flag-dutch.svg'
 import flagEnglish from '../../../assets/icons/flag-english.svg'
 import { ScanDataContext } from '../../../utils/contexts/ScanDataContext'
+import {useTranslation} from "react-i18next";
 
 const NavBar = () => {
+	const { i18n } = useTranslation();
 	const { language, changeLanguage, getTranslation } =
 		useContext(LanguageContext)
 	const { scanData: entities } = useContext(ScanDataContext)
@@ -25,6 +27,9 @@ const NavBar = () => {
 	const handleChangeLanguage = () => {
 		if (language === Language.NL) changeLanguage(Language.EN)
 		if (language === Language.EN) changeLanguage(Language.NL)
+
+		if (language === Language.NL) i18n.changeLanguage('en')
+		if (language === Language.EN) i18n.changeLanguage('nl')
 	}
 
 	return (

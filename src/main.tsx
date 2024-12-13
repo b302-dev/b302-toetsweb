@@ -7,6 +7,7 @@ import Router from "./components/layout/Router";
 import NavBar from "./components/layout/nav/NavBar";
 import {ToastContainer} from "react-toastify";
 import {LanguageProvider} from "./utils/contexts/LanguageContext";
+import '@/translation/i18n'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
