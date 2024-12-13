@@ -46,7 +46,7 @@ const Colofon = () => {
 			</div>
 			<div className={'colofon__copyright'}>
 				<p>© {getTranslation('nav.title')}</p>
-				<p>2023</p>
+				<p>{new Date().getFullYear()}</p>
 			</div>
 		</footer>
 	)
