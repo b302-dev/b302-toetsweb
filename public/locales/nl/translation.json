@@ -53,9 +53,9 @@
         "title": "Meer informatie?",
         "subTitle": "Neem dan contact met ons op!",
         "roles": {
-          "lecturer": "Lecturer",
-          "researcher": "Researcher",
-          "educator": "Educator/Trainer/Advisor"
+          "lecturer": "Lector",
+          "researcher": "Onderzoeker",
+          "educator": "Academie Educatie"
         },
         "academy": "Academy of Education"
       }
@@ -71,7 +71,8 @@
         "question": "Welke beschrijving past over 2 jaar het beste bij jouw opleiding?"
       },
       "optionEmpty": "Kies minimaal 1 optie voor positie en ambitie",
-      "explain": "Licht je antwoord toe",
+      "explain": "Toelichting",
+      "comment": "Licht je antwoord toe",
       "next": "Volgende vraag",
       "previous": "Vorige vraag",
       "submit": "Naar resultaten"
