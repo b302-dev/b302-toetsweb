@@ -1,50 +1,33 @@
-import { useContext, useMemo } from 'react'
+import {useContext, useMemo} from 'react'
 import Button from '../layout/Button'
-import downloadFile from '../../utils/FileDownloader'
-import JSZip from 'jszip'
-import { jsPDF } from 'jspdf'
-import { useTitle } from '../../utils/hooks/TitleHook'
-import { LanguageContext } from '../../utils/contexts/LanguageContext'
+import {useTitle} from '../../utils/hooks/TitleHook'
+import {LanguageContext} from '../../utils/contexts/LanguageContext'
 import Page from '../Page'
 import Card from '../layout/Card'
 import AssignmentModel from '../layout/toetsmodel/AssignmentModel'
-import { getPhaseOfSelectId } from '../../models/Phase'
-import { ScanDataContext } from '../../utils/contexts/ScanDataContext'
-import { getEntities, getEntityPhaseAdvice } from '../../utils/Localization'
+import {getPhaseOfSelectId} from '../../models/Phase'
+import {ScanDataContext} from '../../utils/contexts/ScanDataContext'
+import {EntityArray} from "../../models/Entity";
+import {ElementArray} from "../../models/Element";
 
 const saveAs = require('save-svg-as-png')
 
 enum AnswerTypes {
-	POSITION_RESULT = 'checkedPositie',
-	POSITION_FEEDBACK = 'feedbackPositie',
-	AMBITION_RESULT = 'checkedAmbitie',
-	AMBITION_FEEDBACK = 'feedbackAmbitie',
+	POSITION_RESULT = 'checkedPosition',
+	POSITION_FEEDBACK = 'feedbackPosition',
+	AMBITION_RESULT = 'checkedAmbition',
+	AMBITION_FEEDBACK = 'feedbackAmbition',
 }
 
 const Result = () => {
-	const { language, getTranslation } = useContext(LanguageContext)
-	const { scanData: entities } = useContext(ScanDataContext)
+	const {language, getTranslation} = useContext(LanguageContext)
+	const {scanData: entities, entityFilledIn, anyEntityFilledIn} = useContext(ScanDataContext)
 
 	useTitle(`${getTranslation('nav.title')} - ${getTranslation('nav.result')}`)
 
 	useMemo(() => {
-		entities.forEach((entity, entityIndex) => {
-			entity.elements.forEach((element, elementIndex) => {
-				const rawAnswer = window.localStorage.getItem(
-					`${entityIndex}.${elementIndex}`,
-				)
-				const answer = JSON.parse(rawAnswer as string)
-
-				if (rawAnswer === null) {
-					window.location.href = '/scan'
-				}
-
-				if (answer.checkedPositie === -1 || answer.checkedAmbitie === -1) {
-					window.location.href = '/scan'
-				}
-			})
-		})
-	}, [entities])
+		if (!anyEntityFilledIn) window.location.href = '/scan';
+	}, [anyEntityFilledIn])
 
 	const getResult = (
 		answerType: AnswerTypes,
@@ -54,132 +37,122 @@ const Result = () => {
 		const answer = JSON.parse(
 			window.localStorage.getItem(`${entity}.${element}`) as string,
 		)
+		console.log(answer)
 		return answer[answerType]
 	}
 
 	const downloadAdviceBooklet = () => {
-		const localeEntities = getEntities(language)
-		const localeEntityPhaseAdvice = getEntityPhaseAdvice(language)
-
-		const doc = new jsPDF()
-
-		const resultData = getResultData(AnswerTypes.POSITION_RESULT, getResult)
-
-		let currentY = 30
-
-		for (let i = 0; i < resultData.length; i++) {
-			const entityIndex = i
-			const phaseIndex = resultData[i]
-
-			const entity = localeEntities[i]
-			const advice = localeEntityPhaseAdvice[entityIndex][phaseIndex]
-
-			// add title
-			doc.setFontSize(16)
-			doc.setFont('helvetica', 'bold')
-			doc.text(entity, 20, 20)
-
-			// add text
-			doc.setFontSize(10)
-			doc.setFont('helvetica', 'normal')
-
-			const cleanedText = advice.split('\n').map((e) => e.trim())
-
-			for (const line of cleanedText) {
-				const textLines = doc.splitTextToSize(line, 170)
-				doc.text(textLines, 20, currentY)
-				currentY = currentY + doc.getTextDimensions(textLines).h
-
-				if (currentY > doc.internal.pageSize.height - 50) {
-					currentY = 30
-					doc.addPage()
-				}
-			}
-
-			if (i < resultData.length - 1) {
-				currentY = 30
-				doc.addPage()
-			}
-		}
-
-		doc.save('advies.pdf')
+		// 	const localeEntities = getEntities(language)
+		// 	const localeEntityPhaseAdvice = getEntityPhaseAdvice(language)
+		//
+		// 	const doc = new jsPDF()
+		//
+		// 	const resultData = getResultData(AnswerTypes.POSITION_RESULT, getResult)
+		//
+		// 	let currentY = 30
+		//
+		// 	for (let i = 0; i < resultData.length; i++) {
+		// 		const entityIndex = i
+		// 		const phaseIndex = resultData[i]
+		//
+		// 		const entity = localeEntities[i]
+		// 		const advice = localeEntityPhaseAdvice[entityIndex][phaseIndex]
+		//
+		// 		// add title
+		// 		doc.setFontSize(16)
+		// 		doc.setFont('helvetica', 'bold')
+		// 		doc.text(entity, 20, 20)
+		//
+		// 		// add text
+		// 		doc.setFontSize(10)
+		// 		doc.setFont('helvetica', 'normal')
+		//
+		// 		const cleanedText = advice.split('\n').map((e) => e.trim())
+		//
+		// 		for (const line of cleanedText) {
+		// 			const textLines = doc.splitTextToSize(line, 170)
+		// 			doc.text(textLines, 20, currentY)
+		// 			currentY = currentY + doc.getTextDimensions(textLines).h
+		//
+		// 			if (currentY > doc.internal.pageSize.height - 50) {
+		// 				currentY = 30
+		// 				doc.addPage()
+		// 			}
+		// 		}
+		//
+		// 		if (i < resultData.length - 1) {
+		// 			currentY = 30
+		// 			doc.addPage()
+		// 		}
+		// 	}
+		//
+		// 	doc.save('advies.pdf')
 	}
 
 	const resetScan = () => {
-		window.localStorage.clear()
-		window.location.href = '/scan'
+		window.localStorage.clear();
+		window.location.href = '/scan';
 	}
 
 	const downloadResults = () => {
-		const zip = new JSZip()
-		let fileData = ''
-
-		entities.forEach((entity, entityIndex) => {
-			fileData += `${entity.name}\n`
-			entity.elements.forEach((element, elementIndex) => {
-				fileData += `${element.name}\n`
-				fileData += `${getTranslation('position')}: ${
-					element.phases[
-						getResult(AnswerTypes.POSITION_RESULT, entityIndex, elementIndex)
-					].description
-				}\n`
-				fileData += `${getTranslation('results.positionexplanation')}: ${
-					getResult(AnswerTypes.POSITION_FEEDBACK, entityIndex, elementIndex) ||
-					getTranslation('results.notfilledin')
-				}\n`
-				fileData += `${getTranslation('ambition')}: ${
-					element.phases[
-						getResult(AnswerTypes.AMBITION_RESULT, entityIndex, elementIndex)
-					].description
-				}\n`
-				fileData += `${getTranslation('results.ambitionexplanation')}: ${
-					getResult(AnswerTypes.AMBITION_FEEDBACK, entityIndex, elementIndex) ||
-					getTranslation('results.notfilledin')
-				}\n\n`
-			})
-			fileData += '\n'
-		})
-
-		zip.file(`${getTranslation('nav.result')}.txt`, fileData)
-		Promise.all(
-			Array.from(document.querySelectorAll('.assignment-model')).map((svg) =>
-				saveAs.svgAsPngUri(svg),
-			),
-		).then(([position, ambition]) => {
-			zip.file(
-				`${getTranslation('position')}.png`,
-				position.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{ base64: true },
-			)
-			zip.file(
-				`${getTranslation('ambition')}.png`,
-				ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{ base64: true },
-			)
-
-			zip.generateAsync({ type: 'blob' }).then((content) => {
-				downloadFile(content, `${getTranslation('nav.result')}.zip`)
-			})
-		})
+		// 	const zip = new JSZip()
+		// 	let fileData = ''
+		//
+		// 	entities.forEach((entity, entityIndex) => {
+		// 		fileData += `${entity.name}\n`
+		// 		entity.elements.forEach((element, elementIndex) => {
+		// 			fileData += `${element.name}\n`
+		// 			fileData += `${getTranslation('position')}: ${
+		// 				element.phases[
+		// 					getResult(AnswerTypes.POSITION_RESULT, entityIndex, elementIndex)
+		// 				].description
+		// 			}\n`
+		// 			fileData += `${getTranslation('results.positionexplanation')}: ${
+		// 				getResult(AnswerTypes.POSITION_FEEDBACK, entityIndex, elementIndex) ||
+		// 				getTranslation('results.notfilledin')
+		// 			}\n`
+		// 			fileData += `${getTranslation('ambition')}: ${
+		// 				element.phases[
+		// 					getResult(AnswerTypes.AMBITION_RESULT, entityIndex, elementIndex)
+		// 				].description
+		// 			}\n`
+		// 			fileData += `${getTranslation('results.ambitionexplanation')}: ${
+		// 				getResult(AnswerTypes.AMBITION_FEEDBACK, entityIndex, elementIndex) ||
+		// 				getTranslation('results.notfilledin')
+		// 			}\n\n`
+		// 		})
+		// 		fileData += '\n'
+		// 	})
+		//
+		// 	zip.file(`${getTranslation('nav.result')}.txt`, fileData)
+		// 	Promise.all(
+		// 		Array.from(document.querySelectorAll('.assignment-model')).map((svg) =>
+		// 			saveAs.svgAsPngUri(svg),
+		// 		),
+		// 	).then(([position, ambition]) => {
+		// 		zip.file(
+		// 			`${getTranslation('position')}.png`,
+		// 			position.replace(/^data:image\/(png|jpg);base64,/, ''),
+		// 			{ base64: true },
+		// 		)
+		// 		zip.file(
+		// 			`${getTranslation('ambition')}.png`,
+		// 			ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
+		// 			{ base64: true },
+		// 		)
+		//
+		// 		zip.generateAsync({ type: 'blob' }).then((content) => {
+		// 			downloadFile(content, `${getTranslation('nav.result')}.zip`)
+		// 		})
+		// 	})
 	}
 
-	const getResultData = (
-		answerType: AnswerTypes,
-		getResult: (
-			answerType: AnswerTypes,
-			entity: number,
-			element: number,
-		) => number,
-	) => {
-		return entities.map((entity, entityIndex) => {
-			const subResults = [
-				getResult(answerType, entityIndex, 0),
-				getResult(answerType, entityIndex, 1),
-				getResult(answerType, entityIndex, 2),
-			]
-
-			return getPhaseOfSelectId(subResults.join(''))
-		})
+	const getResultData = (answerType: AnswerTypes) => {
+		return EntityArray.map((entity) => {
+			if (!entityFilledIn(entity)) return -1;
+			const subResults = ElementArray.map((element) => getResult(answerType, entity, element));
+			return getPhaseOfSelectId(subResults.join(''));
+		});
 	}
 
 	return (
@@ -204,14 +177,10 @@ const Result = () => {
 
 				<div className={'result__container'}>
 					<div className={'result__container--item'}>
-						<AssignmentModel
-							results={getResultData(AnswerTypes.POSITION_RESULT, getResult)}
-						/>
+						<AssignmentModel results={getResultData(AnswerTypes.POSITION_RESULT)}/>
 					</div>
 					<div className={'result__container--item'}>
-						<AssignmentModel
-							results={getResultData(AnswerTypes.AMBITION_RESULT, getResult)}
-						/>
+						<AssignmentModel results={getResultData(AnswerTypes.AMBITION_RESULT)}/>
 					</div>
 				</div>
 
@@ -222,6 +191,10 @@ const Result = () => {
 				{entities.map((entity, entityIndex) => {
 					const color = entity.color
 					const explanation = getTranslation('explanation')
+
+
+
+					if (!entityFilledIn(entityIndex)) return null;
 
 					return (
 						<div key={entity.name} className={'result__container'}>
@@ -271,7 +244,7 @@ const Result = () => {
 															entityIndex,
 															elementIndex,
 														)
-													].description
+														].description
 												}
 											</p>
 											<p>
@@ -284,7 +257,7 @@ const Result = () => {
 													) || getTranslation('results.notfilledin')}
 												</i>
 											</p>
-											<br />
+											<br/>
 										</div>
 									)
 								})}
@@ -304,10 +277,7 @@ const Result = () => {
 				</div>
 
 				<div className="result__download-button">
-					<Button
-						onClick={downloadAdviceBooklet}
-						backgroundColor={entities[0].color}
-					>
+					<Button onClick={downloadAdviceBooklet} backgroundColor={entities[0].color}>
 						<div data-tooltip-id={'downloadAdviceBooklet'}>
 							<span>
 								<p>{getTranslation('results.downloadadvice')}</p>

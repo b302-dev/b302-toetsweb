@@ -1,4 +1,4 @@
-import {ChangeEvent, FunctionComponent, useContext, useEffect} from 'react'
+import {ChangeEvent, FunctionComponent, useContext, useEffect, useState} from 'react'
 import TextArea from './TextArea'
 import HorizontalCheckbox from './HorizontalCheckbox'
 import Button from './Button'
@@ -7,36 +7,36 @@ import Toetsprogramma from '../../assets/images/IllustratieToetsprogramma.svg'
 import Toetsorganisatie from '../../assets/images/IllustratieToetsorganisatie.svg'
 import Toetsbeleid from '../../assets/images/IllustratieToetsbeleid.svg'
 import Toetsbekwaamheid from '../../assets/images/IllustratieToetsbekwaamheid.svg'
-import 'react-toastify/dist/ReactToastify.css'
 import ProgressDots from './ProgressDots'
-import { LanguageContext } from '../../utils/contexts/LanguageContext'
-import { Entity } from '../../models/Entity'
-import { Element } from '../../models/Element'
-import { Portal } from './Portal'
-import { ScanCardData } from '../pages/Scan'
+import {Portal} from './Portal'
+import {ScanAnswer} from "../../models/ScanAnswer";
+import {ScanDataContext} from "../../utils/contexts/ScanDataContext";
+import {useTranslation} from "react-i18next";
+import {PhaseArray} from "../../models/Phase";
 
 interface Props {
-	entity: Entity
+	color: string
 	entityIndex: number
-	element: Element
 	elementIndex: number
 	handleNext: () => void
 	handlePrevious: () => void
-	scanData: ScanCardData
-	setScanData: (data: ScanCardData) => void
 }
 
-const ScanCard: FunctionComponent<Props> = ({
-	entity,
-	entityIndex,
-	element,
-	elementIndex,
-	handleNext,
-	handlePrevious,
-	scanData,
-	setScanData,
-}) => {
-	const { getTranslation } = useContext(LanguageContext)
+const ScanCard: FunctionComponent<Props> = (props) => {
+	const {t} = useTranslation();
+	const {getScanAnswer, setScanAnswer} = useContext(ScanDataContext);
+
+	const [scanData, setScanData] = useState<ScanAnswer>(getScanAnswer(props.entityIndex, props.elementIndex));
+
+	useEffect(() => {
+		setScanData(getScanAnswer(props.entityIndex, props.elementIndex));
+	}, [props.entityIndex, props.elementIndex]);
+
+	const changeAnswer = (answer: ScanAnswer) => {
+		setScanAnswer(props.entityIndex, props.elementIndex, answer);
+		setScanData(answer);
+	}
+
 	const images = [
 		Toetstaken,
 		Toetsprogramma,
@@ -45,64 +45,49 @@ const ScanCard: FunctionComponent<Props> = ({
 		Toetsbekwaamheid,
 	]
 
-	const handleCheckedPositie = (selectedPosition: number) => {
-		setScanData({
-			...scanData,
-			checkedPositie:
-				selectedPosition === scanData.checkedPositie ? -1 : selectedPosition,
-		})
+	const handleCheckedPositie = (checkedPosition: number) => {
+		changeAnswer({...scanData, checkedPosition});
 	}
 
-	const handleCheckedAmbitie = (selectedAmbition: number) => {
-		setScanData({
-			...scanData,
-			checkedAmbitie:
-				selectedAmbition === scanData.checkedAmbitie ? -1 : selectedAmbition,
-		})
+	const handleCheckedAmbitie = (checkedAmbition: number) => {
+		changeAnswer({...scanData, checkedAmbition});
 	}
 
-	const handleFeedback = (e: ChangeEvent<HTMLTextAreaElement>) => {
-		setScanData({ ...scanData, [e.target.name]: e.target.value })
+	const handleComment = (e: ChangeEvent<HTMLTextAreaElement>) => {
+		changeAnswer({...scanData, [e.target.name]: e.target.value});
 	}
-
-	useEffect(() => {
-		window.localStorage.setItem(
-			`${entityIndex}.${elementIndex}`,
-			JSON.stringify(scanData),
-		)
-	}, [entityIndex, elementIndex, scanData])
 
 	return (
 		<div
 			className={'scancard'}
-			style={{ borderTop: `1rem solid ${entity.color}` }}
+			style={{borderTop: `1rem solid ${props.color}`}}
 		>
 			<div className="scancard__grid">
 				<div>
 					<div className="scancard__titles">
-						<span style={{ color: entity.color }}>
-							<Portal trigger={<h3>{entity.name} </h3>}>
+						<span style={{color: props.color}}>
+							<Portal trigger={<h3>{t(`entities.${props.entityIndex}.name`)} </h3>}>
 								<div className="toetsmodel-component__popup">
-									<h4>{entity.name}</h4>
-									<p>{entity.description}</p>
+									<h4>{t(`entities.${props.entityIndex}.name`)}</h4>
+									<p>{t(`entities.${props.entityIndex}.description`)}</p>
 								</div>
 							</Portal>
-							<h3>- {element.name}</h3>
+							<h3>- {t(`elements.${props.elementIndex}.name`)}</h3>
 						</span>
 
 						<span className="scancard__titles__container">
-							<h4>{getTranslation('position')}</h4>
+							<h4>{t('pages.scan.position.name')}</h4>
 							<p className={'scancard__titles__container__subtitle'}>
-								- {getTranslation('position.description')}
+								- {t('pages.scan.position.question')}
 							</p>
 						</span>
 						<span
 							className={'scancard__titles__container'}
-							style={{ backgroundColor: `${entity.color}2D` }}
+							style={{backgroundColor: `${props.color}2D`}}
 						>
-							<h4>{getTranslation('ambition')}</h4>
+							<h4>{t('pages.scan.ambition.name')}</h4>
 							<p className={'scancard__titles__container__subtitle'}>
-								- {getTranslation('ambition.description')}
+								- {t('pages.scan.ambition.question')}
 							</p>
 						</span>
 					</div>
@@ -111,78 +96,76 @@ const ScanCard: FunctionComponent<Props> = ({
 							<div className="hor-check">
 								<div className="hor-check__container">
 									<p className="hor-check__container__label">
-										{getTranslation('position')}
+										{t('pages.scan.position.name')}
 									</p>
 								</div>
 								<div
 									className={'hor-check__container'}
-									style={{ backgroundColor: `${entity.color}2D` }}
+									style={{backgroundColor: `${props.color}2D`}}
 								>
 									<p className="hor-check__container__label">
-										{getTranslation('ambition')}
+										{t('pages.scan.ambition.name')}
 									</p>
 								</div>
 							</div>
-							{element.phases.map((phase, index) => {
-								return (
+							{
+								PhaseArray.map((phase) => (
 									<HorizontalCheckbox
-										key={phase.name}
-										checkedPositie={scanData.checkedPositie}
+										key={phase}
+										checkedPositie={scanData.checkedPosition}
 										handleCheckedPositie={handleCheckedPositie}
-										checkedAmbitie={scanData.checkedAmbitie}
+										checkedAmbitie={scanData.checkedAmbition}
 										handleCheckedAmbitie={handleCheckedAmbitie}
-										position={index}
-										rowText={phase.description}
-										backgroundColor={`${entity.color}2D`}
+										position={phase}
+										rowText={t(`entities.${props.entityIndex}.elements.${props.elementIndex}.phases.${phase}.description`)}
+										backgroundColor={`${props.color}2D`}
 									/>
-								)
-							})}
+								))
+							}
 						</div>
 					</form>
 				</div>
 				<img
 					className="scancard__grid__illustration"
-					src={images[entityIndex]}
+					src={images[props.entityIndex]}
 					alt="illustratieve afbeelding"
 				/>
 			</div>
 			<div className="scancard__textarea-container">
 				<TextArea
-					value={scanData.feedbackPositie}
-					setValue={handleFeedback}
-					titleTextArea={getTranslation('position')}
-					name={'feedbackPositie'}
-					hintTextArea={getTranslation('scan.explain')}
+					value={scanData.commentPosition}
+					setValue={handleComment}
+					titleTextArea={t('pages.scan.position.name')}
+					name={'commentPosition'}
+					hintTextArea={t('pages.scan.comment')}
 				/>
 				<TextArea
-					value={scanData.feedbackAmbitie}
-					setValue={handleFeedback}
-					titleTextArea={getTranslation('ambition')}
-					name={'feedbackAmbitie'}
-					hintTextArea={getTranslation('scan.explain')}
+					value={scanData.commentAmbition}
+					setValue={handleComment}
+					titleTextArea={t('pages.scan.ambition.name')}
+					name={'commentAmbition'}
+					hintTextArea={t('pages.scan.comment')}
 				/>
 			</div>
 			<div className="scancard__progress">
 				<Button
-					backgroundColor={entity.color}
-					onClick={handlePrevious}
-					disabled={entityIndex === 0 && elementIndex === 0}
+					backgroundColor={props.color}
+					onClick={props.handlePrevious}
+					disabled={props.entityIndex === 0 && props.elementIndex === 0}
 				>
 					<span>
-						<p>{getTranslation('scan.previous')}</p>
+						<p>{t('pages.scan.previous')}</p>
 					</span>
 				</Button>
 				<ProgressDots
-					color={entity.color}
-					currentStep={elementIndex + 1}
+					color={props.color}
+					currentStep={props.elementIndex + 1}
 					totalSteps={3}
 				/>
-				<Button backgroundColor={entity.color} onClick={handleNext}>
+				<Button backgroundColor={props.color} onClick={props.handleNext}>
 					<span>
 						<p>
-							{entityIndex === 4 && elementIndex === 2
-								? getTranslation('scan.toresults')
-								: getTranslation('scan.next')}
+							{t(`pages.scan.${props.entityIndex === 4 && props.elementIndex === 2 ? 'submit' : 'next'}`)}
 						</p>
 					</span>
 				</Button>

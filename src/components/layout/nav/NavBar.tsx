@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext } from 'react'
 import { NavLink as ReactRouterNavLink } from 'react-router-dom'
 import NavItem from './NavItem'
 import { LanguageContext } from '../../../utils/contexts/LanguageContext'
@@ -9,27 +9,23 @@ import { ScanDataContext } from '../../../utils/contexts/ScanDataContext'
 import {useTranslation} from "react-i18next";
 
 const NavBar = () => {
-	const { i18n } = useTranslation();
-	const { language, changeLanguage, getTranslation } =
-		useContext(LanguageContext)
-	const { scanData: entities } = useContext(ScanDataContext)
-
-	const [answer, setAnswer] = useState<any>([])
-
-	useEffect(() => {
-		entities.forEach((entity, entityIndex) => {
-			entity.elements.forEach((element, elementIndex) => {
-				setAnswer(window.localStorage.getItem(`${entityIndex}.${elementIndex}`))
-			})
-		})
-	}, [entities])
+	const { t, i18n } = useTranslation();
+	const { changeLanguage} = useContext(LanguageContext);
+	const { anyEntityFilledIn } = useContext(ScanDataContext);
 
 	const handleChangeLanguage = () => {
-		if (language === Language.NL) changeLanguage(Language.EN)
-		if (language === Language.EN) changeLanguage(Language.NL)
-
-		if (language === Language.NL) i18n.changeLanguage('en')
-		if (language === Language.EN) i18n.changeLanguage('nl')
+		switch (i18n.language) {
+			case Language.NL:
+				changeLanguage(Language.EN);
+				i18n.changeLanguage(Language.EN);
+				break
+			case Language.EN:
+				changeLanguage(Language.NL);
+				i18n.changeLanguage(Language.NL);
+				break
+			default:
+				break;
+		}
 	}
 
 	return (
@@ -37,22 +33,22 @@ const NavBar = () => {
 			<div className={'navbar__content'}>
 				<ReactRouterNavLink to={''}>
 					<div className={'navbar__container'}>
-						<h1>{getTranslation('nav.title')}</h1>
+						<h1>{t('title')}</h1>
 					</div>
 				</ReactRouterNavLink>
 
 				<div className="navbar__content--right">
 					<ReactRouterNavLink to={''}>
-						<NavItem item={getTranslation('nav.home')} color={'purple'} />
+						<NavItem item={t('pages.home.title')} color={'purple'} />
 					</ReactRouterNavLink>
 
 					<ReactRouterNavLink to={'scan'}>
-						<NavItem item={getTranslation('nav.scan')} color={'orange'} />
+						<NavItem item={t('pages.scan.title')} color={'orange'} />
 					</ReactRouterNavLink>
 
-					{answer && (
+					{anyEntityFilledIn() && (
 						<ReactRouterNavLink to={'result'}>
-							<NavItem item={getTranslation('nav.result')} color={'green'} />
+							<NavItem item={t('pages.result.title')} color={'green'} />
 						</ReactRouterNavLink>
 					)}
 
@@ -60,7 +56,7 @@ const NavBar = () => {
 						className="navlink navlink--white cursor-pointer unselectable nobutton"
 						onClick={handleChangeLanguage}
 					>
-						{language === Language.NL ? (
+						{i18n.language === Language.NL ? (
 							<img src={flagEnglish} alt={'EN'} height={33} />
 						) : (
 							<img src={flagDutch} alt={'NL'} height={33} />

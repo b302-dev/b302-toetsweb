@@ -1,4 +1,4 @@
-import { Element } from './Element'
+import {Element} from './Element'
 
 export interface Entity {
 	name: string
@@ -16,3 +16,5 @@ export enum Entities {
 	ASSESSMENT_ORGANISATION,
 	ASSESSMENT_LITERACY,
 }
+
+export const EntityArray = Object.values(Entities).filter(value => typeof value === 'number') as Entities[];

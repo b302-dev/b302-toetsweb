@@ -5,7 +5,6 @@ import 'react-tooltip/dist/react-tooltip.css'
 import {ScanDataProvider} from "./utils/contexts/ScanDataContext";
 import Router from "./components/layout/Router";
 import NavBar from "./components/layout/nav/NavBar";
-import {ToastContainer} from "react-toastify";
 import {LanguageProvider} from "./utils/contexts/LanguageContext";
 import '@/translation/i18n'
 
@@ -18,7 +17,6 @@ createRoot(document.getElementById('root')!).render(
                         <NavBar/>
                     </Router>
                 </div>
-                <ToastContainer/>
                 <div id="modal-root"/>
             </ScanDataProvider>
         </LanguageProvider>
