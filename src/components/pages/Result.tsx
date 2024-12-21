@@ -9,8 +9,9 @@ import {getPhaseOfSelectId} from '../../models/Phase'
 import {ScanDataContext} from '../../utils/contexts/ScanDataContext'
 import {EntityArray} from "../../models/Entity";
 import {ElementArray} from "../../models/Element";
-
-const saveAs = require('save-svg-as-png')
+import {SvgToPng} from "../../utils/SvgConverter";
+import downloadFile from "../../utils/FileDownloader";
+import JSZip from "jszip";
 
 enum AnswerTypes {
 	POSITION_RESULT = 'checkedPosition',
@@ -37,7 +38,6 @@ const Result = () => {
 		const answer = JSON.parse(
 			window.localStorage.getItem(`${entity}.${element}`) as string,
 		)
-		console.log(answer)
 		return answer[answerType]
 	}
 
@@ -94,57 +94,58 @@ const Result = () => {
 		window.location.href = '/scan';
 	}
 
-	const downloadResults = () => {
-		// 	const zip = new JSZip()
-		// 	let fileData = ''
-		//
-		// 	entities.forEach((entity, entityIndex) => {
-		// 		fileData += `${entity.name}\n`
-		// 		entity.elements.forEach((element, elementIndex) => {
-		// 			fileData += `${element.name}\n`
-		// 			fileData += `${getTranslation('position')}: ${
-		// 				element.phases[
-		// 					getResult(AnswerTypes.POSITION_RESULT, entityIndex, elementIndex)
-		// 				].description
-		// 			}\n`
-		// 			fileData += `${getTranslation('results.positionexplanation')}: ${
-		// 				getResult(AnswerTypes.POSITION_FEEDBACK, entityIndex, elementIndex) ||
-		// 				getTranslation('results.notfilledin')
-		// 			}\n`
-		// 			fileData += `${getTranslation('ambition')}: ${
-		// 				element.phases[
-		// 					getResult(AnswerTypes.AMBITION_RESULT, entityIndex, elementIndex)
-		// 				].description
-		// 			}\n`
-		// 			fileData += `${getTranslation('results.ambitionexplanation')}: ${
-		// 				getResult(AnswerTypes.AMBITION_FEEDBACK, entityIndex, elementIndex) ||
-		// 				getTranslation('results.notfilledin')
-		// 			}\n\n`
-		// 		})
-		// 		fileData += '\n'
-		// 	})
-		//
-		// 	zip.file(`${getTranslation('nav.result')}.txt`, fileData)
-		// 	Promise.all(
-		// 		Array.from(document.querySelectorAll('.assignment-model')).map((svg) =>
-		// 			saveAs.svgAsPngUri(svg),
-		// 		),
-		// 	).then(([position, ambition]) => {
-		// 		zip.file(
-		// 			`${getTranslation('position')}.png`,
-		// 			position.replace(/^data:image\/(png|jpg);base64,/, ''),
-		// 			{ base64: true },
-		// 		)
-		// 		zip.file(
-		// 			`${getTranslation('ambition')}.png`,
-		// 			ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
-		// 			{ base64: true },
-		// 		)
-		//
-		// 		zip.generateAsync({ type: 'blob' }).then((content) => {
-		// 			downloadFile(content, `${getTranslation('nav.result')}.zip`)
-		// 		})
-		// 	})
+	const downloadResults = async () => {
+		const zip = new JSZip()
+		let fileData = ''
+
+		entities.forEach((entity, entityIndex) => {
+			if (!entityFilledIn(entityIndex)) return
+
+			fileData += `${entity.name}\n`
+			entity.elements.forEach((element, elementIndex) => {
+				fileData += `${element.name}\n`
+				fileData += `${getTranslation('position')}: ${
+					element.phases[
+						getResult(AnswerTypes.POSITION_RESULT, entityIndex, elementIndex)
+						].description
+				}\n`
+				fileData += `${getTranslation('results.positionexplanation')}: ${
+					getResult(AnswerTypes.POSITION_FEEDBACK, entityIndex, elementIndex) ||
+					getTranslation('results.notfilledin')
+				}\n`
+				fileData += `${getTranslation('ambition')}: ${
+					element.phases[
+						getResult(AnswerTypes.AMBITION_RESULT, entityIndex, elementIndex)
+						].description
+				}\n`
+				fileData += `${getTranslation('results.ambitionexplanation')}: ${
+					getResult(AnswerTypes.AMBITION_FEEDBACK, entityIndex, elementIndex) ||
+					getTranslation('results.notfilledin')
+				}\n\n`
+			})
+			fileData += '\n'
+		})
+
+		zip.file(`${getTranslation('nav.result')}.txt`, fileData)
+		Promise.all(
+			Array.from(document.querySelectorAll('.assignment-model'))
+				.map((svg) => SvgToPng(svg))
+		).then(([position, ambition]) => {
+			zip.file(
+				`${getTranslation('position')}.png`,
+				position.replace(/^data:image\/(png|jpg);base64,/, ''),
+				{base64: true},
+			)
+			zip.file(
+				`${getTranslation('ambition')}.png`,
+				ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
+				{base64: true},
+			)
+
+			zip.generateAsync({type: 'blob'}).then((content) => {
+				downloadFile(content, `${getTranslation('nav.result')}.zip`)
+			})
+		})
 	}
 
 	const getResultData = (answerType: AnswerTypes) => {
@@ -191,7 +192,6 @@ const Result = () => {
 				{entities.map((entity, entityIndex) => {
 					const color = entity.color
 					const explanation = getTranslation('explanation')
-
 
 
 					if (!entityFilledIn(entityIndex)) return null;
