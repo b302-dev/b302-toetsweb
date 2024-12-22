@@ -45,6 +45,11 @@
         "text": "Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, wordt er eerst een introductiepagina geopend waarop de voorbereiding en uitvoering van de scan uitgebreider worden toegelicht. Daarna kun je de scan starten. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.",
         "link": "Start de Toetsweb-Scan"
       },
+      "customWeb": {
+        "title": "Heb je alleen een ingevuld Toetsweb nodig?",
+        "text": "Je weet al in welke fase de verschillende toetsentiteiten zich in jullie opleiding bevinden en waar jullie ambitie ligt, bijvoorbeeld omdat je deze scan of een andere tool al hebt ingezet. En je hebt alleen een ingevuld toetsweb nodig. Klik dan hieronder.",
+        "link": "Toetsweb zelf invullen"
+      },
       "developers": {
         "title": "Ontwikkelaars",
         "text": "Het Toetsweb is ontwikkeld door het Lectoraat Eigentijds Beoordelen en Beslissen. Het lectoraat is onderdeel van het Onderzoeksteam Kwaliteiten van Leraren van de Academie Educatie van de HAN University of Applied Sciences. Deze Toetsweb-Scan is tot stand gekomen in samenwerking met B302 en met behulp van subsidie uit het Versnellingsplan Onderwijsinnovatie met ICT."
@@ -95,6 +100,11 @@
         "advice": "Download advies"
       },
       "reset": "Reset resultaten"
+    },
+    "customWeb": {
+      "title": "Eigen Toetsweb",
+      "text": "Op deze pagina kun je het Toetsweb zelf invullen. Bijvoorbeeld omdat je al eerder deze scan of de Gesprekstool Toetsweb of het spel De Toetsing Getoetst hebt gebruikt. Jullie hebben dan al samen de huidige positie en jullie ambitie vastgesteld. Als je klikt op de betreffende fase voor een toetsentiteit, dan worden deze fase en de voorgaande fases ingekleurd. Vervolgens kun je dit ingevulde toetsweb downloaden.",
+      "download": "Download Toetsweb"
     },
     "notfound": {
       "title": "Pagina niet gevonden",

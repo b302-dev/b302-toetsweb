@@ -55,7 +55,7 @@ const Scan = () => {
 		<Page className="scan">
 			<div className={'scan__tabs'}>
 				{EntityArray.map((entity) => {
-					const notFinished = entityFilledIn(entity);
+					const notFinished = !entityFilledIn(entity);
 					const color = notFinished ? 'gray' : 'white';
 
 					const backgroundColor = () => {

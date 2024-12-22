@@ -1,10 +1,11 @@
-.colofon-info-contact {
+.colophon-info-contact {
 	&__name {
 		font-weight: 1000;
 		font-size-adjust: 0.6;
 	}
 
 	&__email {
-		text-decoration: underline !important;
+		color: white;
+		font-weight: 500;
 	}
 }

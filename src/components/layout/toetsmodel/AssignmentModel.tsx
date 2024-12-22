@@ -28,6 +28,7 @@ const AssignmentModel: FunctionComponent<Props> = ({results = [3, 3, 3, 3, 3], o
                 height="672"
                 viewBox="0 0 595.3 595.3"
                 xmlSpace="preserve"
+                style={{backgroundColor: "white"}}
                 className={'assignment-model'}
             >
                 <SideText/>

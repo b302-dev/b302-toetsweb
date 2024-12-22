@@ -45,6 +45,11 @@
         "text": "If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', an introduction page will first open on which the preparation and execution of the scan are explained in more detail. Then you can start the scan. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
         "link": "Start the Assessment Web Scan"
       },
+      "customWeb": {
+        "title": "Do you only need a completed Assessment Web?",
+        "text": "You already know what phase the various assessment entities are in in your degree programme and where your ambition lies, for example because you have already used this scan or another tool. And all you need is a completed Assessment Web. Then click below.",
+        "link": "Fill in the Assessment Web yourself"
+      },
       "developers": {
         "title": "Developers",
         "text": "The Assessment Web was developed by the research centre Contemporary Assessment and Decision Making. The research centre is part of the research team Teacher Qualities of the School of  Education of the HAN University of Applied Sciences. This Assessment-Web Scan was created in collaboration with B302 and with the help of a subsidy from the Dutch ‘Versnellingsplan Onderwijsinnovatie met ICT'."
@@ -95,6 +100,11 @@
         "advice": "Download advice"
       },
       "reset": "Reset scan"
+    },
+    "customWeb": {
+      "title": "Custom Assessment Web",
+      "text": "On this page you can fill in the Assessment Web yourself. For example, because you have already used this scan or the Conversation Tool Assessment Web. You will have already determined the current position and your ambition together. If you click on the relevant phase for an assessment entity, this phase and the previous phases will be coloured. You can then download this completed Assessment Web.",
+      "download": "Download Assessment Web"
     },
     "notfound": {
       "title": "Page not found",

@@ -1,5 +1,4 @@
 import {useContext, useMemo} from 'react'
-import Button from '../layout/Button'
 import {useTitle} from '../../utils/hooks/TitleHook'
 import {LanguageContext} from '../../utils/contexts/LanguageContext'
 import Page from '../Page'
@@ -12,6 +11,7 @@ import {ElementArray} from "../../models/Element";
 import {SvgToPng} from "../../utils/SvgConverter";
 import downloadFile from "../../utils/FileDownloader";
 import JSZip from "jszip";
+import Button from "../layout/Button";
 
 enum AnswerTypes {
 	POSITION_RESULT = 'checkedPosition',
@@ -159,7 +159,6 @@ const Result = () => {
 	return (
 		<Page className="result">
 			<header className={'section'}>
-				<h1>{getTranslation('nav.result')}</h1>
 				<p>{getTranslation('results.explanation.part1')}</p>
 				<p>{getTranslation('results.explanation.part2')}</p>
 				<p>{getTranslation('results.explanation.part3')}</p>
@@ -269,28 +268,20 @@ const Result = () => {
 
 			<footer className="result__download-container">
 				<div className="result__download-button">
-					<Button onClick={downloadResults} backgroundColor={entities[0].color}>
-						<span>
-							<p>{getTranslation('results.downloadresults')}</p>
-						</span>
+					<Button onClick={downloadResults} variant={"primary"}>
+						{getTranslation('results.downloadresults')}
 					</Button>
 				</div>
 
 				<div className="result__download-button">
-					<Button onClick={downloadAdviceBooklet} backgroundColor={entities[0].color}>
-						<div data-tooltip-id={'downloadAdviceBooklet'}>
-							<span>
-								<p>{getTranslation('results.downloadadvice')}</p>
-							</span>
-						</div>
+					<Button onClick={downloadAdviceBooklet} variant={"primary"}>
+						{getTranslation('results.downloadadvice')}
 					</Button>
 				</div>
 
 				<div className="result__download-button">
-					<Button onClick={resetScan} backgroundColor={entities[0].color}>
-						<span>
-							<p>{getTranslation('results.resetscan')}</p>
-						</span>
+					<Button onClick={resetScan} variant={"primary"}>
+						{getTranslation('results.resetscan')}
 					</Button>
 				</div>
 			</footer>
