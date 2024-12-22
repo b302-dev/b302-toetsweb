@@ -1,50 +1,38 @@
-import {FunctionComponent, useContext} from 'react'
-import {Phases} from '../../../../models/Phase'
+import {FunctionComponent} from 'react'
 import {Portal} from '../../Portal'
 import {Entities} from "../../../../models/Entity";
-import {ScanDataContext} from "../../../../utils/contexts/ScanDataContext";
+import {phaseColors} from "../../../../utils/contexts/ScanDataContext";
+import {genericPhaseColors, Phases} from "../../../../models/Phase";
+import {useTranslation} from "react-i18next";
 
 interface PhaseBarProps {
-    entity: Entities
-    phase: Phases
-    result: number
-    d: string
-    onPhaseClick?: (entity: Entities, phase: Phases) => void
+	entity: Entities
+	phase: Phases
+	result: number
+	d: string
+	onPhaseClick?: (entity: Entities, phase: Phases) => void
 }
 
-const GenericEntity: FunctionComponent<PhaseBarProps> = ({
-                                                             entity,
-                                                             phase,
-                                                             result,
-                                                             d,
-                                                             onPhaseClick
-                                                         }) => {
-    const {scanData: entities} = useContext(ScanDataContext);
+const GenericEntity: FunctionComponent<PhaseBarProps> = (props) => {
+	const { t } = useTranslation();
 
-    const thisPhase = entities[entity].elements[0].phases[phase];
-    const isResult = phase <= result;
+	const isResult = props.phase <= props.result;
+	const currentName = t(`phases.${props.phase}.name`);
+	const currentDescription = t(`entities.${props.entity}.phases.${props.phase}.description`);
+	const currentColor = isResult ? phaseColors[props.entity][props.phase] : genericPhaseColors[props.phase];
 
-    const style = () => {
-        const color = isResult ? thisPhase.color : thisPhase.fallbackColor
-        return {
-            backgroundColor: color,
-            fill: color,
-        }
-    }
+	const onClick = () => props.onPhaseClick && props.onPhaseClick(props.entity, props.phase);
 
-    const onClick = () => onPhaseClick && onPhaseClick(entity, phase);
-
-    return (
-        <Portal trigger={<path style={style()} d={d}/>} onClick={onClick}>
-            <div
-                className={'toetsmodel-component__popup'}
-                style={{backgroundColor: thisPhase.color}}
-            >
-                <h4>{`${phase + 1}. ${thisPhase.name.toUpperCase()}`}</h4>
-                <p>{thisPhase.genericEntityDescription}</p>
-            </div>
-        </Portal>
-    )
+	return (
+		<Portal trigger={<path style={{backgroundColor: currentColor, fill: currentColor}} d={props.d}/>}
+				onClick={onClick}>
+			<div className={'toetsmodel-component__popup'}
+				 style={{backgroundColor: phaseColors[props.entity][props.phase]}}>
+				<h4>{`${props.phase + 1}. ${currentName.toUpperCase()}`}</h4>
+				<p>{currentDescription}</p>
+			</div>
+		</Portal>
+	)
 }
 
 export default GenericEntity

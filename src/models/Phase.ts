@@ -20,6 +20,8 @@ export enum Phases {
 	CHAIN_ORIENTED,
 }
 
+export const PhaseArray = Object.values(Phases).filter(value => typeof value === 'number') as Phases[];
+
 const selectIds: string[][] = [
 	//activity oriented phase
 	[

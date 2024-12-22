@@ -1,0 +1,486 @@
+{
+  "title": "Assessment Web",
+  "pages": {
+    "home": {
+      "title": "The Assessment Web",
+      "header": {
+        "title": "GETTING STARTED WITH THE ASSESSMENT WEB: WORKING ON THE QUALITY OF ASSESSMENT",
+        "subTitle": "On this website you can complete the Assessment Web Scan with your degree course team, the assessment or curriculum committee of your team or another relevant representation of the degree course. The Assessment Web Scan is based on the methodology of the 'Asssement Assessed' and is intended to analyze, improve and guarantee the quality of the assessment. The Assessment Web forms the theoretical foundation of the 'Assessment Assessed'."
+      },
+      "assessmentQuality": {
+        "title": "Jointly determine assessment quality",
+        "text": "With the help of the Assessment Web you can determine together as a team what the (sustainable) quality of assessment currently looks like in your degree course (position determination). With the help of this scan, you can also make choices together about your development towards (sustainable) assessment quality (ambition determination). In addition, you use the scan with your team to make a substantiated action plan to achieve your ambition."
+      },
+      "assessmentExplained": {
+        "title": "The Assessment Web explained",
+        "text": "The Assessment Web consists of five assessment entities; assessment (tasks), assessment programme, assessment policy, assessment organisation and assessment literacy. These five entities are connected with one another and also with the centre of the web. The shape of the web symbolizes the interconnectedness of the different assessment entities, makes it visually visible that they are all connected to each other and shows four different development phases."
+      },
+      "modelSubText": "By hovering the mouse over one of the parts of the Assessment Web, the explanation of this part becomes visible.",
+      "entities": {
+        "title": "Assessment entities",
+        "text": [
+          "The assessment web consists of five assessment entities; assessment(tasks), assessment programme, assessment policy, assessment organisation and assessment literacy.  At the core of the assessment web is the vision on education. This is leading for all (design) choices made in the assessment entities.",
+          "Assessments are all (learning) activities/measuring instruments that are used to determine whether the intended learning outcomes are or have been achieved. Assessment tasks are the items or assignments within an assessment that challenge students to demonstrate their knowledge and skills. The assessment programme focuses on the clear connection between all assessments and the intended learning outcomes. The assessment programme must consist of a deliberate and substantiated combination of assessment (forms) that fit the objectives and structure of a programme (the educational programme).",
+          "All substantive and procedural agreements are laid down in the assessment policy. There is often an assessment policy at the institutional level and an assessment policy at the degree programme level. The assessment policy pays attention to the assessment organisation. In the assessment organisation, lecturers, board of examiners, assessment committee, management and support staff work together in a targeted and role-based manner to achieve the desired assessment quality on all assessment entities. The assessment entity assessment literacy considers the specific expertise that all these actors – within their own role – must have in order to achieve the quality of the assessment entities.",
+          "The design choices made within the entities are inextricably linked to the vision of education. The vision on assessment is part of this. By making the vision on assessment an integral part of the vision on education, it is ensured that assessment becomes part of the educational concept and that assessment literacy is experienced as part of teacher competence."
+        ]
+      },
+      "elements": {
+        "title": "Elements",
+        "text": "Three elements can be distinguished within each assessment entity. These are the elements quality criteria, design and quality assurance. The first element, quality criteria, concerns the question of what information is used to achieve and establish the quality of the assessment entities. The second element, design, focuses on the question of how the development and deployment of the five assessment entities are achieved. The third element, quality assurance, focuses on the way in which the quality assurance of the assessment entities is organised. Structural attention to these three elements ensures that work is done from the PDCA cycle."
+      },
+      "phases": {
+        "title": "Development phases",
+        "text": [
+          "A team of a degree programme can develop the quality of each assessment entity. Four development phases are distinguished: the activity-oriented phase, the process-oriented phase, the system-oriented phase and the chain-oriented phase. Characteristic aspects within these phases are a development in the way in which all those involved are deployed (from individual actions to actions involving all relevant partners), a development in long-term thinking (from ad hoc to a long-term strategy) and a development in the integration of processes and activities in the educational process (from stand-alone activities to activities that are consciously carried out in conjunction within ongoing processes). In the web, these phases of development are symbolized as boxes. The inner ring is the activity-oriented phase, the outer ring the chain-oriented phase. This allows a degree programme to climb outwards, as it were: the further the degree programme climbs, the more grip there is on working sustainably on quality from the vision of education.",
+          "For each assessment entity, a short description is available for each development phase about how the assessment entity is filled in during that phase. To make this description visible, move your mouse over these parts of the Assessment Web."
+        ]
+      },
+      "explanation": {
+        "readMore": "Are you looking for more explanation about the Assessment Web, the assessment entities, elements and development phases? ",
+        "link": "Then visit this website."
+      },
+      "startScan": {
+        "title": "Start the Scan",
+        "text": "If you want to run the Assessment Web Scan, make sure you can work with your team at the same time. Completing the scan, if you do that as a team, takes at least an hour. You can also choose to first have the scan completed individually, then discuss this in the team and complete the scan again together. Once you have clicked 'start', an introduction page will first open on which the preparation and execution of the scan are explained in more detail. Then you can start the scan. For each assessment entity and then per element (quality criteria, design and assurance), you are asked to choose a place in the Assessment Web. You fill in both the current position and your ambition. You have the opportunity to give an explanation of this. At the end of the scan, the result will be displayed and you will have the option to download the result.",
+        "link": "Start the Assessment Web Scan"
+      },
+      "customWeb": {
+        "title": "Do you only need a completed Assessment Web?",
+        "text": "You already know what phase the various assessment entities are in in your degree programme and where your ambition lies, for example because you have already used this scan or another tool. And all you need is a completed Assessment Web. Then click below.",
+        "link": "Fill in the Assessment Web yourself"
+      },
+      "developers": {
+        "title": "Developers",
+        "text": "The Assessment Web was developed by the research centre Contemporary Assessment and Decision Making. The research centre is part of the research team Teacher Qualities of the School of  Education of the HAN University of Applied Sciences. This Assessment-Web Scan was created in collaboration with B302 and with the help of a subsidy from the Dutch ‘Versnellingsplan Onderwijsinnovatie met ICT'."
+      },
+      "colophon": {
+        "title": "More information?",
+        "subTitle": "Then contact us!",
+        "roles": {
+          "lecturer": "Lecturer",
+          "researcher": "Researcher",
+          "educator": "Educator/Trainer/Advisor"
+        },
+        "academy": "Academy of Education"
+      }
+    },
+    "scan": {
+      "title": "Assessment Web Scan",
+      "position": {
+        "name": "Position",
+        "question": "In which description do you recognize your degree course the most?"
+      },
+      "ambition": {
+        "name": "Ambition",
+        "question": "Which description best suits your degree course in 2 years?"
+      },
+      "optionEmpty": "Choose at least 1 option for position and ambition",
+      "explain": "Explanation",
+      "comment": "Explain your answer",
+      "next": "Next question",
+      "previous": "Previous question",
+      "submit": "To results"
+    },
+    "result": {
+      "title": "Results",
+      "explanation": [
+        "On this page you can see the results of the Assessment Web Scan you have completed. In the left column you can see the current position of each assessment entity and in the right column your ambition per assessment entity. The results are depicted both in the assessment web and described in the text below. The text for the position describes the phase in which the assessment entity is in the current situation and the text for the ambition where your ambition lies. You will also find your choices there, so the statements you have chosen, and possibly the explanation you have given.",
+        "The result indicates the phase in which your degree programme is generally for the assessment entity in question. In concrete terms, this means that at least one of the elements (quality criteria, design or quality assurance), but possibly all three of these elements, are in this phase of development. The same applies to the ambition. The phase indicates where your ambition lies overall for the relevant assessment entity. In concrete terms, your ambition for one or more elements is in that phase.",
+        "At the bottom of the page, you have three options. You can download the results for further use. This download contains the same images and text as this page. You can also download an advice. For each element, the advice briefly outlines what characterises this element in the phase in which your degree programme is and what risks this potentially entails for the quality of the assessment entity in question. It also identifies a number of concrete actions that may be helpful in taking a development step towards the next phase. The third option is to reset the results. The results are remembered on the device on which the scan is completed. If you want to complete a new scan, reset the results first. Make sure that, if desired, you first download the results and the advice.",
+        "Good luck and have fun working on the quality of assessment!"
+      ],
+      "notFilledIn": "Not filled in",
+      "comment": {
+        "position": "Position explanation",
+        "ambition": "Ambition explanation"
+      },
+      "download": {
+        "results": "Download results",
+        "advice": "Download advice"
+      },
+      "reset": "Reset scan"
+    },
+    "customWeb": {
+      "title": "Custom Assessment Web",
+      "text": "On this page you can fill in the Assessment Web yourself. For example, because you have already used this scan or the Conversation Tool Assessment Web. You will have already determined the current position and your ambition together. If you click on the relevant phase for an assessment entity, this phase and the previous phases will be coloured. You can then download this completed Assessment Web.",
+      "download": "Download Assessment Web"
+    },
+    "notfound": {
+      "title": "Page not found",
+      "text": "The page you are looking for does not exist.",
+      "back": "Back to homepage"
+    }
+  },
+  "entities": [
+    {
+      "name": "Assessment (tasks)",
+      "description": "Assessments are (learning) activities/measurement instruments used to establish whether the intended learning outcomes have been achieved (Joosten-ten Brinke & Draaier, 2015). The quality of the assessment as a whole also includes the design of the assessment models and instructions for students and assessors. The assessment tasks are the items, questions or assignments within an assessment whereby students are challenged to demonstrate their knowledge and skills (Draaier & Joosten-ten Brinke, 2015).",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Teachers develop assessments as they see fit: they use their own quality criteria."
+            },
+            {
+              "description": "When designing assessments, teachers use quality criteria that are based on the experiences of experienced assessment developers."
+            },
+            {
+              "description": "Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights."
+            },
+            {
+              "description": "The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with chain partners, for example the professional field."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Teachers often design the assessments on their own and shortly before administering the assessment."
+            },
+            {
+              "description": "Teachers develop assessments using an assessments cycle or design process. The assessments, which are developed during the teaching period, are made together with colleagues."
+            },
+            {
+              "description": "The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education."
+            },
+            {
+              "description": "The assessments are developed prior to the teaching period. These assessments match not only the study programme that the student follows within the degree  course, but also what is learned in the workplace."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The quality of the assessments is evaluated only when there is reason to do so."
+            },
+            {
+              "description": "The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments."
+            },
+            {
+              "description": "The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+            },
+            {
+              "description": "Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and relevant chain partners, such as the professional field."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Teachers develop assessments as they see fit: they use their own quality criteria, often design the assessments on their own and shortly before administering the assessment. The quality of the assessments is evaluated only when there is reason to do so."
+        },
+        {
+          "description": "Teachers develop assessments using an assessments cycle or design process and use quality criteria that are based on the experiences of experienced assessment developers. The assessments, which are developed during the teaching period, are made together with colleagues. The quality of the assessments is regularly evaluated by the teachers involved. The results are not necessarily discussed with colleagues or students but are used to improve their own assessments."
+        },
+        {
+          "description": "Teachers' quality criteria when developing assessments are regularly adjusted based on current (scientific) insights. The assessments, developed prior to the teaching, are appropriate for the learning outcomes and fit in with earlier education. The quality of assessments is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+        },
+        {
+          "description": "The quality criteria used in the design of both the assessments and the learning and assessment objectives are discussed with chain partners, for example  the professional field. These assessments match not only the study programma that the student follows within the degree  course, but also what is learned in the workplace. Assessments are structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and relevant chain partners, such as the professional field."
+        }
+      ]
+    },
+    {
+      "name": "Assessment programme",
+      "description": "The assessment programme is an intentional and substantiated combination of assessment types that match the objectives and structure of a degree course (study programme) (Baartman & Van der Vleuten, 2015). It is about the apparent relationship between assessment and the assurance of the different functions of assessment.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Within the degree course, it has not been determined which quality criteria the assessment programme should meet."
+            },
+            {
+              "description": "In the degree course quality criteria have been established for the assessment programme."
+            },
+            {
+              "description": "The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights."
+            },
+            {
+              "description": "The quality criteria used in the design of the assessment programma are discussed with chain partners, for example the professional field and are regularly adjusted based on current (scientific) insights."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes."
+            },
+            {
+              "description": "The intended learning outcomes form the basis for designing the assessment programme."
+            },
+            {
+              "description": "During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments."
+            },
+            {
+              "description": "The structure of the assessment programme is discussed and determined with chain partners, for example the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The quality of the assessment programme is evaluated only when there is reason to do so."
+            },
+            {
+              "description": "With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme."
+            },
+            {
+              "description": "The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+            },
+            {
+              "description": "The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and relevant chain partners, such as the professional field."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Within the degree course, it has not been determined which quality criteria the assessment programme should meet. Every teacher develops his own assessments, but there is no overview of the coherence between the assessments. Therefore, it is impossible to establish with certainty that the assessments collectively cover the intended learning outcomes."
+        },
+        {
+          "description": "In the degree course quality criteria have been established for the assessment programme. The intended learning outcomes form the basis for designing the assessment programme. With some regularity, the assessment programme's coverage and feasibility are evaluated. The results are not necessarily discussed with all colleagues or students but are used to improve the assessment programme."
+        },
+        {
+          "description": "The quality criteria for developing the assessment programme are regularly adjusted based on new (scientific) insights. During development, attention is paid to both horizontal and vertical coherence between the assessments. There is also consultation on the most suitable assessment design, assessment functions, and the number of assessments. The quality of the assessment programme is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+        },
+        {
+          "description": "The quality criteria and the structure of the assessment programme are discussed with chain partners, for example  the professional field. Programme components that take place in the workplace are coordinated with the professional field so that they are feasible and appropriate. The assessment programme is structurally evaluated on the basis of the quality criteria. The results are discussed with both the relevant partners within the degree course and relevant chain partners, such as  the professional field."
+        }
+      ]
+    },
+    {
+      "name": "Assessment policy",
+      "description": "Assessment policy refers to the entire range of substantive and procedural agreements concerning assessment (Bruijns & Kok, 2015). Several levels can be distinguished within the integral assessment policy, including the policy at the institutional level and the degree course level.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet."
+            },
+            {
+              "description": "Within the degree course, quality criteria have been established for the assessment (policy) plan."
+            },
+            {
+              "description": "The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights."
+            },
+            {
+              "description": "The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education."
+            },
+            {
+              "description": "The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved."
+            },
+            {
+              "description": "Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly."
+            },
+            {
+              "description": "The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The quality of the policy plan is only evaluated if there is reason to do so."
+            },
+            {
+              "description": "The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan."
+            },
+            {
+              "description": "The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree  course."
+            },
+            {
+              "description": "The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and relevant chain partners, such as the professional field."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Within the degree course, it has not been determined which quality requirements an assessment (policy) plan must meet. The policy plan is mainly a description of (separate) assessment processes. These are not yet (completely) in line with the vision on education. The quality of the policy plan is only evaluated if there is reason to do so."
+        },
+        {
+          "description": "Within the degree course, quality criteria have been established for the assessment (policy) plan. The vision on education and the assessment framework of the institution form the basis for the policy plan. In addition to assessment processes, the policy plan includes interventions describing how the ambitions will be achieved. The quality, feasibility, and practicality of the policy plan are evaluated at regular intervals. The results are not automatically discussed with all colleagues or students, but are used to adjust the policy plan."
+        },
+        {
+          "description": "The quality criteria used in developing the assessment (policy) plan are regularly adjusted based on current (scientific) insights. Current (scientific) knowledge is used to develop processes and interventions. The policy plan, the vision on education and the assessment framework of the institution connect seamlessly. The policy plan is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+        },
+        {
+          "description": "The quality criteria set for the assessment (policy) plan are discussed with relevant internal and/or external partners and are in line with the national frameworks. The processes and interventions included in the policy plan are aimed at the long term. Intermediate goals have been set so that mid-term evaluation is possible. The policy plan is structurally evaluated based on the quality criteria, and the results are discussed with both the relevant partners within the degree course and relevant chain partners, such as  the professional field."
+        }
+      ]
+    },
+    {
+      "name": "Assessment organisation",
+      "description": "The quality of the whole assessment organisation is key to assuring the quality of assessment. The assessment organization refers to how teachers, boards of examiners, assessment committees, management, and support staff work together purposefully to achieve the desired assessment quality for all assessment entities (Van Deursen & Van Zijl, 2015). It also concerns establishing the roles, tasks and responsibilities of the actors/parties involved in assessment, cooperation based on defined roles and the logistical organisation of assessment.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Within the degree course, it has not been determined which quality criteria the assessment organisation should meet."
+            },
+            {
+              "description": "Quality criteria have been established for the assessment organisation within the degree course."
+            },
+            {
+              "description": "The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights."
+            },
+            {
+              "description": "The quality criteria that are used when setting up the assessment organisation are discussed with chain partners, for example the professional field."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet."
+            },
+            {
+              "description": "All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other."
+            },
+            {
+              "description": "The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other."
+            },
+            {
+              "description": "The design of the assessment organization is discussed with chain partners, for example the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The quality of the assessment organisation is only evaluated when there is reason to do so."
+            },
+            {
+              "description": "The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes."
+            },
+            {
+              "description": "The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+            },
+            {
+              "description": "The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and relevant chain partners, such as the professional field."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Within the degree course, it has not been determined which quality criteria the assessment organisation should meet. The teachers design the assessment processes as they see fit. Agreements have been made about the assessment processes' roles, tasks and responsibilities, but employees only know which responsibilities they themselves have to meet. The quality of the assessment organisation is only evaluated when there is reason to do so."
+        },
+        {
+          "description": "Quality criteria have been established for the assessment organisation within the degree course. All roles, tasks and responsibilities have been defined, so everyone knows who is responsible for what. It is clear to everyone how the various assessment processes relate to or should relate to each other. However, the processes do not yet seamlessly align with each other. The quality of the assessment organisation is evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to improve assessment processes."
+        },
+        {
+          "description": "The quality criteria used in setting up the assessment organisation are regularly adjusted based on current (scientific) insights. The roles, tasks and responsibilities in the degree course are regularly discussed and aligned with each other. The quality of the assessment organisation is structurally evaluated based on the quality criteria. The results are discussed with relevant partners within the degree course."
+        },
+        {
+          "description": "The quality criteria and the assessment organisation’s structure are discussed with chain partners, for example the professional field. The roles, tasks and responsibilities of the professional field in the assessment organisation are laid down, as well as the assessment processes which take place at the workplace. The quality of the assessment organisation is structurally evaluated based on the quality criteria, and the results are discussed with the relevant partners within the degree course and relevant chain partners, such as the professional field."
+        }
+      ]
+    },
+    {
+      "name": "Assessment literacy",
+      "description": "In the assessment web, ‘assessment literacy’ refers to the expertise actors within the study programme should have to achieve quality across all assessment entities (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifically for the entity ’assessment’, the assessment literacy of teachers, boards of examiners and other involved parties is of utmost importance. Every teacher must be able to interpret assessment information and use it to establish how a student is doing and how this information can further contribute to the student’s learning (Straetmans, 2006).",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers."
+            },
+            {
+              "description": "The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers."
+            },
+            {
+              "description": "The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights."
+            },
+            {
+              "description": "The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "The responsibility for the development of assessment literacy lies with individual teachers."
+            },
+            {
+              "description": "For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated."
+            },
+            {
+              "description": "The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams."
+            },
+            {
+              "description": "Not only for the partners within the degree course, but also for the partners from the professional field, it has been determined which Assessment literacy they must have."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Teachers' assessment literacy is only evaluated when there is reason to do so."
+            },
+            {
+              "description": "Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy."
+            },
+            {
+              "description": "The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans."
+            },
+            {
+              "description": "The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and relevant chain partners, such as the professional field."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Within the degree course no (concrete) agreements have been made about the assessment literacy expected from teachers. The responsibility for the development of assessment literacy lies with individual teachers. Teachers' assessment literacy is only evaluated when there is reason to do so."
+        },
+        {
+          "description": "The requirements for assessment literacy within the degree course are based on the experiences of experienced assessment developers. For all employees in the assessment organisation, the required assessment literacy has been laid down. To realise this literacy, concrete goals have been formulated. Both the status of the development of assessment literacy and the quality of assessment literacy are evaluated regularly. The results are not automatically discussed with all colleagues or students but are used to initiate actions to improve assessment literacy."
+        },
+        {
+          "description": "The requirements for assessment literacy are regularly adjusted based on (national) frameworks and current insights. The required assessment literacy is not only established at an individual level but also at a team level. A targeted effort is made to professionalise employees and teams. The quality of assessment literacy is structurally evaluated based on the requirements for assessment literacy. The results are discussed with relevant partners within the degree course and serve as a basis for designing development plans."
+        },
+        {
+          "description": "The requirements for assessment literacy are discussed with internal and/or relevant external partners and are in line with the national frameworks. Also for the partners from the professional field, it has been determined which Assessment literacy they must have. The quality of the assessment literacy of all partners in the assessment organisation is structurally evaluated based on the requirements for assessment literacy, and the results are discussed with the relevant partners within the degree course and relevant chain partners, such as the professional field."
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "name": "Quality criteria"
+    },
+    {
+      "name": "Design"
+    },
+    {
+      "name": "Quality assurance"
+    }
+  ],
+  "phases": [
+    {
+      "name": "Activity-oriented phase",
+      "description": "Individual employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out parts of assessment activities on an ad hoc basis, whereby there is no attention to the interrelationship between these activities."
+    },
+    {
+      "name": "Process-oriented phase",
+      "description": "Relevant employees in the degree course (teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) carry out interrelated process-oriented assessment activities based on short-term policy."
+    },
+    {
+      "name": "System-oriented phase",
+      "description": "All relevant staff and partners in the degree course (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff) jointly carry out assessment activities from a medium-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course."
+    },
+    {
+      "name": "Chain-oriented phase",
+      "description": "All relevant employees and partners within the degree course and in the chain (students, teachers/examiners, coursemanagement, examination board of examiners, assessment experts/assessment committee, support staff, professional field and external experts) jointly carry out assessment activities from a long-term perspective according to the PDCA cycle that are integrated into ongoing processes within the degree course and the chain."
+    }
+  ]
+}

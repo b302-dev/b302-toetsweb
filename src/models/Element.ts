@@ -1,4 +1,4 @@
-import { Phase } from './Phase'
+import {Phase} from './Phase'
 
 export interface Element {
 	name: string
@@ -11,3 +11,5 @@ export enum Elements {
 	DESIGN,
 	QUALITY_ASSURANCE,
 }
+
+export const ElementArray = Object.values(Elements).filter(value => typeof value === 'number') as Elements[];

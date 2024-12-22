@@ -1,17 +1,11 @@
-html {
-	height: 100%;
+html, body, #root {
+	min-height: 100%;
 }
 
-body {
-	height: 100%;
-
-	background: $background-color no-repeat;
-	background-size: cover;
-}
-
-main,
-#root {
-	height: 100%;
+.app {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 2rem;
 }
 
 section[class$='-page'] {

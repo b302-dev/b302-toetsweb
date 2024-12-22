@@ -1,7 +1,7 @@
 import {ChangeEvent, FunctionComponent} from 'react'
 
 interface Props {
-	value: string
+	value?: string
 	setValue: (e: ChangeEvent<HTMLTextAreaElement>) => void
 	name: string
 	titleTextArea: string

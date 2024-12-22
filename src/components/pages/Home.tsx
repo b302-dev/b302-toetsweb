@@ -1,106 +1,78 @@
-import {useContext} from 'react'
-
 import Toetstaken from '../../assets/images/IllustratieToetstaken.svg'
 import ArrowIcon from '../../assets/icons/arrow.svg'
-import {NavLink as ReactRouterNavLink} from 'react-router-dom'
-import Colofon from '../layout/footer/Colofon'
-import {LanguageContext} from '../../utils/contexts/LanguageContext'
+import Colophon from '../layout/footer/Colophon'
 import AssignmentModel from '../layout/toetsmodel/AssignmentModel'
 import {useTitle} from '../../utils/hooks/TitleHook'
 import Page from '../Page'
+import {useTranslation} from "react-i18next";
+import TranslatedSection from "../layout/TranslatedSection";
+import ButtonAnchor from "../layout/ButtonAnchor";
 
 const Home = () => {
-    const {getTranslation} = useContext(LanguageContext)
-    useTitle(getTranslation('nav.title'))
+	const {t} = useTranslation();
+	useTitle(t('pages.home.title'))
 
-    return (
-        <Page>
-            <main className={'home-page'}>
-                <div className="home-page__hero-section">
-                    <div>
-                        <h1>{getTranslation('home.heroTitle')}</h1>
-                        <p className={'home-page__hero-section__subtitle'}>
-                            {getTranslation('home.heroSubtitle')}
-                        </p>
-                    </div>
-                    <div className={'home-page__hero-section__toetsmodel'}>
-                        <AssignmentModel/>
-                        <p className={'home-page__model-explanation'}>
-                            {getTranslation('home.modelExplained')}
-                        </p>
-                    </div>
-                </div>
+	return (
+		<Page>
+			<main className={'home-page'}>
+				<div className="home-page__hero-section">
+					<div>
+						<h1>{t('pages.home.header.title')}</h1>
+						<p className={'home-page__hero-section__subtitle'}>
+							{t('pages.home.header.subTitle')}
+						</p>
+					</div>
+					<div className={'home-page__hero-section__toetsmodel'}>
+						<AssignmentModel/>
+						<p className={'home-page__model-explanation'}>
+							{t('pages.home.modelSubText')}
+						</p>
+					</div>
+				</div>
 
-                <div className="home-page__blur"></div>
+				<div className="home-page__blur"></div>
 
-                <div className="home-page__info-section">
-                    <section className={'section card'}>
-                        <h3>{getTranslation('home.assessmentQualityTitle')}</h3>
-                        <p>{getTranslation('home.assessmentQualityText')}</p>
-                    </section>
+				<div className="home-page__info-section">
+					<TranslatedSection className={'card'} translationKey={'pages.home.assessmentQuality'}/>
+					<TranslatedSection className={'card'} translationKey={'pages.home.assessmentExplained'}/>
+				</div>
 
-                    <section className={'section card'}>
-                        <h3>{getTranslation('home.assessmentExplainedTitle')}</h3>
-                        <p>{getTranslation('home.assessmentExplainedText')}</p>
-                    </section>
-                </div>
+				<TranslatedSection translationKey={'pages.home.entities'}/>
 
-                <section className={'section'}>
-                    <h3>{getTranslation('home.entities.title')}</h3>
-                    <div>
-                        <p>{getTranslation('home.entities.text.part1')}</p><br/>
-                        <p>{getTranslation('home.entities.text.part2')}</p><br/>
-                        <p>{getTranslation('home.entities.text.part3')}</p><br/>
-                        <p>{getTranslation('home.entities.text.part4')}</p>
-                    </div>
-                </section>
+				<div className="home-page__extra-info">
+					<div className="home-page__extra-info__text">
+						<TranslatedSection translationKey={'pages.home.elements'}/>
+						<TranslatedSection translationKey={'pages.home.phases'}>
+							<p className={'m-top-1'}>
+								{t('pages.home.explanation.readMore')}<a className={'a'}
+																		 href={'https://www.han.nl/artikelen/2021/03/het-toetsweb-duurzame-kwaliteit-van-toetsing/'}>
+								{t('pages.home.explanation.link')}
+							</a>
+							</p>
+						</TranslatedSection>
+					</div>
+					<img src={Toetstaken} alt="Illustratie Toets(tak)en"/>
+				</div>
 
-                <div className="home-page__extra-info">
-                    <div className="home-page__extra-info__text">
-                        <section className={'section'}>
-                            <h3>{getTranslation('home.elements.title')}</h3>
-                            <p>{getTranslation('home.elements.text')}</p>
-                        </section>
+				<TranslatedSection translationKey={'pages.home.startScan'}>
+					<ButtonAnchor to={'scan'} variant={'primary'}>
+						<span>{t('pages.home.startScan.link')}</span>
+						<img src={ArrowIcon} alt="pijl naar rechts"/>
+					</ButtonAnchor>
+				</TranslatedSection>
 
-                        <section className={'section'}>
-                            <h3>{getTranslation('home.phases.title')}</h3>
-                            <div>
-                                <p>{getTranslation('home.phases.text.part1')}</p><br/>
-                                <p>{getTranslation('home.phases.text.part2')}</p>
-                            </div>
-                        </section>
+				<TranslatedSection className={'mt-5'} translationKey={'pages.home.customWeb'}>
+					<ButtonAnchor to={'custom-web'} variant={'primary'}>
+						<span>{t('pages.home.customWeb.link')}</span>
+						<img src={ArrowIcon} alt="pijl naar rechts"/>
+					</ButtonAnchor>
+				</TranslatedSection>
 
-                        <p className={'m-top-1'}>
-                            {getTranslation('home.explanation.readmore')}<a className={'a'}
-                                                                            href={'https://www.han.nl/artikelen/2021/03/het-toetsweb-duurzame-kwaliteit-van-toetsing/'}>
-                            {getTranslation('home.explanation.link')}
-                        </a>
-                        </p>
-                    </div>
-                    <img src={Toetstaken} alt="Illustratie Toets(tak)en"/>
-                </div>
-
-                <section className={'section'}>
-                    <h3>{getTranslation('home.startscan.title')}</h3>
-                    <p>{getTranslation('home.startscan.text')}</p>
-                    <ReactRouterNavLink to={'scan'}>
-								<span className="home-page__scan-button">
-									<p>{getTranslation('home.startscan.button')}</p>
-									<img src={ArrowIcon} alt="pijl naar rechts"/>
-								</span>
-                    </ReactRouterNavLink>
-                </section>
-
-                <section className={'section developers'}>
-                    <h3 className={'developers__title'}>
-                        {getTranslation('developers.title')}
-                    </h3>
-                    <p>{getTranslation('developers.text')}</p>
-                </section>
-            </main>
-            <Colofon/>
-        </Page>
-    )
+				<TranslatedSection className={'developers'} translationKey={'pages.home.developers'}/>
+			</main>
+			<Colophon/>
+		</Page>
+	)
 }
 
 export default Home

@@ -1,0 +1,486 @@
+{
+  "title": "Toetsweb",
+  "pages": {
+    "home": {
+      "title": "Het Toetsweb",
+      "header": {
+        "title": "AAN DE SLAG MET HET TOETSWEB: WERKEN AAN KWALITEIT VAN TOETSING",
+        "subTitle": "Op deze website kun je met je opleidingsteam, de toets- of curriculumcommissie van je team of een andere relevante vertegenwoordiging van de opleiding de Toetsweb-Scan invullen. De Toetsweb-Scan is gebaseerd op de methodiek van de Toetsing Getoetst en is bedoeld om de kwaliteit van toetsing te analyseren, verbeteren en borgen. Het toetsweb vormt het theoretisch fundament onder de Toetsing Getoetst."
+      },
+      "assessmentQuality": {
+        "title": "Gezamenlijk toetskwaliteit bepalen",
+        "text": "Met behulp van de Toetsweb-Scan kun je als team samen vaststellen hoe de (duurzame) kwaliteit van toetsing er op dit moment uitziet in jullie opleiding (positiebepaling). Ook kun je met behulp van deze scan samen keuzes maken over jullie ontwikkeling richting (duurzame) toetskwaliteit (ambitiebepaling). Daarnaast maak je behulp van de scan met je team een onderbouwd actieplan om te komen tot jullie ambitie."
+      },
+      "assessmentExplained": {
+        "title": "Het toetsweb uitgelegd",
+        "text": "Het toetsweb bestaat uit vijf toetsentiteiten; toets(tak)en, toetsprogramma, toetsbeleid, toetsorganisatie en toetsbekwaamheid. Deze vijf entiteiten zijn verbonden met elkaar én met de kern van het web. De vorm van het web symboliseert de verwevenheid van de verschillende toetsentiteiten, maakt visueel zichtbaar dat deze allemaal met elkaar verbonden zijn en laat vier verschillende ontwikkelingsfasen zien."
+      },
+      "modelSubText": "Door met de muis op een van de onderdelen van het toetsweb te gaan staan, wordt de toelichting op dit onderdeel zichtbaar.",
+      "entities": {
+        "title": "Toetsentiteiten",
+        "text": [
+          "Het toetsweb bestaat uit vijf toetsentiteiten; toets(tak)en, toetsprogramma, toetsbeleid, toetsorganisatie en toetsbekwaamheid.  In de kern van het toetsweb staat de visie op onderwijs. Deze is leidend voor alle (ontwerp)keuzes die in de toetsentiteiten worden gemaakt.",
+          "Toetsen zijn alle (leer)activiteiten/meet-instrumenten die worden gebruikt om na te gaan of de beoogde leerresultaten worden of zijn bereikt. Toetstaken zijn de items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen. Bij het toetsprogramma staat de heldere samenhang tussen alle toetsen en de beoogde leerresultaten centraal. Het toetsprogramma moet bestaan uit een bewuste en beargumenteerde combinatie van toets(vorm)en die passen bij de doelen en opbouw van een opleiding (het onderwijsprogramma).",
+          "In het toetsbeleid zijn alle inhoudelijke en procedurele afspraken vastgelegd. Vaak is er een toetsbeleid op instellingsniveau én een toetsbeleid op opleidingsniveau. In het toetsbeleid is er aandacht voor de toetsorganisatie. In de toetsorganisatie werken docenten, examencommissie, toetscommissie, management en ondersteunende medewerkers doelgericht en rolvast met elkaar samen om de gewenste toetskwaliteit op alle toetsentiteiten te realiseren. In de toetsentiteit toetsbekwaamheid wordt stilgestaan bij de specifieke deskundigheid die al deze actoren – binnen hun eigen rol – moeten hebben om de kwaliteit op de toetsentiteiten te realiseren.",
+          "De ontwerpkeuzes die gemaakt worden binnen de entiteiten zijn onlosmakelijk verbonden met de visie op onderwijs. De visie op toetsing maakt hier onderdeel van uit. Door de visie op toetsing integraal onderdeel te laten zijn van de visie op onderwijs wordt geborgd dat toetsing onderdeel wordt van het onderwijsconcept en dat toetsbekwaamheid wordt ervaren als onderdeel van docentbekwaamheid."
+        ]
+      },
+      "elements": {
+        "title": "Elementen",
+        "text": "Binnen iedere toetsentiteit kunnen drie elementen worden onderscheiden. Dit zijn de elementen kwaliteitscriteria, ontwerp en borging. Het eerste element, kwaliteitscriteria, gaat over de vraag welke informatie wordt gebruikt om de kwaliteit van de toetsentiteiten te realiseren en vast te stellen. Het tweede element, ontwerp, is gericht op de vraag hoe de ontwikkeling en inzet van de vijf toetsentiteiten tot stand komt. Het derde element, borging, richt zich op de wijze waarop de kwaliteitsborging van de toetsentiteiten wordt ingericht. Structurele aandacht voor deze drie elementen borgt dat er gewerkt wordt vanuit de PDCA-cyclus."
+      },
+      "phases": {
+        "title": "Ontwikkelingsfasen",
+        "text": [
+          "Opleidingen kunnen de kwaliteit van iedere toetsentiteit ontwikkelen. Er worden vier ontwikkelingsfasen onderscheiden: de activiteiten-georiënteerde fase, de proces-georiënteerde fase, de systeem-georiënteerde fase en de keten-georiënteerde fase. Kenmerkende aspecten binnen deze fasen zijn een ontwikkeling in de wijze waarop alle betrokkenen ingezet worden (van individuele acties naar acties waarbij alle relevante partners betrokken zijn), een ontwikkeling in het langetermijndenken (van ad hoc naar een langetermijnstrategie) en een ontwikkeling in de integratie van processen en activiteiten in het onderwijsproces (van losstaande activiteiten naar activiteiten die bewust in samenhang worden uitgevoerd binnen lopende processen). In het web zijn deze ontwikkelingsfasen gesymboliseerd als vlakjes. De binnenste ring is de activiteiten-georiënteerde fase, de buitenste ring de keten-georiënteerde fase. Hierdoor kan een opleiding als het ware naar buiten toe opklimmen: hoe verder de opleiding klimt, hoe meer grip er ontstaat op het duurzaam werken aan kwaliteit vanuit de visie op onderwijs.",
+          "Per toetsentiteit is voor iedere ontwikkelingsfase een korte omschrijving beschikbaar over hoe de toetsentiteit in die fase wordt ingevuld. Om deze omschrijving zichtbaar te maken, beweeg je je muis over deze onderdelen van het toetsweb."
+        ]
+      },
+      "explanation": {
+        "readMore": "Ben je op zoek naar nog maar uitleg over het Toetsweb, de toetsentiteiten, elementen en ontwikkelingsfasen? ",
+        "link": "Bezoek dan deze website."
+      },
+      "startScan": {
+        "title": "Start de Scan",
+        "text": "Wil je de Toetsweb-Scan uitvoeren, zorg dan dat je met je team tegelijk aan de slag kunt. Het invullen van de scan neemt, als je dat als team doet, minimaal een uur in beslag. Je kunt er ook voor kiezen om de scan eerst individueel in te laten vullen, vervolgens hier in het team over in gesprek te gaan en samen de scan nog eens in te vullen. Als je op ‘start’ hebt geklikt, wordt er eerst een introductiepagina geopend waarop de voorbereiding en uitvoering van de scan uitgebreider worden toegelicht. Daarna kun je de scan starten. Er wordt per toetsentiteit en vervolgens per element (kwaliteitscriteria, ontwerp en borging) gevraagd om een plek in het toetsweb te kiezen. Je vult hier zowel de huidige positie als je ambitie in. Je hebt de mogelijkheid om hier een toelichting op te geven. Aan het eind van de scan wordt het resultaat weergegeven en heb je de mogelijkheid het resultaat te downloaden.",
+        "link": "Start de Toetsweb-Scan"
+      },
+      "customWeb": {
+        "title": "Heb je alleen een ingevuld Toetsweb nodig?",
+        "text": "Je weet al in welke fase de verschillende toetsentiteiten zich in jullie opleiding bevinden en waar jullie ambitie ligt, bijvoorbeeld omdat je deze scan of een andere tool al hebt ingezet. En je hebt alleen een ingevuld toetsweb nodig. Klik dan hieronder.",
+        "link": "Toetsweb zelf invullen"
+      },
+      "developers": {
+        "title": "Ontwikkelaars",
+        "text": "Het Toetsweb is ontwikkeld door het Lectoraat Eigentijds Beoordelen en Beslissen. Het lectoraat is onderdeel van het Onderzoeksteam Kwaliteiten van Leraren van de Academie Educatie van de HAN University of Applied Sciences. Deze Toetsweb-Scan is tot stand gekomen in samenwerking met B302 en met behulp van subsidie uit het Versnellingsplan Onderwijsinnovatie met ICT."
+      },
+      "colophon": {
+        "title": "Meer informatie?",
+        "subTitle": "Neem dan contact met ons op!",
+        "roles": {
+          "lecturer": "Lector",
+          "researcher": "Onderzoeker",
+          "educator": "Academie Educatie"
+        },
+        "academy": "Academy of Education"
+      }
+    },
+    "scan": {
+      "title": "Toetsweb-Scan",
+      "position": {
+        "name": "Positie",
+        "question": "In welke beschrijving herken je jouw opleiding nu het meest?"
+      },
+      "ambition": {
+        "name": "Ambitie",
+        "question": "Welke beschrijving past over 2 jaar het beste bij jouw opleiding?"
+      },
+      "optionEmpty": "Kies minimaal 1 optie voor positie en ambitie",
+      "explain": "Toelichting",
+      "comment": "Licht je antwoord toe",
+      "next": "Volgende vraag",
+      "previous": "Vorige vraag",
+      "submit": "Naar resultaten"
+    },
+    "result": {
+      "title": "Resultaat",
+      "explanation": [
+        "Op deze pagina zie je de resultaten van de door jullie ingevulde Toetsweb-Scan. Je ziet in de linkerkolom de huidige positie van elke toetsentiteit en in de rechterkolom jullie ambitie per toetsentiteit. De resultaten zijn zowel verbeeld in het toetsweb als beschreven in de tekst daaronder. In de tekst voor de positie staat beschreven in welke fase de toetsentiteit zich in de huidige situatie bevindt en in de tekst voor de ambitie waar jullie ambitie ligt. Verder vind je daar jullie keuzes, dus de stellingen waar jullie voor gekozen hebben, en eventueel de toelichting die jullie gegeven hebben.",
+        "Het resultaat geeft weer in welke fase jullie opleiding zich over het geheel genomen bevindt voor de betreffende toetsentiteit. Dat betekent concreet dat ten minste één van de elementen (kwaliteitscriteria, ontwerp of borging), maar mogelijk alle drie deze elementen zich qua ontwikkeling in deze fase bevinden. Datzelfde geldt voor de ambitie. De fase geeft aan waar jullie ambitie over het geheel genomen ligt voor de betreffende toetsentiteit. Concreet betekent dat jullie ambitie voor een of meerdere elementen zich in die fase bevindt.",
+        "Onderaan de pagina heb je drie mogelijkheden. Je kunt de resultaten downloaden voor verder gebruik. Deze download bevat dezelfde afbeeldingen en tekst als deze pagina. Je kunt ook een advies downloaden. In het advies wordt per element kort geschetst wat kenmerkend is voor dit element in de fase waarin jullie opleiding zich bevindt en welke risico’s dit potentieel met zich meebrengt voor de kwaliteit van de betreffende toetsentiteit. Ook worden enkele concrete acties benoemd die mogelijk behulpzaam zijn bij het maken van een ontwikkelstap richting de volgende fase. De derde mogelijkheid is het resetten van de resultaten. De resultaten worden namelijk onthouden op het apparaat waarop de scan is ingevuld. Wil je een nieuwe scan invullen, reset dan eerst de resultaten. Zorg wel dat je, indien gewenst, eerst de resultaten en het advies downloadt.",
+        "Veel succes én plezier met het werken aan de kwaliteit van toetsing!"
+      ],
+      "notFilledIn": "Niet ingevuld",
+      "comment": {
+        "position": "Positie toelichting",
+        "ambition": "Ambitie toelichting"
+      },
+      "download": {
+        "results": "Download resultaten",
+        "advice": "Download advies"
+      },
+      "reset": "Reset resultaten"
+    },
+    "customWeb": {
+      "title": "Eigen Toetsweb",
+      "text": "Op deze pagina kun je het Toetsweb zelf invullen. Bijvoorbeeld omdat je al eerder deze scan of de Gesprekstool Toetsweb of het spel De Toetsing Getoetst hebt gebruikt. Jullie hebben dan al samen de huidige positie en jullie ambitie vastgesteld. Als je klikt op de betreffende fase voor een toetsentiteit, dan worden deze fase en de voorgaande fases ingekleurd. Vervolgens kun je dit ingevulde toetsweb downloaden.",
+      "download": "Download Toetsweb"
+    },
+    "notfound": {
+      "title": "Pagina niet gevonden",
+      "text": "De pagina die u probeert te bereiken bestaat niet.",
+      "back": "Terug naar de homepagina"
+    }
+  },
+  "entities": [
+    {
+      "name": "Toets(tak)en",
+      "description": "Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken daarvoor eigen kwaliteitscriteria."
+            },
+            {
+              "description": "Docenten maken bij het ontwerpen van toetsen gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars."
+            },
+            {
+              "description": "De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
+            },
+            {
+              "description": "De kwaliteitscriteria die gebruikt worden bij het ontwerpen van zowel de toetsen als de leer- en toetsdoelen zijn afgestemd met ketenpartners, bijvoorbeeld het werkveld."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Docenten ontwerpen de toets vaak alleen en kort voor de afname."
+            },
+            {
+              "description": "Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces.  De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s."
+            },
+            {
+              "description": "De toetsen worden voorafgaand aan het onderwijs ontwikkeld, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs binnen de opleiding."
+            },
+            {
+              "description": "De toetsen worden voorafgaand aan het onderwijs ontwikkeld. Deze toetsen sluiten niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+            },
+            {
+              "description": "De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te verbeteren."
+            },
+            {
+              "description": "De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+            },
+            {
+              "description": "Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Docenten ontwikkelen toetsen naar eigen inzicht: zij gebruiken eigen kwaliteitscriteria, ontwerpen de toets vaak alleen en kort voor de afname. De kwaliteit van de toetsen wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+        },
+        {
+          "description": "Docenten ontwikkelen toetsen aan de hand van een toetscyclus of ontwerpproces en maken daarbij gebruik van kwaliteitscriteria die zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. De toetsen, die worden ontwikkeld tijdens de onderwijsperiode, maken zij samen met collega’s. De kwaliteit van de toetsen wordt door de betrokken docenten regelmatig geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met collega’s of studenten, maar wel gebruikt om eigen toetsen te} verbeteren."
+        },
+        {
+          "description": "De kwaliteitscriteria die docenten gebruiken bij het ontwikkelen van toetsen worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De toetsen, die ontwikkeld worden voorafgaand aan het onderwijs, zijn passend voor de leerresultaten en sluiten aan bij eerder gegeven onderwijs. De kwaliteit van toetsen wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+        },
+        {
+          "description": "Zowel kwaliteitscriteria voor de toetsen als de leer- en toetsdoelen zijn afgestemd met ketenpartners, bijvoorbeeld het werkveld. De toetsen sluiten hierdoor niet alleen aan bij het onderwijs dat de student volgt binnen de opleiding, maar ook op wat geleerd wordt op de werkplek. Toetsen worden structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+        }
+      ]
+    },
+    {
+      "name": "Toetsprogramma",
+      "description": "Het toetsprogramma is een bewuste en beargumenteerde combinatie van toets(vorm)en, passend bij de doelen en opbouw van een opleiding (het onderwijsprogramma) (Baartman & Van der Vleuten, 2015). Het gaat om de heldere samenhang tussen toetsen en de borging van de verschillende functies van toetsing.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen."
+            },
+            {
+              "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma."
+            },
+            {
+              "description": "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
+            },
+            {
+              "description": "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden afgestemd met ketenpartners, bijvoorbeeld het werkveld en worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken."
+            },
+            {
+              "description": "De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma."
+            },
+            {
+              "description": "Bij de ontwikkeling van het toetsprogramma wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen."
+            },
+            {
+              "description": "De opbouw van het toetsprogramma wordt besproken en vastgesteld met ketenpartners, bijvoorbeeld het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De kwaliteit van het toetsprogramma wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+            },
+            {
+              "description": "Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren."
+            },
+            {
+              "description": "De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+            },
+            {
+              "description": "Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria het toetsprogramma van de opleiding moet voldoen. Iedere docent ontwikkelt zijn eigen toetsen, er is echter geen overzicht van de samenhang tussen de toetsen. Het is hierdoor niet met zekerheid vast te stellen dat de toetsen gezamenlijk de beoogde leerresultaten dekken."
+        },
+        {
+          "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toetsprogramma. De beoogde leerresultaten vormen de basis voor het ontwerpen van het toetsprogramma. Met enige regelmaat worden zowel de dekking als de uitvoerbaarheid van het toetsprogramma geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het toetsprogramma te verbeteren."
+        },
+        {
+          "description": "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toetsprogramma worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Bij de ontwikkeling wordt er gelet op zowel de horizontale als verticale samenhang tussen de toetsen. Ook vindt overleg plaats over de meest geschikte toetsvormen, de functies van toetsen en de hoeveelheid van toetsen. De kwaliteit van het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+        },
+        {
+          "description": "Zowel de kwaliteitscriteria als de opbouw van het toetsprogramma worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld. Programmaonderdelen die plaatsvinden op de werkplek worden afgestemd met het werkveld zodat deze uitvoerbaar en passend zijn. Het toetsprogramma wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+        }
+      ]
+    },
+    {
+      "name": "Toetsbeleid",
+      "description": "Met het toetsbeleid wordt het geheel aan vastgestelde afspraken, zowel inhoudelijk als procedureel, over toetsen en beoordelen bedoeld (Bruijns & Kok, 2015). Binnen het integraal toetsbeleid zijn meerdere niveaus te onderscheiden, waaronder het beleid op instellingsniveau en het beleid op opleidingsniveau.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen."
+            },
+            {
+              "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan."
+            },
+            {
+              "description": "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
+            },
+            {
+              "description": "De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs."
+            },
+            {
+              "description": "De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden."
+            },
+            {
+              "description": "Bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan."
+            },
+            {
+              "description": "De opgenomen processen en interventies die opgenomen zijn in het beleidsplan richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+            },
+            {
+              "description": "Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om het beleidsplan bij te stellen."
+            },
+            {
+              "description": "Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+            },
+            {
+              "description": "Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitseisen een toets(beleids)plan moet voldoen. Het beleidsplan is hoofdzakelijk een beschrijving van (losse) toetsprocessen, deze sluiten nog niet (volledig) aan op de visie op onderwijs. De kwaliteit van het beleidsplan wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+        },
+        {
+          "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor het toets(beleids)plan. De visie op onderwijs en het toetskader van de instelling vormen de basis voor het beleidsplan. In het beleidsplan zijn naast toetsprocessen ook interventies opgenomen die beschrijven hoe de ambities gerealiseerd gaan worden. Met enige regelmaat wordt zowel de kwaliteit als de uitvoerbaarheid en bruikbaarheid van het beleidsplan geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt o}m het beleidsplan bij te stellen."
+        },
+        {
+          "description": "De kwaliteitscriteria die worden gebruikt bij het ontwikkelen van het toets(beleids)plan worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. Ook bij de uitwerking van de processen en interventies wordt gebruik gemaakt van actuele (wetenschappelijke) kennis. Het beleidsplan, de visie op onderwijs en het toetskader van de instelling sluiten naadloos op elkaar aan. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partne}rs binnen de opleiding."
+        },
+        {
+          "description": "De kwaliteitscriteria die gesteld worden aan het toets(beleids)plan worden besproken met relevante in- en/of externe partners en sluiten aan bij de landelijke kaders. De opgenomen processen en interventies richten zich op de lange termijn. Er zijn tussendoelen opgesteld zodat tussentijdse evaluatie mogelijk is. Het beleidsplan wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+        }
+      ]
+    },
+    {
+      "name": "Toetsorganisatie",
+      "description": "Met toetsbekwaamheid wordt in het toetsweb verwezen naar de deskundigheid die bij actoren binnen de opleiding aanwezig moet zijn om kwaliteit te realiseren op alle toetsentiteiten (Van Berkel, Sluijsmans & Joosten-ten Brinke, 2015). Specifiek voor de entiteit toetsen geldt dat de toetsbekwaamheid van docenten, examencommissies en andere betrokkenen van essentieel belang is: elke docent moet in staat zijn om toetsinformatie te interpreteren en te gebruiken om vast te stellen waar studenten staan en hoe deze informatie verder kan bijdragen aan het leren van de student (Straetmans, 2006).",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen."
+            },
+            {
+              "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie."
+            },
+            {
+              "description": "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten."
+            },
+            {
+              "description": "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen."
+            },
+            {
+              "description": "Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan."
+            },
+            {
+              "description": "De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd."
+            },
+            {
+              "description": "De inrichting van de toetsorganisatie wordt afgestemd met ketenpartners, bijvoorbeeld het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+            },
+            {
+              "description": "Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren."
+            },
+            {
+              "description": "De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+            },
+            {
+              "description": "De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Binnen de opleiding is niet vastgesteld aan welke kwaliteitscriteria de toetsorganisatie moet voldoen. De toetsprocessen worden door de docenten naar eigen inzicht vormgegeven. Er zijn wel afspraken gemaakt over de rollen, taken en verantwoordelijkheden binnen de toetsprocessen, maar medewerkers weten uitsluitend aan welke verantwoordelijkheden zij zelf moeten voldoen. De kwaliteit van de toetsorganisatie wordt uitsluitend geëvalueerd als daar aanleiding toe is."
+        },
+        {
+          "description": "Binnen de opleiding zijn kwaliteitscriteria vastgesteld voor de toetsorganisatie. Alle rollen, taken en verantwoordelijkheden zijn vastgelegd, zodat iedereen weet wie waarvoor verantwoordelijk is. Het is voor iedereen helder hoe de verschillende toetsprocessen zich tot elkaar (zouden moeten) verhouden. De processen sluiten echter nog niet naadloos op elkaar aan. Met enige regelmaat wordt de kwaliteit van de toetsorganisatie geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om toetsprocessen te verbeteren."
+        },
+        {
+          "description": "De kwaliteitscriteria die worden gebruikt bij het inrichten van de toetsorganisatie worden met regelmaat bijgesteld op basis van actuele (wetenschappelijke) inzichten. De rollen, taken en verantwoordelijkheden worden binnen de opleiding regelmatig met elkaar besproken en op elkaar afgestemd. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding."
+        },
+        {
+          "description": "Zowel de kwaliteitscriteria als de inrichting van de toetsorganisatie worden vastgesteld met ketenpartners, bijvoorbeeld het werkveld. De rollen, taken en verantwoordelijkheden van het werkveld in de toetsorganisatie zijn vastgelegd, evenals de toetsprocessen die plaatsvinden op de werkplek. De kwaliteit van de toetsorganisatie wordt structureel geëvalueerd aan de hand van de kwaliteitscriteria, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+        }
+      ]
+    },
+    {
+      "name": "Toetsbekwaamheid",
+      "description": "Toetsen zijn (leer)activiteiten/meet-instrumenten die worden ingezet om na te gaan of de beoogde leerresultaten zijn bereikt (Joosten-ten Brinke & Draaier, 2015). Bij de kwaliteit van de toets in zijn geheel horen ook het ontwerp van de beoordelingsmodellen en student- en beoordelaarsinstructies. Toetstaken zijn items of opdrachten binnen een toets waarmee studenten worden uitgedaagd hun kennis en vaardigheden te tonen (Draaier & Joosten-ten Brinke, 2015.",
+      "elements": [
+        {
+          "phases": [
+            {
+              "description": "Binnen de opleiding zijn geen (concrete) afspraken gemaakt over toetsbekwaamheid die van docenten wordt verwacht."
+            },
+            {
+              "description": "De eisen die binnen de opleiding gesteld worden aan de toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars."
+            },
+            {
+              "description": "De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele inzichten."
+            },
+            {
+              "description": "De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten."
+            },
+            {
+              "description": "Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd."
+            },
+            {
+              "description": "De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams."
+            },
+            {
+              "description": "Niet alleen voor de partners binnen de opleiding, maar ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken."
+            }
+          ]
+        },
+        {
+          "phases": [
+            {
+              "description": "Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd."
+            },
+            {
+              "description": "Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen."
+            },
+            {
+              "description": "De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen."
+            },
+            {
+              "description": "De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de eisen die aan de toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+            }
+          ]
+        }
+      ],
+      "phases": [
+        {
+          "description": "Binnen de opleiding zijn geen (concrete) afspraken gemaakt over de toetsbekwaamheid die van docenten wordt verwacht. De verantwoordelijkheid voor de ontwikkeling van toetsbekwaamheid ligt bij individuele docenten. Uitsluitend wanneer daar aanleiding toe is, wordt de toetsbekwaamheid van docenten geëvalueerd."
+        },
+        {
+          "description": "De eisen die binnen de opleiding gesteld worden aan toetsbekwaamheid zijn gebaseerd op ervaringen van ervaren toetsontwikkelaars. Voor alle medewerkers in de toetsorganisatie is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. Om deze bekwaamheid te realiseren zijn concrete doelen geformuleerd. Zowel de stand van zaken t.a.v. de ontwikkeling van de toetsbekwaamheid als de kwaliteit van de toetsbekwaamheid worden met enige regelmaat geëvalueerd. De opbrengsten daarvan worden niet vanzelfsprekend besproken met alle collega’s of studenten, maar wel gebruikt om acties in te zetten om de toetsbekwaamheid te verhogen."
+        },
+        {
+          "description": "De eisen die gesteld worden aan toetsbekwaamheid worden regelmatig bijgesteld op basis van (landelijke) kaders en actuele (wetenschappelijke) inzichten. De vereiste toetsbekwaamheid is niet alleen op individueel niveau, maar ook op teamniveau vastgesteld. Er wordt doelgericht gewerkt aan het professionaliseren van medewerkers en teams. De kwaliteit van de toetsbekwaamheid wordt structureel geëvalueerd aan de hand van de eisen die aan toetsbekwaamheid zijn gesteld. De opbrengsten hiervan worden besproken met relevante partners binnen de opleiding en dienen als basis voor het opstellen van ontwikkelplannen."
+        },
+        {
+          "description": "De eisen die gesteld worden aan toetsbekwaamheid worden besproken met in- en/of relevante externe partners en sluiten aan bij de landelijke kaders. Ook voor de partners uit het werkveld is vastgelegd over welke toetsbekwaamheid zij moeten beschikken. De kwaliteit van de toetsbekwaamheid van alle partners in de toetsorganisatie wordt structureel geëvalueerd aan de hand van de de eisen die aan toetsbekwaamheid zijn gesteld, de opbrengsten worden besproken met zowel de relevante partners binnen de opleiding als relevante ketenpartners, zoals het werkveld."
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "name": "Kwaliteitscriteria"
+    },
+    {
+      "name": "Ontwerp"
+    },
+    {
+      "name": "Borging"
+    }
+  ],
+  "phases": [
+    {
+      "name": "Activiteiten-georiënteerde fase",
+      "description": "Individuele medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren ad hoc op onderdelen toetsactiviteiten uit waarbij geen aandacht is voor de onderlinge samenhang tussen deze activiteiten."
+    },
+    {
+      "name": "Proces-georiënteerde fase",
+      "description": "Relevante medewerkers in de opleiding (docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren vanuit een korte termijn perspectief procesmatig toetsactiviteiten uit die onderling samenhangen."
+    },
+    {
+      "name": "Systeem-georiënteerde fase",
+      "description": "Alle relevante medewerkers en partners in de opleiding (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers) voeren gezamenlijk vanuit een middellange termijn perspectief volgens de PDCA-cyclus toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding."
+    },
+    {
+      "name": "Keten-georiënteerde fase",
+      "description": "Alle relevante medewerkers en partners binnen de opleiding en in de keten (studenten, docenten/examinatoren, opleidingsmanagement, examencommissie, toetsexperts/toetscommissie, ondersteunende medewerkers, werkveld en externe deskundigen) voeren gezamenlijk vanuit een lange termijn perspectief volgens de PDCA-cyclus gezamenlijk toetsactiviteiten uit die zijn geïntegreerd in lopende processen binnen de opleiding en de keten."
+    }
+  ]
+}
