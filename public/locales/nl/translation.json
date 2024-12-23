@@ -114,7 +114,8 @@
     "customWeb": {
       "title": "Eigen Toetsweb",
       "text": "Op deze pagina kun je het Toetsweb zelf invullen. Bijvoorbeeld omdat je al eerder deze scan of de Gesprekstool Toetsweb of het spel De Toetsing Getoetst hebt gebruikt. Jullie hebben dan al samen de huidige positie en jullie ambitie vastgesteld. Als je klikt op de betreffende fase voor een toetsentiteit, dan worden deze fase en de voorgaande fases ingekleurd. Vervolgens kun je dit ingevulde toetsweb downloaden.",
-      "download": "Download Toetsweb"
+      "download": "Download Toetsweb",
+      "reset": "Reset Toetsweb"
     },
     "notFound": {
       "title": "Pagina niet gevonden",

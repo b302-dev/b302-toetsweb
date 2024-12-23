@@ -13,12 +13,20 @@ const CustomWeb = () => {
     const {t} = useTranslation();
     useTitle(t('pages.customWeb.title'))
 
-    const [results, setResults] = useState<number[]>([0, 0, 0, 0, 0]);
+    const [results, setResults] = useState<number[]>([-1, -1, -1, -1, -1]);
 
     const onPhaseClick = (entity: Entity, phase: Phase) => {
         const newResults = [...results];
-        newResults[entity] = phase;
+        if (newResults[entity] === phase) {
+            newResults[entity] = -1;
+        } else {
+            newResults[entity] = phase;
+        }
         setResults(newResults);
+    }
+
+    const onResetClick = () => {
+        setResults([-1, -1, -1, -1, -1]);
     }
 
     const downloadAssignmentWeb = async () => {
@@ -40,9 +48,12 @@ const CustomWeb = () => {
                 <div className={'flex flex--justify-center'}>
                     <AssignmentModel results={results} onPhaseClick={onPhaseClick}/>
                 </div>
-                <div className={'flex flex--justify-end'}>
+                <div className={'flex flex--justify-end flex-gap'}>
                     <Button onClick={downloadAssignmentWeb}>
                         {t('pages.customWeb.download')}
+                    </Button>
+                    <Button onClick={onResetClick}>
+                        {t('pages.customWeb.reset')}
                     </Button>
                 </div>
             </main>

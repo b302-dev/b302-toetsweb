@@ -106,7 +106,8 @@
     "customWeb": {
       "title": "Custom Assessment Web",
       "text": "On this page you can fill in the Assessment Web yourself. For example, because you have already used this scan or the Conversation Tool Assessment Web. You will have already determined the current position and your ambition together. If you click on the relevant phase for an assessment entity, this phase and the previous phases will be coloured. You can then download this completed Assessment Web.",
-      "download": "Download Assessment Web"
+      "download": "Download Assessment Web",
+      "reset": "Reset Assessment Web"
     },
     "notFound": {
       "title": "Page not found",
