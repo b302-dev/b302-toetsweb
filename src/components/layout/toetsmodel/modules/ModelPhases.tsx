@@ -1,11 +1,11 @@
 import {FunctionComponent} from 'react'
-import {Phases} from '../../../../models/Phase'
+import {Phase} from '../../../../models/Phase'
 import {Portal} from '../../Portal'
 import {useTranslation} from "react-i18next";
 
 interface Props {
 	d: string
-	phase: Phases
+	phase: Phase
 	bb: [x: number, y: number]
 }
 

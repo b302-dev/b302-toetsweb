@@ -6,7 +6,7 @@ import {useTitle} from '../../utils/hooks/TitleHook'
 import Page from '../Page'
 import {useTranslation} from "react-i18next";
 import TranslatedSection from "../layout/TranslatedSection";
-import ButtonAnchor from "../layout/ButtonAnchor";
+import {LocalButtonAnchor} from "../layout/ButtonAnchor";
 
 const Home = () => {
 	const {t} = useTranslation();
@@ -55,17 +55,17 @@ const Home = () => {
 				</div>
 
 				<TranslatedSection translationKey={'pages.home.startScan'}>
-					<ButtonAnchor to={'scan'} variant={'primary'}>
+					<LocalButtonAnchor to={'scan'} variant={'primary'}>
 						<span>{t('pages.home.startScan.link')}</span>
 						<img src={ArrowIcon} alt="pijl naar rechts"/>
-					</ButtonAnchor>
+					</LocalButtonAnchor>
 				</TranslatedSection>
 
 				<TranslatedSection className={'mt-5'} translationKey={'pages.home.customWeb'}>
-					<ButtonAnchor to={'custom-web'} variant={'primary'}>
+					<LocalButtonAnchor to={'custom-web'} variant={'primary'}>
 						<span>{t('pages.home.customWeb.link')}</span>
 						<img src={ArrowIcon} alt="pijl naar rechts"/>
-					</ButtonAnchor>
+					</LocalButtonAnchor>
 				</TranslatedSection>
 
 				<TranslatedSection className={'developers'} translationKey={'pages.home.developers'}/>

@@ -1,8 +1,8 @@
 import Page from "../Page";
 import AssignmentModel from "../layout/toetsmodel/AssignmentModel";
 import {useState} from "react";
-import {Entities} from "../../models/Entity";
-import {Phases} from "../../models/Phase";
+import {Entity} from "../../models/Entity";
+import {Phase} from "../../models/Phase";
 import {useTranslation} from "react-i18next";
 import {useTitle} from "../../utils/hooks/TitleHook";
 import {SvgToPng} from "../../utils/SvgConverter";
@@ -15,7 +15,7 @@ const CustomWeb = () => {
 
     const [results, setResults] = useState<number[]>([0, 0, 0, 0, 0]);
 
-    const onPhaseClick = (entity: Entities, phase: Phases) => {
+    const onPhaseClick = (entity: Entity, phase: Phase) => {
         const newResults = [...results];
         newResults[entity] = phase;
         setResults(newResults);

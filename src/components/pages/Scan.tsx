@@ -2,33 +2,34 @@ import ScanCard from '../layout/ScanCard'
 import {useContext, useState} from 'react'
 import {useTitle} from '../../utils/hooks/TitleHook'
 import Page from '../Page'
-import {entityColors, phaseColors, ScanDataContext} from '../../utils/contexts/ScanDataContext'
-import {Entities, EntityArray} from "../../models/Entity";
-import {Elements} from "../../models/Element";
+import {ScanDataContext} from '../../utils/contexts/ScanDataContext'
+import {Entity, EntityArray, entityColors} from "../../models/Entity";
+import {Element} from "../../models/Element";
 import {useTranslation} from "react-i18next";
+import {phaseColors} from "../../models/Phase";
 
 const Scan = () => {
 	const {t} = useTranslation();
 
-	const [currentEntity, setCurrentEntity] = useState<Entities>(Entities.ASSESSMENT_TASKS);
-	const [currentElement, setCurrentElement] = useState<Elements>(Elements.QUALITY_CRITERIA);
+	const [currentEntity, setCurrentEntity] = useState<Entity>(Entity.ASSESSMENT_TASKS);
+	const [currentElement, setCurrentElement] = useState<Element>(Element.QUALITY_CRITERIA);
 
 	const {entityFilledIn} = useContext(ScanDataContext);
 
 	useTitle(t('pages.scan.title'));
 
-	const goToEntity = (entity: Entities) => {
+	const goToEntity = (entity: Entity) => {
 		setCurrentEntity(entity);
-		setCurrentElement(Elements.QUALITY_CRITERIA);
+		setCurrentElement(Element.QUALITY_CRITERIA);
 	}
 
 	const handleNext = () => {
-		if (currentElement === Elements.QUALITY_ASSURANCE) {
-			if (currentEntity === Entities.ASSESSMENT_LITERACY) {
+		if (currentElement === Element.QUALITY_ASSURANCE) {
+			if (currentEntity === Entity.ASSESSMENT_LITERACY) {
 				window.location.href = '/result'
 				return
 			}
-			setCurrentElement(Elements.QUALITY_CRITERIA)
+			setCurrentElement(Element.QUALITY_CRITERIA)
 			setCurrentEntity(currentEntity + 1)
 			window.scrollTo(0, 0)
 			return
@@ -38,11 +39,11 @@ const Scan = () => {
 	}
 
 	const handlePrevious = () => {
-		if (currentElement === Elements.QUALITY_CRITERIA) {
-			if (currentEntity === Entities.ASSESSMENT_TASKS) {
+		if (currentElement === Element.QUALITY_CRITERIA) {
+			if (currentEntity === Entity.ASSESSMENT_TASKS) {
 				return
 			}
-			setCurrentElement(Elements.QUALITY_ASSURANCE)
+			setCurrentElement(Element.QUALITY_ASSURANCE)
 			setCurrentEntity(currentEntity - 1)
 			window.scrollTo(0, 0)
 			return

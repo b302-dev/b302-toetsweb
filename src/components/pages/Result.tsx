@@ -1,92 +1,45 @@
 import {useContext, useMemo} from 'react'
 import {useTitle} from '../../utils/hooks/TitleHook'
-import {LanguageContext} from '../../utils/contexts/LanguageContext'
 import Page from '../Page'
 import Card from '../layout/Card'
 import AssignmentModel from '../layout/toetsmodel/AssignmentModel'
-import {getPhaseOfSelectId} from '../../models/Phase'
-import {ScanDataContext} from '../../utils/contexts/ScanDataContext'
-import {EntityArray} from "../../models/Entity";
-import {ElementArray} from "../../models/Element";
-import {SvgToPng} from "../../utils/SvgConverter";
-import downloadFile from "../../utils/FileDownloader";
-import JSZip from "jszip";
+import {EntityArray, entityColors} from "../../models/Entity";
 import Button from "../layout/Button";
+import {usePDF} from "@react-pdf/renderer";
+import ResultsDocument from "../documents/ResultsDocument";
+import AdviceDocument from "../documents/AdviceDocument";
+import {getResultFromAnswer} from "../../utils/ScanUtils";
+import {ExternalButtonAnchor} from "../layout/ButtonAnchor";
+import {useTranslation} from "react-i18next";
+import {ElementArray} from "../../models/Element";
+import {ScanDataContext} from "../../utils/contexts/ScanDataContext";
 
 enum AnswerTypes {
 	POSITION_RESULT = 'checkedPosition',
-	POSITION_FEEDBACK = 'feedbackPosition',
+	POSITION_FEEDBACK = 'commentPosition',
 	AMBITION_RESULT = 'checkedAmbition',
-	AMBITION_FEEDBACK = 'feedbackAmbition',
+	AMBITION_FEEDBACK = 'commentAmbition',
 }
 
 const Result = () => {
-	const {language, getTranslation} = useContext(LanguageContext)
-	const {scanData: entities, entityFilledIn, anyEntityFilledIn} = useContext(ScanDataContext)
+	const {t} = useTranslation();
+	const [resultsInstance, _updateResultsInstance] = usePDF({document: <ResultsDocument/>});
+	const [adviceInstance, _updateAdviceInstance] = usePDF({document: <AdviceDocument/>});
+	const {anyEntityFilledIn, entityFilledIn,} = useContext(ScanDataContext);
 
-	useTitle(`${getTranslation('nav.title')} - ${getTranslation('nav.result')}`)
+	useTitle(`${t('title')} - ${t('pages.result.title')}`);
 
 	useMemo(() => {
 		if (!anyEntityFilledIn) window.location.href = '/scan';
-	}, [anyEntityFilledIn])
+	}, [anyEntityFilledIn]);
 
 	const getResult = (
 		answerType: AnswerTypes,
 		entity: number,
 		element: number,
 	) => {
-		const answer = JSON.parse(
-			window.localStorage.getItem(`${entity}.${element}`) as string,
-		)
-		return answer[answerType]
-	}
-
-	const downloadAdviceBooklet = () => {
-		// 	const localeEntities = getEntities(language)
-		// 	const localeEntityPhaseAdvice = getEntityPhaseAdvice(language)
-		//
-		// 	const doc = new jsPDF()
-		//
-		// 	const resultData = getResultData(AnswerTypes.POSITION_RESULT, getResult)
-		//
-		// 	let currentY = 30
-		//
-		// 	for (let i = 0; i < resultData.length; i++) {
-		// 		const entityIndex = i
-		// 		const phaseIndex = resultData[i]
-		//
-		// 		const entity = localeEntities[i]
-		// 		const advice = localeEntityPhaseAdvice[entityIndex][phaseIndex]
-		//
-		// 		// add title
-		// 		doc.setFontSize(16)
-		// 		doc.setFont('helvetica', 'bold')
-		// 		doc.text(entity, 20, 20)
-		//
-		// 		// add text
-		// 		doc.setFontSize(10)
-		// 		doc.setFont('helvetica', 'normal')
-		//
-		// 		const cleanedText = advice.split('\n').map((e) => e.trim())
-		//
-		// 		for (const line of cleanedText) {
-		// 			const textLines = doc.splitTextToSize(line, 170)
-		// 			doc.text(textLines, 20, currentY)
-		// 			currentY = currentY + doc.getTextDimensions(textLines).h
-		//
-		// 			if (currentY > doc.internal.pageSize.height - 50) {
-		// 				currentY = 30
-		// 				doc.addPage()
-		// 			}
-		// 		}
-		//
-		// 		if (i < resultData.length - 1) {
-		// 			currentY = 30
-		// 			doc.addPage()
-		// 		}
-		// 	}
-		//
-		// 	doc.save('advies.pdf')
+		const answer = JSON.parse(window.localStorage.getItem(`${entity}.${element}`) as string);
+		return answer[answerType];
 	}
 
 	const resetScan = () => {
@@ -94,84 +47,25 @@ const Result = () => {
 		window.location.href = '/scan';
 	}
 
-	const downloadResults = async () => {
-		const zip = new JSZip()
-		let fileData = ''
-
-		entities.forEach((entity, entityIndex) => {
-			if (!entityFilledIn(entityIndex)) return
-
-			fileData += `${entity.name}\n`
-			entity.elements.forEach((element, elementIndex) => {
-				fileData += `${element.name}\n`
-				fileData += `${getTranslation('position')}: ${
-					element.phases[
-						getResult(AnswerTypes.POSITION_RESULT, entityIndex, elementIndex)
-						].description
-				}\n`
-				fileData += `${getTranslation('results.positionexplanation')}: ${
-					getResult(AnswerTypes.POSITION_FEEDBACK, entityIndex, elementIndex) ||
-					getTranslation('results.notfilledin')
-				}\n`
-				fileData += `${getTranslation('ambition')}: ${
-					element.phases[
-						getResult(AnswerTypes.AMBITION_RESULT, entityIndex, elementIndex)
-						].description
-				}\n`
-				fileData += `${getTranslation('results.ambitionexplanation')}: ${
-					getResult(AnswerTypes.AMBITION_FEEDBACK, entityIndex, elementIndex) ||
-					getTranslation('results.notfilledin')
-				}\n\n`
-			})
-			fileData += '\n'
-		})
-
-		zip.file(`${getTranslation('nav.result')}.txt`, fileData)
-		Promise.all(
-			Array.from(document.querySelectorAll('.assignment-model'))
-				.map((svg) => SvgToPng(svg))
-		).then(([position, ambition]) => {
-			zip.file(
-				`${getTranslation('position')}.png`,
-				position.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{base64: true},
-			)
-			zip.file(
-				`${getTranslation('ambition')}.png`,
-				ambition.replace(/^data:image\/(png|jpg);base64,/, ''),
-				{base64: true},
-			)
-
-			zip.generateAsync({type: 'blob'}).then((content) => {
-				downloadFile(content, `${getTranslation('nav.result')}.zip`)
-			})
-		})
-	}
-
 	const getResultData = (answerType: AnswerTypes) => {
-		return EntityArray.map((entity) => {
-			if (!entityFilledIn(entity)) return -1;
-			const subResults = ElementArray.map((element) => getResult(answerType, entity, element));
-			return getPhaseOfSelectId(subResults.join(''));
-		});
+		return EntityArray.map(entity => getResultFromAnswer(entity, answerType as 'checkedPosition' | 'checkedAmbition'));
 	}
 
 	return (
 		<Page className="result">
 			<header className={'section'}>
-				<p>{getTranslation('results.explanation.part1')}</p>
-				<p>{getTranslation('results.explanation.part2')}</p>
-				<p>{getTranslation('results.explanation.part3')}</p>
-				<p>{getTranslation('results.explanation.part4')}</p>
+				{(t('pages.result.explanation', {returnObjects: true}) as string[]).map(text => (
+					<p key={text}>{text}</p>
+				))}
 			</header>
 
 			<main>
 				<div className={'result__container result__subtitle'}>
 					<h1 className={'result__container--item'}>
-						{getTranslation('position')}
+						{t('pages.scan.position.name')}
 					</h1>
 					<h1 className={'result__container--item'}>
-						{getTranslation('ambition')}
+						{t('pages.scan.ambition.name')}
 					</h1>
 				</div>
 
@@ -185,43 +79,29 @@ const Result = () => {
 				</div>
 
 				<p className={'result__model-explanation'}>
-					{getTranslation('home.modelExplained')}
+					{t('pages.home.modelSubText')}
 				</p>
 
-				{entities.map((entity, entityIndex) => {
-					const color = entity.color
-					const explanation = getTranslation('explanation')
-
-
-					if (!entityFilledIn(entityIndex)) return null;
+				{EntityArray.map(entity => {
+					if (!entityFilledIn(entity)) return null;
 
 					return (
-						<div key={entity.name} className={'result__container'}>
+						<div key={entity} className={'result__container'}>
 							<Card className={'result__container--item'}>
-								<h3 style={{color: color}}>{entity.name}</h3>
-								{entity.elements.map((element, elementIndex) => {
+								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
+								{ElementArray.map(element => {
 									return (
-										<div key={element.name}>
-											<h2 style={{color: color}}>{element.name}</h2>
+										<div key={element}>
+											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
+											<p>{t(`entities.${entity}.elements.${element}.phases.${getResult(AnswerTypes.POSITION_RESULT, entity, element)}.description`)}</p>
 											<p>
-												{
-													element.phases[
-														getResult(
-															AnswerTypes.POSITION_RESULT,
-															entityIndex,
-															elementIndex,
-														)
-														].description
-												}
-											</p>
-											<p>
-												{explanation}:{' '}
+												{t('pages.result.comment.position')}:{' '}
 												<i>
 													{getResult(
 														AnswerTypes.POSITION_FEEDBACK,
-														entityIndex,
-														elementIndex,
-													) || getTranslation('results.notfilledin')}
+														entity,
+														element,
+													) || t('pages.result.notFilledIn')}
 												</i>
 											</p>
 											<br/>
@@ -230,30 +110,20 @@ const Result = () => {
 								})}
 							</Card>
 							<Card className={'result__container--item'}>
-								<h3 style={{color: color}}>{entity.name}</h3>
-								{entity.elements.map((element, elementIndex) => {
+								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
+								{ElementArray.map(element => {
 									return (
-										<div key={element.name}>
-											<h2 style={{color: color}}>{element.name}</h2>
+										<div key={element}>
+											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
+											<p>{t(`entities.${entity}.elements.${element}.phases.${getResult(AnswerTypes.AMBITION_RESULT, entity, element)}.description`)}</p>
 											<p>
-												{
-													element.phases[
-														getResult(
-															AnswerTypes.AMBITION_RESULT,
-															entityIndex,
-															elementIndex,
-														)
-														].description
-												}
-											</p>
-											<p>
-												{explanation}:{' '}
+												{t('pages.result.comment.ambition')}:{' '}
 												<i>
 													{getResult(
 														AnswerTypes.AMBITION_FEEDBACK,
-														entityIndex,
-														elementIndex,
-													) || getTranslation('results.notfilledin')}
+														entity,
+														element,
+													) || t('pages.result.notFilledIn')}
 												</i>
 											</p>
 											<br/>
@@ -267,26 +137,20 @@ const Result = () => {
 			</main>
 
 			<footer className="result__download-container">
-				<div className="result__download-button">
-					<Button onClick={downloadResults} variant={"primary"}>
-						{getTranslation('results.downloadresults')}
-					</Button>
-				</div>
+				<ExternalButtonAnchor href={resultsInstance.url ?? undefined} download={"results.pdf"}>
+					{t('pages.result.download.results')}
+				</ExternalButtonAnchor>
 
-				<div className="result__download-button">
-					<Button onClick={downloadAdviceBooklet} variant={"primary"}>
-						{getTranslation('results.downloadadvice')}
-					</Button>
-				</div>
+				<ExternalButtonAnchor href={adviceInstance.url ?? undefined} download={"advice.pdf"}>
+					{t('pages.result.download.advice')}
+				</ExternalButtonAnchor>
 
-				<div className="result__download-button">
-					<Button onClick={resetScan} variant={"primary"}>
-						{getTranslation('results.resetscan')}
-					</Button>
-				</div>
+				<Button onClick={resetScan} variant={"primary"}>
+					{t('pages.result.reset')}
+				</Button>
 			</footer>
 		</Page>
 	)
 }
 
-export default Result
+export default Result;

@@ -1,11 +1,10 @@
 import { createContext, FunctionComponent, useEffect, useState } from 'react'
-import { getLocaleTranslation, Language } from '../Localization'
+import {Language } from '../../models/Locale'
 import {useTranslation} from "react-i18next";
 
 export const LanguageContext = createContext({
 	language: Language.NL,
 	changeLanguage: (newLanguage: Language) => {},
-	getTranslation: (key: string) => key,
 })
 
 interface Props {
@@ -35,13 +34,9 @@ export const LanguageProvider: FunctionComponent<Props> = ({ children }) => {
 		window.localStorage.setItem('language', newLanguage)
 	}
 
-	const getTranslation = (key: string): string => {
-		return getLocaleTranslation(language, key)
-	}
-
 	return (
 		<LanguageContext.Provider
-			value={{ language, changeLanguage, getTranslation }}
+			value={{ language, changeLanguage }}
 		>
 			{children}
 		</LanguageContext.Provider>

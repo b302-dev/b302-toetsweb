@@ -1,16 +1,15 @@
 import {FunctionComponent} from 'react'
 import {Portal} from '../../Portal'
-import {Entities} from "../../../../models/Entity";
-import {phaseColors} from "../../../../utils/contexts/ScanDataContext";
-import {genericPhaseColors, Phases} from "../../../../models/Phase";
+import {Entity} from "../../../../models/Entity";
+import {genericPhaseColors, Phase, phaseColors} from "../../../../models/Phase";
 import {useTranslation} from "react-i18next";
 
 interface PhaseBarProps {
-	entity: Entities
-	phase: Phases
+	entity: Entity
+	phase: Phase
 	result: number
 	d: string
-	onPhaseClick?: (entity: Entities, phase: Phases) => void
+	onPhaseClick?: (entity: Entity, phase: Phase) => void
 }
 
 const GenericEntity: FunctionComponent<PhaseBarProps> = (props) => {

@@ -27,23 +27,26 @@ const ScanCard: FunctionComponent<Props> = (props) => {
 	const {getScanAnswer, setScanAnswer} = useContext(ScanDataContext);
 
 	const [scanData, setScanData] = useState<ScanAnswer>(getScanAnswer(props.entityIndex, props.elementIndex));
+	const [comments, setComments] = useState({
+		commentPosition: '',
+		commentAmbition: '',
+	})
+	const [image, setImage] = useState(Toetstaken);
 
 	useEffect(() => {
-		setScanData(getScanAnswer(props.entityIndex, props.elementIndex));
+		const scanData = getScanAnswer(props.entityIndex, props.elementIndex);
+		setScanData(scanData);
+		setComments({commentPosition: scanData.commentPosition ?? '', commentAmbition: scanData.commentAmbition ?? ''});
 	}, [props.entityIndex, props.elementIndex]);
+
+	useEffect(() => {
+		setImage([Toetstaken, Toetsprogramma, Toetsbeleid, Toetsorganisatie, Toetsbekwaamheid][props.entityIndex]);
+	}, [props.entityIndex]);
 
 	const changeAnswer = (answer: ScanAnswer) => {
 		setScanAnswer(props.entityIndex, props.elementIndex, answer);
 		setScanData(answer);
 	}
-
-	const images = [
-		Toetstaken,
-		Toetsprogramma,
-		Toetsbeleid,
-		Toetsorganisatie,
-		Toetsbekwaamheid,
-	]
 
 	const handleCheckedPositie = (checkedPosition: number) => {
 		changeAnswer({...scanData, checkedPosition});
@@ -55,6 +58,7 @@ const ScanCard: FunctionComponent<Props> = (props) => {
 
 	const handleComment = (e: ChangeEvent<HTMLTextAreaElement>) => {
 		changeAnswer({...scanData, [e.target.name]: e.target.value});
+		setComments({...comments, [e.target.name]: e.target.value});
 	}
 
 	return (
@@ -127,20 +131,20 @@ const ScanCard: FunctionComponent<Props> = (props) => {
 				</div>
 				<img
 					className="scancard__grid__illustration"
-					src={images[props.entityIndex]}
+					src={image}
 					alt="illustratieve afbeelding"
 				/>
 			</div>
 			<div className="scancard__textarea-container">
 				<TextArea
-					value={scanData.commentPosition}
+					value={comments.commentPosition}
 					setValue={handleComment}
 					titleTextArea={t('pages.scan.position.name')}
 					name={'commentPosition'}
 					hintTextArea={t('pages.scan.comment')}
 				/>
 				<TextArea
-					value={scanData.commentAmbition}
+					value={comments.commentAmbition}
 					setValue={handleComment}
 					titleTextArea={t('pages.scan.ambition.name')}
 					name={'commentAmbition'}

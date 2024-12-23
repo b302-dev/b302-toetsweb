@@ -77,6 +77,7 @@
       },
       "optionEmpty": "Choose at least 1 option for position and ambition",
       "explain": "Explanation",
+      "answer": "Answer",
       "comment": "Explain your answer",
       "next": "Next question",
       "previous": "Previous question",
@@ -99,14 +100,15 @@
         "results": "Download results",
         "advice": "Download advice"
       },
-      "reset": "Reset scan"
+      "reset": "Reset scan",
+      "page": "Page"
     },
     "customWeb": {
       "title": "Custom Assessment Web",
       "text": "On this page you can fill in the Assessment Web yourself. For example, because you have already used this scan or the Conversation Tool Assessment Web. You will have already determined the current position and your ambition together. If you click on the relevant phase for an assessment entity, this phase and the previous phases will be coloured. You can then download this completed Assessment Web.",
       "download": "Download Assessment Web"
     },
-    "notfound": {
+    "notFound": {
       "title": "Page not found",
       "text": "The page you are looking for does not exist.",
       "back": "Back to homepage"

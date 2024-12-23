@@ -39,11 +39,7 @@
 	&__download-container {
 		display: flex;
 		justify-content: flex-end;
-
+		gap: 1rem;
 		padding: 2rem 0 2rem 2rem;
-	}
-
-	&__download-button {
-		margin-left: 1rem;
 	}
 }
