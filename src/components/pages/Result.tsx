@@ -69,15 +69,21 @@ const Result = () => {
 				{EntityArray.map(entity => {
 					if (!entityFilledIn(entity)) return null;
 
+					const positionPhase = getResultFromAnswer(entity, 'checkedPosition');
+					const ambitionPhase = getResultFromAnswer(entity, 'checkedAmbition');
+
 					return (
 						<div key={entity} className={'result__container'}>
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
+								<h2 style={{color: entityColors[entity]}}>{t(`phases.${positionPhase}.name`)}</h2>
+								<p>{t(`phases.${positionPhase}.description`)}</p>
+
 								{ElementArray.map(element => {
 									const answer = getScanAnswer(entity, element);
 
 									return (
-										<div key={element}>
+										<div key={element} className={'mt-1'}>
 											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
 											<p>{t(`entities.${entity}.elements.${element}.phases.${answer.checkedPosition}.description`)}</p>
 											<p>
@@ -86,18 +92,20 @@ const Result = () => {
 													{answer.commentPosition || t('pages.result.notFilledIn')}
 												</i>
 											</p>
-											<br/>
 										</div>
 									)
 								})}
 							</Card>
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
+								<h2 style={{color: entityColors[entity]}}>{t(`phases.${ambitionPhase}.name`)}</h2>
+								<p>{t(`phases.${ambitionPhase}.description`)}</p>
+
 								{ElementArray.map(element => {
 									const answer = getScanAnswer(entity, element);
 
 									return (
-										<div key={element}>
+										<div key={element} className={'mt-1'}>
 											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
 											<p>{t(`entities.${entity}.elements.${element}.phases.${answer.checkedAmbition}.description`)}</p>
 											<p>
