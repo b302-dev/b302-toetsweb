@@ -1,27 +1,28 @@
-import {useContext} from 'react'
-import NavItem from './NavItem'
-import {LanguageContext} from '../../../utils/contexts/LanguageContext'
-import {Language} from '../../../models/Locale'
-import flagDutch from '../../../assets/icons/flag-dutch.svg'
-import flagEnglish from '../../../assets/icons/flag-english.svg'
-import {ScanDataContext} from '../../../utils/contexts/ScanDataContext'
+import {useContext, useEffect} from 'react';
+import NavItem from './NavItem';
+import {Language} from '../../../models/Locale';
+import flagDutch from '../../../assets/icons/flag-dutch.svg';
+import flagEnglish from '../../../assets/icons/flag-english.svg';
+import {ScanDataContext} from '../../../utils/contexts/ScanDataContext';
 import {useTranslation} from "react-i18next";
 import {LocalButtonAnchor} from "../ButtonAnchor";
 
 const NavBar = () => {
 	const {t, i18n} = useTranslation();
-	const {changeLanguage} = useContext(LanguageContext);
 	const {anyEntityFilledIn} = useContext(ScanDataContext);
+
+	useEffect(() => {
+		document.documentElement.lang = i18n.language;
+	}, [i18n.language]);
 
 	const handleChangeLanguage = () => {
 		switch (i18n.language) {
 			case Language.NL:
-				changeLanguage(Language.EN);
+				i18n.changeLanguage(Language.EN);
 				break
 			case Language.EN:
-				changeLanguage(Language.NL);
-				break
 			default:
+				i18n.changeLanguage(Language.NL);
 				break;
 		}
 	}

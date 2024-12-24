@@ -1,4 +1,4 @@
-import {createContext, FunctionComponent, useCallback, useMemo} from 'react'
+import {createContext, FunctionComponent, useMemo} from 'react'
 import {Entity, EntityArray} from '../../models/Entity'
 import {ElementArray, Element} from '../../models/Element'
 import {ScanAnswer} from "../../models/ScanAnswer";
@@ -38,19 +38,19 @@ export const ScanDataProvider: FunctionComponent<Props> = ({children}) => {
 		return scanAnswer.checkedPosition !== -1 && scanAnswer.checkedAmbition !== -1;
 	}
 
-	const entityFilledIn = useCallback((entity: Entity) => {
+	const entityFilledIn = (entity: Entity) => {
 		for (const element of ElementArray) {
 			if (!scanAnswerFilledIn(entity, element)) return false;
 		}
 		return true;
-	}, [setScanAnswer]);
+	}
 
 	const anyEntityFilledIn = useMemo(() => {
 		for (const entity of EntityArray) {
 			if (entityFilledIn(entity)) return true;
 		}
 		return false;
-	}, [entityFilledIn]);
+	}, [setScanAnswer]);
 
 	return (
 		<ScanDataContext.Provider value={{getScanAnswer, setScanAnswer, entityFilledIn, anyEntityFilledIn}}>
