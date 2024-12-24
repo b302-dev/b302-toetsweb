@@ -14,18 +14,11 @@ import {useTranslation} from "react-i18next";
 import {ElementArray} from "../../models/Element";
 import {ScanDataContext} from "../../utils/contexts/ScanDataContext";
 
-enum AnswerTypes {
-	POSITION_RESULT = 'checkedPosition',
-	POSITION_FEEDBACK = 'commentPosition',
-	AMBITION_RESULT = 'checkedAmbition',
-	AMBITION_FEEDBACK = 'commentAmbition',
-}
-
 const Result = () => {
 	const {t} = useTranslation();
 	const [resultsInstance, _updateResultsInstance] = usePDF({document: <ResultsDocument/>});
 	const [adviceInstance, _updateAdviceInstance] = usePDF({document: <AdviceDocument/>});
-	const {anyEntityFilledIn, entityFilledIn,} = useContext(ScanDataContext);
+	const {anyEntityFilledIn, entityFilledIn, getScanAnswer} = useContext(ScanDataContext);
 
 	useTitle(`${t('title')} - ${t('pages.result.title')}`);
 
@@ -33,22 +26,13 @@ const Result = () => {
 		if (!anyEntityFilledIn) window.location.href = '/scan';
 	}, [anyEntityFilledIn]);
 
-	const getResult = (
-		answerType: AnswerTypes,
-		entity: number,
-		element: number,
-	) => {
-		const answer = JSON.parse(window.localStorage.getItem(`${entity}.${element}`) as string);
-		return answer[answerType];
-	}
-
 	const resetScan = () => {
 		window.localStorage.clear();
 		window.location.href = '/scan';
 	}
 
-	const getResultData = (answerType: AnswerTypes) => {
-		return EntityArray.map(entity => getResultFromAnswer(entity, answerType as 'checkedPosition' | 'checkedAmbition'));
+	const getResultData = (answerType: 'checkedPosition' | 'checkedAmbition') => {
+		return EntityArray.map(entity => getResultFromAnswer(entity, answerType));
 	}
 
 	return (
@@ -71,10 +55,10 @@ const Result = () => {
 
 				<div className={'result__container'}>
 					<div className={'result__container--item'}>
-						<AssignmentModel results={getResultData(AnswerTypes.POSITION_RESULT)}/>
+						<AssignmentModel results={getResultData("checkedPosition")}/>
 					</div>
 					<div className={'result__container--item'}>
-						<AssignmentModel results={getResultData(AnswerTypes.AMBITION_RESULT)}/>
+						<AssignmentModel results={getResultData("checkedAmbition")}/>
 					</div>
 				</div>
 
@@ -90,18 +74,16 @@ const Result = () => {
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
 								{ElementArray.map(element => {
+									const answer = getScanAnswer(entity, element);
+
 									return (
 										<div key={element}>
 											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
-											<p>{t(`entities.${entity}.elements.${element}.phases.${getResult(AnswerTypes.POSITION_RESULT, entity, element)}.description`)}</p>
+											<p>{t(`entities.${entity}.elements.${element}.phases.${answer.checkedPosition}.description`)}</p>
 											<p>
 												{t('pages.result.comment.position')}:{' '}
 												<i>
-													{getResult(
-														AnswerTypes.POSITION_FEEDBACK,
-														entity,
-														element,
-													) || t('pages.result.notFilledIn')}
+													{answer.commentPosition || t('pages.result.notFilledIn')}
 												</i>
 											</p>
 											<br/>
@@ -112,18 +94,16 @@ const Result = () => {
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
 								{ElementArray.map(element => {
+									const answer = getScanAnswer(entity, element);
+
 									return (
 										<div key={element}>
 											<h2 style={{color: entityColors[entity]}}>{t(`elements.${element}.name`)}</h2>
-											<p>{t(`entities.${entity}.elements.${element}.phases.${getResult(AnswerTypes.AMBITION_RESULT, entity, element)}.description`)}</p>
+											<p>{t(`entities.${entity}.elements.${element}.phases.${answer.checkedAmbition}.description`)}</p>
 											<p>
 												{t('pages.result.comment.ambition')}:{' '}
 												<i>
-													{getResult(
-														AnswerTypes.AMBITION_FEEDBACK,
-														entity,
-														element,
-													) || t('pages.result.notFilledIn')}
+													{answer.commentAmbition || t('pages.result.notFilledIn')}
 												</i>
 											</p>
 											<br/>
