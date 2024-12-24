@@ -27,7 +27,7 @@ export const entityFilledIn = (entity: Entity): boolean => {
 }
 
 export const getResultFromAnswer = (entity: Entity, answerType: 'checkedPosition' | 'checkedAmbition') => {
-	if (!entityFilledIn(entity)) return 0;
+	if (!entityFilledIn(entity)) return -1;
 
 	const answers = ElementArray.map((element) => getScanAnswer(entity, element)[answerType]).join('');
 	const phase = selectIds.findIndex((phase: string[]) => phase.includes(answers));
