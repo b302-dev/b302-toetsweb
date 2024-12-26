@@ -67,6 +67,29 @@
     },
     "scan": {
       "title": "Toetsweb-Scan",
+      "introduction": {
+        "title": "Aan de slag",
+        "preparation": {
+          "title": "De voorbereiding",
+          "text": "Je gaat de Toetsweb-Scan invullen. Dit kun je alleen doen, of met je team. In beide gevallen raden wij aan dat iedereen die de scan gaat invullen zich voorafgaand aan het invullen van de scan verdiept in de entiteiten van het toetsweb. Dat kan bijvoorbeeld via de projectpagina van het lectoraat Eigentijds Beoordelen en Beslissen. Hier vind je ook diverse downloads, zoals de handleiding voor de gesprekstool/scan. Daarnaast adviseren we om verschillende toetsdocumenten van je eigen opleiding (bijv. toetsplan, toetsprogramma, toetsbeleid, etc.) te verzamelen en alvast door te nemen. Zorg dat je deze tijdens het invullen van de scan bij de hand hebt."
+        },
+        "individual": {
+          "title": "Werkwijze – (individueel) invullen scan",
+          "text": [
+            "De scan bestaat uit 5 tabbladen, de toetsentiteiten. Er wordt steeds gevraagd om 2 blokjes aan te kruisen. In de eerste kolom word je gevraagd de omschrijving te kiezen die het dichtst in de buurt komt van de huidige situatie, in de tweede kolom van de gewenste situatie over 2 jaar. Belangrijk om daarbij de beseffen is dat het gaat om algemene omschrijvingen die helpen om de dialoog te voeren over wat er nu is, en wat er idealiter moet zijn. De vraag is daarom steeds: in welke omschrijving herken je je opleiding het meest? Of anders gezegd: welke omschrijving past het beste?",
+            "Als je in beide kolommen een keuze hebt gemaakt, kun je je keuze toelichten in de vlakken ‘licht je antwoord toe’. Deze teksten zullen – als je alle entiteiten hebt ingevuld – opgenomen worden in de pdf die je na afloop kunt downloaden.",
+            "Per entiteit geef je drie keer een inschatting. Je doet dit achtereenvolgens voor de elementen ‘criteria', ‘ontwerp’ en ‘borging’. Als je na het invullen van de toelichting op 'volgende vraag’ klikt, kom je vanzelf bij het volgende element. De bolletjes onderin het scherm maken zichtbaar hoeveel vragen je nog moet invullen per entiteit.",
+            "Zodra je per entiteit de antwoorden voor de drie elementen hebt ingevuld, kom je via de knop ‘volgende vraag’ automatisch bij de volgende toetsentiteit. Via de knop ‘vorige vraag’ kun je altijd terug naar een eerder gegeven antwoord.",
+            "Je kunt er uiteraard voor kiezen om niet alle entiteiten in te vullen. In dat geval klik je op het tabblad (met de naam van de toetsentiteit).",
+            "Door te klikken op ‘naar resultaten’ (deze knop is bij iedere entiteit zichtbaar zodra alle drie de elementen zijn ingevuld) kom je op de resultatenpagina terecht. Je vindt daar twee keer een ingevuld web. Het eerste web maakt visueel zichtbaar wat de huidige fase van ontwikkeling is voor iedere toetsentiteit, het tweede web maakt zichtbaar wat de gewenste situatie is. De ingevulde toelichtingen staan onder het web. Entiteiten die niet (volledig) zijn ingevuld, worden niet meegenomen in de resultaten.",
+            "De afbeeldingen en toelichtingen zijn te downloaden door te klikken op de knop ‘download resultaten’ onderaan de resultatenpagina. Een advies om vanuit de huidige situatie door te ontwikkelen is te downloaden door te klikken op 'download advies'."
+          ]
+        },
+        "team": {
+          "title": "Invullen als team",
+          "text": "Als je de scan samen met collega's wil invullen, dan zijn er verschillende manieren waarop je dit kan doen. Dit is uiteraard afhankelijk van het doel dat je voor ogen hebt. Je kunt er bijvoorbeeld voor kiezen om iedere vraag samen te bespreken en op basis van consensus per vraag gezamenlijk antwoord te geven. Het is ook mogelijk om iedereen eerst individueel de vragen in te laten vullen, en op basis van de resultaten de overeenkomsten en verschillen samen te bespreken."
+        }
+      },
       "position": {
         "name": "Positie",
         "question": "In welke beschrijving herken je jouw opleiding nu het meest?"
@@ -79,8 +102,9 @@
       "explain": "Toelichting",
       "answer": "Antwoord",
       "comment": "Licht je antwoord toe",
-      "next": "Volgende vraag",
-      "previous": "Vorige vraag",
+      "backToIntroduction": "Terug naar introductie",
+      "nextQuestion": "Volgende vraag",
+      "previousQuestion": "Vorige vraag",
       "submit": "Naar resultaten"
     },
     "result": {

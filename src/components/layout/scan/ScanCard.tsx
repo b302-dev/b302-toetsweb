@@ -1,18 +1,18 @@
 import {ChangeEvent, FunctionComponent, useContext, useEffect, useState} from 'react'
 import TextArea from './TextArea'
 import HorizontalCheckbox from './HorizontalCheckbox'
-import Toetstaken from '../../assets/images/IllustratieToetstaken.svg'
-import Toetsprogramma from '../../assets/images/IllustratieToetsprogramma.svg'
-import Toetsorganisatie from '../../assets/images/IllustratieToetsorganisatie.svg'
-import Toetsbeleid from '../../assets/images/IllustratieToetsbeleid.svg'
-import Toetsbekwaamheid from '../../assets/images/IllustratieToetsbekwaamheid.svg'
+import Toetstaken from '../../../assets/images/IllustratieToetstaken.svg'
+import Toetsprogramma from '../../../assets/images/IllustratieToetsprogramma.svg'
+import Toetsorganisatie from '../../../assets/images/IllustratieToetsorganisatie.svg'
+import Toetsbeleid from '../../../assets/images/IllustratieToetsbeleid.svg'
+import Toetsbekwaamheid from '../../../assets/images/IllustratieToetsbekwaamheid.svg'
 import ProgressDots from './ProgressDots'
-import {Portal} from './Portal'
-import {ScanAnswer} from "../../models/ScanAnswer";
-import {ScanDataContext} from "../../utils/contexts/ScanDataContext";
+import {Portal} from '../Portal'
+import {ScanAnswer} from "../../../models/ScanAnswer";
+import {ScanDataContext} from "../../../utils/contexts/ScanDataContext";
 import {useTranslation} from "react-i18next";
-import {PhaseArray} from "../../models/Phase";
-import Button from "./Button";
+import {PhaseArray} from "../../../models/Phase";
+import Button from "../Button";
 
 interface Props {
 	color: string
@@ -152,11 +152,8 @@ const ScanCard: FunctionComponent<Props> = (props) => {
 				/>
 			</div>
 			<div className="scancard__progress">
-				<Button
-					onClick={props.handlePrevious}
-					style={{backgroundColor: props.color}}
-					disabled={props.entityIndex === 0 && props.elementIndex === 0}>
-					{t('pages.scan.previous')}
+				<Button onClick={props.handlePrevious} style={{backgroundColor: props.color}}>
+					{t(`pages.scan.${props.entityIndex === 0 && props.elementIndex === 0 ? 'backToIntroduction' : 'previousQuestion'}`)}
 				</Button>
 
 				<ProgressDots
@@ -166,7 +163,7 @@ const ScanCard: FunctionComponent<Props> = (props) => {
 				/>
 
 				<Button onClick={props.handleNext} style={{backgroundColor: props.color}}>
-					{t(`pages.scan.${props.entityIndex === 4 && props.elementIndex === 2 ? 'submit' : 'next'}`)}
+					{t(`pages.scan.${props.entityIndex === 4 && props.elementIndex === 2 ? 'submit' : 'nextQuestion'}`)}
 				</Button>
 			</div>
 		</div>

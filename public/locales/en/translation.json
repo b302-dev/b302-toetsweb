@@ -67,6 +67,29 @@
     },
     "scan": {
       "title": "Assessment Web Scan",
+      "introduction": {
+        "title": "Get started",
+        "preparation": {
+          "title": "The preparation",
+          "text": "You are going to fill in the Assessment Web Scan. You can do this alone, or with your team. In both cases, we recommend that everyone who is going to complete the scan familiarizes themselves with the entities of the assessment web prior to completing the scan. This can be done, for example, via the project page of the Research Group for Contemporary Judgment and Decision Makring (in Dutch). Here you will also find various downloads, such as the manual for the conversation tool/scan. In addition, we recommend that you collect and read various assessment documents from your own degree programme (e.g. assessment plan, assessment programme, assessment, etc.). Make sure you have these at hand while completing the scan."
+        },
+        "individual": {
+          "title": "Procedure – (individual) completion of scan",
+          "text": [
+            "The scan consists of 5 tabs, the assessment entities. You are always asked to tick 2 blocks. In the first column you are asked to choose the description that comes closest to the current situation, in the second column of the desired situation in 2 years. It is important to realize that these are general descriptions that help to conduct a dialogue about what is there now, and what should ideally be there. The question is therefore always: in which description do you recognize your degree programme the most? Or in other words: which description fits best?",
+            "If you have made a choice in both columns, you can explain your choice in the 'explain your answer' boxes. These texts will be included in the pdf that you can download afterwards.",
+            "You give an estimate three times per entity. You do this successively for the elements 'criteria', 'design' and 'assurance'. If you click on 'next question' after filling in the explanation, you will automatically be taken to the next element. The dots at the bottom of the screen show how many questions you still have to fill in per entity.",
+            "As soon as you have entered the answers for the three elements per entity, the 'next question' button will automatically take you to the next assessment entity. Via the 'previous question' button you can always go back to a previously given answer.",
+            "Of course, you can choose not to fill in all entities. In this case, click the tab (with the name of the assessment entity).",
+            "By clicking on 'to results' (this button is visible for each entity as soon as all three elements have been entered) you will be taken to the results page. You will find a completed web there twice. The first web visually shows what the current phase of development is for each assessment entity, the second web makes visible what the desired situation is. The completed explanations can be found under the web. Entities that are not (fully) filled in are not included in the results.",
+            "The images and explanations can be downloaded by clicking on the 'download results' button at the bottom of the results page. An advice to further develop from the current situation can be downloaded by clicking on 'download advice'."
+          ]
+        },
+        "team": {
+          "title": "Fill in as a team",
+          "text": "If you want to complete the scan together with colleagues, there are several ways you can do this. This of course depends on the goal you have in mind. For example, you can choose to discuss each question together and give a joint answer based on consensus per question. It is also possible to have everyone fill in the questions individually first, and discuss the similarities and differences together based on the results."
+        }
+      },
       "position": {
         "name": "Position",
         "question": "In which description do you recognize your degree course the most?"
@@ -79,8 +102,9 @@
       "explain": "Explanation",
       "answer": "Answer",
       "comment": "Explain your answer",
-      "next": "Next question",
-      "previous": "Previous question",
+      "backToIntroduction": "Back to the introduction",
+      "nextQuestion": "Next question",
+      "previousQuestion": "Previous question",
       "submit": "To results"
     },
     "result": {

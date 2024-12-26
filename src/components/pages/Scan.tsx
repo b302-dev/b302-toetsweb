@@ -1,4 +1,4 @@
-import ScanCard from '../layout/ScanCard'
+import ScanCard from '../layout/scan/ScanCard'
 import {useContext, useState} from 'react'
 import {useTitle} from '../../utils/hooks/TitleHook'
 import Page from '../Page'
@@ -7,18 +7,21 @@ import {Entity, EntityArray, entityColors} from "../../models/Entity";
 import {Element} from "../../models/Element";
 import {useTranslation} from "react-i18next";
 import {phaseColors} from "../../models/Phase";
+import ScanIntroduction from "../layout/scan/ScanIntroduction";
 
 const Scan = () => {
+	const {entityFilledIn, anyEntityFilledIn} = useContext(ScanDataContext);
+
 	const {t} = useTranslation();
 
 	const [currentEntity, setCurrentEntity] = useState<Entity>(Entity.ASSESSMENT_TASKS);
 	const [currentElement, setCurrentElement] = useState<Element>(Element.QUALITY_CRITERIA);
-
-	const {entityFilledIn} = useContext(ScanDataContext);
+	const [showIntroduction, setShowIntroduction] = useState<boolean>(!anyEntityFilledIn);
 
 	useTitle(t('pages.scan.title'));
 
 	const goToEntity = (entity: Entity) => {
+		setShowIntroduction(false);
 		setCurrentEntity(entity);
 		setCurrentElement(Element.QUALITY_CRITERIA);
 	}
@@ -41,7 +44,8 @@ const Scan = () => {
 	const handlePrevious = () => {
 		if (currentElement === Element.QUALITY_CRITERIA) {
 			if (currentEntity === Entity.ASSESSMENT_TASKS) {
-				return
+				setShowIntroduction(true);
+				return;
 			}
 			setCurrentElement(Element.QUALITY_ASSURANCE)
 			setCurrentEntity(currentEntity - 1)
@@ -76,12 +80,19 @@ const Scan = () => {
 					)
 				})}
 			</div>
-			<ScanCard
-				color={entityColors[currentEntity]}
-				entityIndex={currentEntity}
-				elementIndex={currentElement}
-				handleNext={handleNext}
-				handlePrevious={handlePrevious}/>
+
+			{
+				showIntroduction
+					? <ScanIntroduction handleNext={() => setShowIntroduction(false)}/>
+					: <ScanCard
+						color={entityColors[currentEntity]}
+						entityIndex={currentEntity}
+						elementIndex={currentElement}
+						handleNext={handleNext}
+						handlePrevious={handlePrevious}/>
+			}
+
+
 		</Page>
 	)
 }

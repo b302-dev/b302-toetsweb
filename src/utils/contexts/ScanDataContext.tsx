@@ -16,6 +16,7 @@ interface Props {
 	children: any
 }
 
+// TODO: This context should cache everything, as it reads from local storage a lot
 export const ScanDataProvider: FunctionComponent<Props> = ({children}) => {
 	const setScanAnswer = (entity: Entity, element: Element, scanAnswer: ScanAnswer) => {
 		localStorage.setItem(`${entity}.${element}`, JSON.stringify(scanAnswer));
