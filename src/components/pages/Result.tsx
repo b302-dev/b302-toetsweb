@@ -76,8 +76,7 @@ const Result = () => {
 						<div key={entity} className={'result__container'}>
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
-								<h2 style={{color: entityColors[entity]}}>{t(`phases.${positionPhase}.name`)}</h2>
-								<p>{t(`phases.${positionPhase}.description`)}</p>
+								<p>{t(`entities.${entity}.phases.${positionPhase}.result.position`)}</p>
 
 								{ElementArray.map(element => {
 									const answer = getScanAnswer(entity, element);
@@ -98,8 +97,7 @@ const Result = () => {
 							</Card>
 							<Card className={'result__container--item'}>
 								<h3 style={{color: entityColors[entity]}}>{t(`entities.${entity}.name`)}</h3>
-								<h2 style={{color: entityColors[entity]}}>{t(`phases.${ambitionPhase}.name`)}</h2>
-								<p>{t(`phases.${ambitionPhase}.description`)}</p>
+								<p>{t(`entities.${entity}.phases.${ambitionPhase}.result.ambition`)}</p>
 
 								{ElementArray.map(element => {
 									const answer = getScanAnswer(entity, element);

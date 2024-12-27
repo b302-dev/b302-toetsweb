@@ -85,6 +85,7 @@ const ResultsDocument = () => {
 									if (!entityFilledIn(entity)) return null;
 
 									const checkedToGet = index === 0 ? 'checkedPosition' : 'checkedAmbition';
+									const resultToGet = index === 0 ? 'position' : 'ambition';
 									const phase = getResultFromAnswer(entity, checkedToGet);
 
 									return (
@@ -92,12 +93,8 @@ const ResultsDocument = () => {
 											<Text
 												style={[styles.subtitle, {color: entityColors[entity]}]}>{t(`entities.${entity}.name`)}</Text>
 
-											<View>
-												<Text
-													style={[styles.heading, {color: entityColors[entity]}]}>{t(`phases.${phase}.name`)}</Text>
-												<Text
-													style={styles.textLarge}>{t(`phases.${phase}.description`)}</Text>
-											</View>
+											<Text
+												style={styles.textNormal}>{t(`entities.${entity}.phases.${phase}.result.${resultToGet}`)}</Text>
 
 											{
 												ElementArray.map((element) => {
