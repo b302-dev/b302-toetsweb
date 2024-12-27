@@ -125,15 +125,15 @@
         "advice": "Download advice"
       },
       "reset": "Reset scan",
-      "page": "Page"
-    },
-    "nextPhase": {
-      "title": "On the way to the {{phase}}",
-      "text": "To take the step to the {{phase}}, the following actions can be considered:"
-    },
-    "endPhase": {
-      "title": "Development",
-      "text": "Your degree programme is currently in the {{phase}} for this entity. It is of course important to continue to pay attention to the quality of assessment. This entity may already be in the {{phase}}, but this maybe does not (yet) apply to one or more other assessment entities. You can then choose to give it more priority now. Together, stay aware that assessment entities are interrelated, as the assessment web shows. Choices in another assessment entity can therefore also affect this assessment entity."
+      "page": "Page",
+      "nextPhase": {
+        "title": "On the way to the {{phase}}",
+        "text": "To take the step to the {{phase}}, the following actions can be considered:"
+      },
+      "endPhase": {
+        "title": "Development",
+        "text": "Your degree programme is currently in the {{phase}} for this entity. It is of course important to continue to pay attention to the quality of assessment. This entity may already be in the {{phase}}, but this maybe does not (yet) apply to one or more other assessment entities. You can then choose to give it more priority now. Together, stay aware that assessment entities are interrelated, as the assessment web shows. Choices in another assessment entity can therefore also affect this assessment entity."
+      }
     },
     "customWeb": {
       "title": "Custom Assessment Web",
