@@ -71,7 +71,11 @@
         "title": "Aan de slag",
         "preparation": {
           "title": "De voorbereiding",
-          "text": "Je gaat de Toetsweb-Scan invullen. Dit kun je alleen doen, of met je team. In beide gevallen raden wij aan dat iedereen die de scan gaat invullen zich voorafgaand aan het invullen van de scan verdiept in de entiteiten van het toetsweb. Dat kan bijvoorbeeld via de projectpagina van het lectoraat Eigentijds Beoordelen en Beslissen. Hier vind je ook diverse downloads, zoals de handleiding voor de gesprekstool/scan. Daarnaast adviseren we om verschillende toetsdocumenten van je eigen opleiding (bijv. toetsplan, toetsprogramma, toetsbeleid, etc.) te verzamelen en alvast door te nemen. Zorg dat je deze tijdens het invullen van de scan bij de hand hebt."
+          "text": [
+            "Je gaat de Toetsweb-Scan invullen. Dit kun je alleen doen, of met je team. In beide gevallen raden wij aan dat iedereen die de scan gaat invullen zich voorafgaand aan het invullen van de scan verdiept in de entiteiten van het toetsweb. Dat kan bijvoorbeeld via ",
+            "de projectpagina",
+            " van het lectoraat Eigentijds Beoordelen en Beslissen. Hier vind je ook diverse downloads, zoals de handleiding voor de gesprekstool/scan. Daarnaast adviseren we om verschillende toetsdocumenten van je eigen opleiding (bijv. toetsplan, toetsprogramma, toetsbeleid, etc.) te verzamelen en alvast door te nemen. Zorg dat je deze tijdens het invullen van de scan bij de hand hebt."
+          ]
         },
         "individual": {
           "title": "Werkwijze – (individueel) invullen scan",

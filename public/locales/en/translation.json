@@ -71,7 +71,11 @@
         "title": "Get started",
         "preparation": {
           "title": "The preparation",
-          "text": "You are going to fill in the Assessment Web Scan. You can do this alone, or with your team. In both cases, we recommend that everyone who is going to complete the scan familiarizes themselves with the entities of the assessment web prior to completing the scan. This can be done, for example, via the project page of the Research Group for Contemporary Judgment and Decision Makring (in Dutch). Here you will also find various downloads, such as the manual for the conversation tool/scan. In addition, we recommend that you collect and read various assessment documents from your own degree programme (e.g. assessment plan, assessment programme, assessment, etc.). Make sure you have these at hand while completing the scan."
+          "text": [
+            "You are going to fill in the Assessment Web Scan. You can do this alone, or with your team. In both cases, we recommend that everyone who is going to complete the scan familiarizes themselves with the entities of the assessment web prior to completing the scan. This can be done, for example, via ",
+            "the project page",
+            " of the Research Group for Contemporary Judgment and Decision Makring (in Dutch). Here you will also find various downloads, such as the manual for the conversation tool/scan. In addition, we recommend that you collect and read various assessment documents from your own degree programme (e.g. assessment plan, assessment programme, assessment, etc.). Make sure you have these at hand while completing the scan."
+          ]
         },
         "individual": {
           "title": "Procedure – (individual) completion of scan",

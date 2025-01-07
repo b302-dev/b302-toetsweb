@@ -15,7 +15,18 @@ const ScanIntroduction: FunctionComponent<Props> = (props) => {
 			<h1>{t('pages.scan.introduction.title')}</h1>
 			<section>
 				<h2>{t('pages.scan.introduction.preparation.title')}</h2>
-				<p>{t('pages.scan.introduction.preparation.text')}</p>
+				<p>
+				{
+					(t('pages.scan.introduction.preparation.text', {returnObjects: true}) as string[]).map((text, index) => {
+							if (index === 1) return (
+								<a href={"https://www.han.nl/projecten/2011/toetsweb"} key={text}>{text}</a>)
+
+							return (<span key={text}>{text}</span>)
+						}
+					)
+				}
+					<p>{t('pages.scan.introduction.preparation.text')}</p>
+				</p>
 			</section>
 
 			<section>
